@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Advent 570 한글 추가본</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index-all.css" rel="stylesheet" />
+  </head>
+
+  <body class="body">
+    <br />
+
+    <div class="gamecontainer">
+      <div class="game">
+        <h2>Advent 570 한글 추가본</h2>
+
+        <p class="p">
+          "Colossal Cave Adventure"는 원래
+          <a
+            class="link"
+            target="_blank"
+            href="http://en.wikipedia.org/wiki/Will_Crowther"
+            >윌 크라우더</a
+          >
+          와
+          <a
+            class="link"
+            target="_blank"
+            href="http://en.wikipedia.org/wiki/Don_Woods_(programmer)"
+          >
+            돈 우즈</a
+          >
+          에 의해 개발되었습니다.
+        </p>
+        <p class="p">
+          참고: 주요 텍스트 표시 영역, 동사 목록 또는 인벤토리에서 단어를
+          클릭하여 명령 줄에 단어를 추가할 수 있습니다. 공백이 있는 주요 텍스트
+          표시 영역을 클릭하여 Enter 키를 입력하세요.
+        </p>
+
+        <p class="p">
+          Return <a class="link" target="_blank" href="/">Home</a>
+        </p>
+      </div>
+
+      <div id="cave" class="caveboard">
+        <div class="status">
+          <div class="location">
+            <form name="locForm"><output id="statusLoc"></output></form>
+          </div>
+          <div class="scorehd"><b>Score:</b></div>
+          <div class="score">
+            <form name="scoreForm"><output id="statusScore"></output></form>
+          </div>
+          <div class="moveshd"><b>Moves:</b></div>
+          <div class="moves">
+            <form name="movesForm"><output id="statusMoves"></output></form>
+          </div>
+        </div>
+
+        <div class="cavedisplay">
+          <form name="displayForm">
+            <textarea
+              id="displayText"
+              readonly
+              onmouseover=""
+              style="cursor: pointer;"
+              cols="100"
+              rows="30"
+            ></textarea>
+          </form>
+        </div>
+
+        <div class="cavecmd">
+          <input type="text" id="commandLine" />
+        </div>
+
+        <div class="caveTab">
+          <div class="cavedir">
+            <table class="buttonTable">
+              <tr>
+                <td><button id="navbutton-NW" class="buttonDir">NW</button></td>
+                <td><button id="navbutton-N" class="buttonDir">N</button></td>
+                <td><button id="navbutton-NE" class="buttonDir">NE</button></td>
+              </tr>
+              <tr>
+                <td><button id="navbutton-W" class="buttonDir">W</button></td>
+                <td><button id="navbutton-1" class="button-fill">.</button></td>
+                <td><button id="navbutton-E" class="buttonDir">E</button></td>
+              </tr>
+              <tr>
+                <td><button id="navbutton-SW" class="buttonDir">SW</button></td>
+                <td><button id="navbutton-S" class="buttonDir">S</button></td>
+                <td><button id="navbutton-SE" class="buttonDir">SE</button></td>
+              </tr>
+              <tr>
+                <td><button id="navbutton-D" class="buttonDir">D</button></td>
+                <td><button id="navbutton-M" class="buttonMap">map</button></td>
+                <td><button id="navbutton-U" class="buttonDir">U</button></td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="caveverb">
+            <textarea
+              rows="11"
+              cols="30"
+              id="verbList"
+              readonly
+              onmouseover=""
+              style="cursor: pointer;"
+            ></textarea>
+          </div>
+
+          <div class="caveinv">
+            <textarea
+              rows="11"
+              cols="15"
+              id="inventoryList"
+              readonly
+              onmouseover=""
+              style="cursor: pointer;"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="map">
+        <canvas id="mapCanvas" width="800" height="800"></canvas>
+      </div>
+    </div>
+
+    <script src="readdata570.js"></script>
+    <script src="init570.js"></script>
+    <script src="mainfunctions570.js"></script>
+    <script src="colossal.js"></script>
+    <script src="map.js"></script>
+  </body>
+</html>

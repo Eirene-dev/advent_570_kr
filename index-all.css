@@ -1,0 +1,755 @@
+.gamecontainer {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: auto auto;
+  grid-template-areas:
+    "game game"
+    "caveboard tab"
+    "caveboard map"
+    "footer footer";
+}
+
+.caveboard {
+  grid-area: caveboard;
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: auto;
+  grid-template-rows: auto 14fr auto auto;
+  grid-template-areas:
+    "status"
+    "cavedisplay"
+    "cavecmd"
+    "cavetab";
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset 0px 1px #7b839b, 0 2px 8px rgba(50, 50, 50, 0.75);
+  -webkit-box-shadow: inset 0px 1px #7b839b, 0 2px 8px rgba(50, 50, 50, 0.75);
+  box-shadow: inset 0px 1px #7b839b, 0 2px 8px rgba(50, 50, 50, 0.75);
+  background-color: #e0e0e0;
+  padding: 9px;
+}
+
+.status {
+  grid-area: status;
+  display: grid;
+  grid-gap: 0em;
+  grid-template-columns: 15fr 2fr 1fr 2fr 1fr;
+  grid-template-areas: "location scorehd score moveshd moves";
+}
+.location {
+  grid-area: location;
+}
+.score {
+  grid-area: score;
+}
+.moves {
+  grid-area: moves;
+}
+.statusAMFV {
+  display: grid;
+  grid-gap: 0em;
+  grid-template-columns: 1fr 5fr 1fr 1fr;
+  grid-template-areas:
+    "modeAMFVhd modeAMFV timeAMFVhd timeAMFV"
+    "locationAMFVhd locationAMFV dateAMFVhd dateAMFV";
+}
+.modeAMFVhd {
+  grid-area: modeAMFVhd;
+}
+.timeAMFVhd {
+  grid-area: timeAMFVhd;
+}
+.locationAMFVhd {
+  grid-area: locationAMFVhd;
+}
+.dateAMFVhd {
+  grid-area: dateAMFVhd;
+}
+.modeAMFV {
+  grid-area: modeAMFV;
+}
+.timeAMFV {
+  grid-area: timeAMFV;
+}
+.locationAMFV {
+  grid-area: locationAMFV;
+}
+.dateAMFV {
+  grid-area: dateAMFV;
+}
+
+.cavedisplay {
+  grid-area: cavedisplay;
+}
+.cavecmd {
+  grid-area: cavecmd;
+}
+
+.caveTab {
+  grid-area: cavetab;
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: auto auto auto;
+  grid-template-areas: "cavedir caveverb caveinv";
+}
+.cavedir {
+  grid-area: cavedir;
+}
+.caveverb {
+  grid-area: caveverb;
+  padding: 3px;
+}
+.caveinv {
+  grid-area: caveinv;
+  padding: 3px;
+}
+.caveTab td {
+  padding: 3px;
+}
+
+canvas#mapCanvas {
+  background-color: #fff;
+  box-shadow: 5px 5px 8px #222;
+}
+
+output#statusMode {
+  width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 12px;
+  text-align: left;
+  resize: none;
+  background-color: #e0e0e0;
+  border: 0px;
+  padding: 1px;
+}
+output#statusLoc {
+  width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 12px;
+  text-align: left;
+  resize: none;
+  background-color: #e0e0e0;
+  border: 0px;
+  padding: 1px;
+}
+output#statusScore {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 12px;
+  text-align: left;
+  resize: none;
+  background-color: #e0e0e0;
+  border: 0px;
+  padding: 1px;
+}
+output#statusMoves {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 12px;
+  text-align: left;
+  resize: none;
+  background-color: #e0e0e0;
+  border: 0px;
+  padding: 1px;
+}
+output#statusTime {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 12px;
+  text-align: left;
+  resize: none;
+  background-color: #e0e0e0;
+  border: 0px;
+  padding: 1px;
+}
+output#statusDate {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 12px;
+  text-align: left;
+  resize: none;
+  background-color: #e0e0e0;
+  border: 0px;
+  padding: 1px;
+}
+
+input {
+  width: 100%;
+  font-size: 12px;
+  color: black;
+  /* add gradient */
+  background: rgb(226, 226, 226); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(226, 226, 226, 1) 0%,
+    rgba(219, 219, 219, 1) 50%,
+    rgba(209, 209, 209, 1) 51%,
+    rgba(254, 254, 254, 1) 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, rgba(226, 226, 226, 1)),
+    color-stop(50%, rgba(219, 219, 219, 1)),
+    color-stop(51%, rgba(209, 209, 209, 1)),
+    color-stop(100%, rgba(254, 254, 254, 1))
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(226, 226, 226, 1) 0%,
+    rgba(219, 219, 219, 1) 50%,
+    rgba(209, 209, 209, 1) 51%,
+    rgba(254, 254, 254, 1) 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    top,
+    rgba(226, 226, 226, 1) 0%,
+    rgba(219, 219, 219, 1) 50%,
+    rgba(209, 209, 209, 1) 51%,
+    rgba(254, 254, 254, 1) 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+    top,
+    rgba(226, 226, 226, 1) 0%,
+    rgba(219, 219, 219, 1) 50%,
+    rgba(209, 209, 209, 1) 51%,
+    rgba(254, 254, 254, 1) 100%
+  ); /* IE10+ */
+  background: linear-gradient(
+    to bottom,
+    rgba(226, 226, 226, 1) 0%,
+    rgba(219, 219, 219, 1) 50%,
+    rgba(209, 209, 209, 1) 51%,
+    rgba(254, 254, 254, 1) 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+  outline: 0;
+}
+
+textarea#verbList {
+  font-size: 12px;
+  font-family: Courier New, sans-serif;
+  font-weight: bold;
+  resize: none;
+}
+textarea#inventoryList {
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: bold;
+  resize: none;
+}
+
+.u1 {
+  float: left;
+  margin: 3px;
+  width: 40px;
+}
+
+.button-fill {
+  background-color: #e0e0e0;
+  border: none;
+  font-size: 0;
+  float: left;
+  margin: 3px;
+  width: 40px;
+}
+
+.buttonDir {
+  margin: 3px;
+  width: 40px;
+  border: 1px solid #181a20;
+  cursor: pointer;
+  padding: 5px 8px;
+
+  background-color: #c0c0c0;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#726c6a),
+    to(#8e8784)
+  );
+  background-image: -webkit-linear-gradient(top, #726c6a, #8e8784);
+  background-image: -moz-linear-gradient (top, #726c6a, #8e8784);
+  background-image: -o-linear-gradient (top, #726c6a, #8e8784);
+  background-image: linear-gradient (top, #726c6a, #8e8784);
+
+  font-family: Andika, Arial, sans-serif;
+  color: #fff;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+
+  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 0 1px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.75) 0 1px 5px;
+  box-shadow: rgba(0, 0, 0, 0.75) 0 1px 5px;
+}
+
+.buttonDir:hover,
+.buttonDir:focus {
+  color: #edebda;
+  /* reduce the spread of the shadow to give a pushed effect*/
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0px;
+}
+
+.buttonMap {
+  margin: 3px;
+  width: 40px;
+  border: 1px solid #181a20;
+  cursor: pointer;
+  padding: 5px 8px;
+
+  background-color: #c0c0c0;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#726c6a),
+    to(#8e8784)
+  );
+  background-image: -webkit-linear-gradient(top, #726c6a, #8e8784);
+  background-image: -moz-linear-gradient (top, #726c6a, #8e8784);
+  background-image: -o-linear-gradient (top, #726c6a, #8e8784);
+  background-image: linear-gradient (top, #726c6a, #8e8784);
+
+  font-family: Andika, Arial, sans-serif;
+  color: #ffff00;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+}
+
+.buttonMapOff {
+  margin: 3px;
+  width: 40px;
+  border: 1px solid #181a20;
+  cursor: pointer;
+  padding: 5px 8px;
+
+  background-color: #c0c0c0;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#726c6a),
+    to(#8e8784)
+  );
+  background-image: -webkit-linear-gradient(top, #726c6a, #8e8784);
+  background-image: -moz-linear-gradient (top, #726c6a, #8e8784);
+  background-image: -o-linear-gradient (top, #726c6a, #8e8784);
+  background-image: linear-gradient (top, #726c6a, #8e8784);
+
+  font-family: Andika, Arial, sans-serif;
+  color: #fff;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+
+  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 0 1px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.75) 0 1px 5px;
+  box-shadow: rgba(0, 0, 0, 0.75) 0 1px 5px;
+}
+
+.map {
+  grid-area: footer;
+}
+.footer {
+  grid-area: map;
+}
+
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.header {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+.footer {
+  color: #9b9da7;
+  padding: 20px 0;
+  text-align: center;
+}
+.bold {
+  font-weight: bold;
+}
+.h1 {
+  font-size: 20px;
+  color: #cb7d27;
+}
+.p {
+  margin-bottom: 8px;
+}
+.link {
+  color: #cb7d27;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/*
+   Mobiles _________________________________________________________________________________________________
+*/
+@media screen and (max-width: 600px) {
+  /*@media only screen and (min-width: 360px) and (max-width: 767px)*/
+
+  game {
+    display: none;
+  }
+  div.game {
+    display: none;
+  }
+  canvas#mapCanvas {
+    display: none;
+  }
+  div.tab {
+    display: none;
+  }
+
+  .caveboard {
+    height: 100%;
+    width: 135%;
+  }
+  .cavedisplay {
+    height: 17em;
+    font-size: 17px;
+  }
+  textarea#displayText {
+    width: 100%;
+    height: 17em;
+    font-size: 17px;
+  }
+
+  .caveTab {
+    align-items: start;
+    grid-column-gap: 0em;
+    grid-row-gap: 0em;
+    grid-template-columns: auto auto;
+    grid-template-rows: 15em auto;
+    grid-template-areas:
+      "cavedir caveinv"
+      "caveverb caveverb";
+  }
+
+  .cavedir {
+    height: 80%;
+    width: 80%;
+  }
+  .caveinv {
+    height: 80%;
+  }
+  .caveverb {
+    height: 90%;
+  }
+
+  textarea#verbList {
+    height: 100%; /*12em;*/
+    width: 100%; /*19em;*/
+    font-size: 19px;
+  }
+  textarea#inventoryList {
+    height: 100%;
+    width: 100%;
+    font-size: 17px;
+  }
+}
+
+/*
+   Tablets _________________________________________________________________________________________________
+*/
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  game {
+    display: none;
+  }
+  div.game {
+    display: none;
+  }
+  canvas#mapCanvas {
+    display: none;
+  }
+  div.tab {
+    display: none;
+  }
+
+  .caveboard {
+    height: 100%;
+    width: 100%;
+  }
+  .cavedisplay {
+    height: 22em;
+  }
+  textarea#displayText {
+    width: 100%;
+    height: 19em;
+    font-size: 13px;
+  }
+
+  .caveTab {
+    grid-area: cavetab;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 170px 300px 100px;
+    grid-template-areas: "cavedir caveverb caveinv";
+  }
+
+  .cavedir {
+    height: 90%;
+    width: 80%;
+  }
+  .caveverb {
+    height: 90%;
+    width: 100%;
+  }
+  .caveinv {
+    height: 90%;
+    width: 100%;
+  }
+
+  textarea#verbList {
+    height: 100%; /*12em;*/
+    width: 100%; /*19em;*/
+    font-size: 17px;
+  }
+  textarea#inventoryList {
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+  }
+}
+
+/*
+   Desktops _________________________________________________________________________________________________
+*/
+@media screen and (min-width: 900px) {
+  .game {
+    grid-area: game;
+    font-family: Georgia, Palatino, "Times New Roman", Times, serif;
+  }
+  textarea#displayText {
+    height: 36em;
+    width: 100%;
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+
+  #hdr {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #map {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc1 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc2 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc3 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc4 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc5 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc6 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc7 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc8 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc9 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc10 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc11 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc12 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc13 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc14 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc15 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc16 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc17 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc18 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc19 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc20 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc21 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc22 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc23 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc24 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc25 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc26 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc27 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc28 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc29 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+  #doc30 {
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+  }
+}
