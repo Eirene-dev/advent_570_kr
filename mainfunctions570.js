@@ -632,11 +632,13 @@ function processObject(parmI, parmObj) {
   } else if ((verb == FIND || verb == INVENT) && objWd == "") {
   } else {
     sayIt("I see no " + objWd + " here!", BLACK);
+    sayIt("여기에서 " + objWd + "가 보이지 않습니다!", BLACK);
     return false;
   }
 
   if (wd2 == "") {
     sayIt("What do you want to do with the " + objWd + "?", BLACK);
+    sayIt("당신은 " + objWd + "에 대해 어떤 행동을 하길 원하십니까?", BLACK);
     normalInput = false;
     return false;
   }
@@ -4851,6 +4853,10 @@ function bug(num) {
   sayIt(" Fatal error, see source code for interpretation.", RED);
   sayIt(" Probable cause: erroneous info in database.", RED);
   sayIt(" Error code = " + num, RED);
+
+  sayIt("치명적인 오류입니다. 해석을 위해서는 소스 코드를 참조하십시오.", RED);
+  sayIt("가능한 원인: 데이터베이스에 잘못된 정보가 있음.", RED);
+  sayIt("오류 코드 = " + num, RED);
 }
 
 /*______________________________________________________________________
@@ -4859,6 +4865,7 @@ function bug(num) {
 function load() {
   if (typeof Storage == "undefined") {
     sayIt("Load/Save Functions Not Available");
+    sayIt("로드/저장 기능을 사용할 수 없습니다.");
     return;
   }
 
@@ -4866,12 +4873,14 @@ function load() {
 
   if (saveVer == "?") {
     sayIt("Type LOAD filename.");
+    sayIt("LOAD 파일명을 입력하세요.");
     listSaveFiles();
     return;
   }
 
   if (localStorage["gobberwarts.advent570." + saveVer + ".CHK"] !== "OK") {
     sayIt("Save data not found");
+    sayIt("저장된 데이터를 찾을 수 없습니다.");
     return;
   }
 
@@ -5224,6 +5233,7 @@ function listSaveFiles() {
   }
   if (cntsaves == 0) {
     sayIt("None");
+    sayIt("없음");
     return;
   }
 }
