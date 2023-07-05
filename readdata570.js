@@ -10,7 +10,8 @@ function readData() {
     "1       Around you is a forest. A small stream flows out of the building and           ";
   xx[ii++] =
     "1       down a gully.                                                                   ";
-
+  xx[ii++] =
+    "1       당신은 도로의 끝에 작은 벽돌 건물 앞에 서 있습니다. 주변에는 숲이 있습니다. 작은 시냇물이 건물에서 흘러 나와서 계곡을 따라 내려갑니다.  ";
   xx[ii++] =
     "2       You have walked up a hill, still in the forest.  The road slopes back           ";
   xx[ii++] =
@@ -25,8 +26,6 @@ function readData() {
     "3       small room.                                                                     ";
   xx[ii++] =
     "3 당신은 거대한 샘을 위한 우물집 안에 있습니다. 동쪽에는 작은 방이 있습니다. ";
-  xx[ii++] =
-    "1       당신은 도로의 끝에 작은 벽돌 건물 앞에 서 있습니다. 주변에는 숲이 있습니다. 작은 시냇물이 건물에서 흘러 나와서 계곡을 따라 내려갑니다.  ";
   xx[ii++] =
     "4       You are in a valley in the forest beside a stream tumbling along a              ";
   xx[ii++] =
@@ -201,13 +200,19 @@ function readData() {
   xx[ii++] =
     "32      You can't get by the snake.                                                     ";
   xx[ii++] =
+    "32      당신은 뱀을 통과할 수 없습니다.                                                     ";
+  xx[ii++] =
     "33      You are in a large room, with a passage to the south, a passage to the          ";
   xx[ii++] =
     '33      west, and a wall of broken rock to the east.  There is a large "Y2" on          ';
   xx[ii++] =
     "33      a rock in the room's center.                                                    ";
   xx[ii++] =
+    "33      당신은 큰 방에 있으며, 남쪽으로 통로, 서쪽으로 통로, 동쪽으로는 부서진 바위로 이루어진 벽이 있습니다.  방의 중앙에는 큰 'Y2'가 있습니다.          ";
+  xx[ii++] =
     "34      You are in a jumble of rock, with cracks everywhere.                            ";
+  xx[ii++] =
+    "34      당신은 바위 더미에 있으며, 곳곳에 균열이 있습니다.                            ";
   xx[ii++] =
     "35      You're at a low window overlooking a huge pit, which extends up out of          ";
   xx[ii++] =
@@ -223,41 +228,35 @@ function readData() {
   xx[ii++] =
     "35      shadowy figure can be seen there peering back at you.                           ";
   xx[ii++] =
+    "35      당신은 거대한 구덩이를 내려다보는 낮은 창가에 있습니다. 구덩이는 시야 밖으로까지 이어지며, 50피트 아래로 희미하게 바닥이 보입니다. 바닥에는 흰 안개의 흔적이 있으며, 오른쪽으로 갈수록 짙어집니다. 창가 주변의 먼지에 남겨진 흔적으로 보아 최근에 누군가가 여기에 있었음을 알 수 있습니다. 직접적으로 당신과 구덩이 반대편에는 25피트 떨어진 곳에 비슷한 창이 있으며, 그 안에는 밝은 방이 보입니다. 거기서 어두운 인물이 당신을 바라보고 있는 모습이 보입니다. ";
+  xx[ii++] =
     "36      You are in a dirty broken passage.  To the east is a crawl.  To the             ";
   xx[ii++] =
     "36      west is a large passage.  Above you is a hole to another passage.               ";
+  xx[ii++] =
+    "36      당신은 더러운 부서진 통로에 있습니다. 동쪽으로 기어갈 수 있는 통로가 있고, 서쪽으로는 큰 통로가 있습니다. 위쪽에는 다른 통로로 통하는 구멍이 있습니다. ";  
   xx[ii++] =
     "37      You are on the brink of a small clean climbable pit.  A crawl leads             ";
   xx[ii++] =
     "37      west.                                                                           ";
   xx[ii++] =
+    "37      당신은 작은 깨끗한 오르막 구덩이의 가장자리에 있습니다. 서쪽으로 기어갈 수 있는 통로가 있습니다.          ";
+  xx[ii++] =
     "38      You are in the bottom of a small pit with a little stream, which                ";
   xx[ii++] =
     "38      enters and exits through tiny slits.                                            ";
+  xx[ii++] =
+    "38      당신은 작은 구덩이 아래에 있는 작은 시냇물과 함께 있는 곳에 있습니다. 시냇물은 작은 갈혈을 통해 들어오고 나갑니다.                    ";
   xx[ii++] =
     "39      You are in a large room full of dusty rocks.  There is a big hole in            ";
   xx[ii++] =
     "39      the floor.  There are cracks everywhere, and a passage leading east.            ";
   xx[ii++] =
+    "39      당신은 먼지투성이의 바위로 가득한 큰 방에 있습니다. 바닥에 큰 구멍이 있으며, 곳곳에 균열이 있으며, 동쪽으로 이어지는 통로가 있습니다.       ";
+  xx[ii++] =
     "40      You have crawled through a very low wide passage parallel to and north          ";
   xx[ii++] =
     "40      of the hall of mists.                                                           ";
-  xx[ii++] =
-    "32      당신은 뱀을 통과할 수 없습니다.                                                     ";
-  xx[ii++] =
-    "33      당신은 큰 방에 있으며, 남쪽으로 통로, 서쪽으로 통로, 동쪽으로는 부서진 바위로 이루어진 벽이 있습니다.  방의 중앙에는 큰 'Y2'가 있습니다.          ";
-  xx[ii++] =
-    "34      당신은 바위 더미에 있으며, 곳곳에 균열이 있습니다.                            ";
-  xx[ii++] =
-    "35      당신은 거대한 구덩이를 내려다보는 낮은 창가에 있습니다. 구덩이는 시야 밖으로까지 이어지며, 50피트 아래로 희미하게 바닥이 보입니다. 바닥에는 흰 안개의 흔적이 있으며, 오른쪽으로 갈수록 짙어집니다. 창가 주변의 먼지에 남겨진 흔적으로 보아 최근에 누군가가 여기에 있었음을 알 수 있습니다. 직접적으로 당신과 구덩이 반대편에는 25피트 떨어진 곳에 비슷한 창이 있으며, 그 안에는 밝은 방이 보입니다. 거기서 어두운 인물이 당신을 바라보고 있는 모습이 보입니다. ";
-  xx[ii++] =
-    "36      당신은 더러운 부서진 통로에 있습니다. 동쪽으로 기어갈 수 있는 통로가 있고, 서쪽으로는 큰 통로가 있습니다. 위쪽에는 다른 통로로 통하는 구멍이 있습니다. ";
-  xx[ii++] =
-    "37      당신은 작은 깨끗한 오르막 구덩이의 가장자리에 있습니다. 서쪽으로 기어갈 수 있는 통로가 있습니다.          ";
-  xx[ii++] =
-    "38      당신은 작은 구덩이 아래에 있는 작은 시냇물과 함께 있는 곳에 있습니다. 시냇물은 작은 갈혈을 통해 들어오고 나갑니다.                    ";
-  xx[ii++] =
-    "39      당신은 먼지투성이의 바위로 가득한 큰 방에 있습니다. 바닥에 큰 구멍이 있으며, 곳곳에 균열이 있으며, 동쪽으로 이어지는 통로가 있습니다.       ";
   xx[ii++] =
     "40      당신은 안개의 전당과 평행한 매우 낮고 넓은 통로를 기어갔습니다.                           ";
   xx[ii++] =
@@ -267,77 +266,76 @@ function readData() {
   xx[ii++] =
     "41      off the floor.                                                                  ";
   xx[ii++] =
+    "41      당신은 안개의 전당의 서쪽 끝에 있습니다. 낮은 넓은 기어갈 수 있는 통로가 서쪽으로 이어지고, 또 다른 통로가 북쪽으로 이어집니다. 남쪽에는 높이로 6피트의 작은 통로가 있습니다.";
+  xx[ii++] =
     "42      You are in a maze of twisty little passages, all alike.                         ";
+  xx[ii++] = "42      당신은 일그러진 작은 통로의 미로에 있습니다. ";
   xx[ii++] =
     "43      You are in a maze of twisty little passages, all alike.                         ";
+  xx[ii++] = "43      당신은 일그러진 작은 통로의 미로에 있습니다. ";
   xx[ii++] =
     "44      You are in a maze of twisty little passages, all alike.                         ";
+  xx[ii++] = "44      당신은 일그러진 작은 통로의 미로에 있습니다. ";
   xx[ii++] =
     "45      You are in a maze of twisty little passages, all alike.                         ";
+  xx[ii++] = "45      당신은 일그러진 작은 통로의 미로에 있습니다. ";
   xx[ii++] =
     "46      Dead end                                                                        ";
+  xx[ii++] = "46      막다른 곳입니다. ";
   xx[ii++] =
     "47      Dead end                                                                        ";
+  xx[ii++] = "47      막다른 곳입니다. ";
   xx[ii++] =
     "48      Dead end                                                                        ";
+  xx[ii++] = "48      막다른 곳입니다. ";
   xx[ii++] =
     "49      You are in a maze of twisty little passages, all alike.                         ";
+  xx[ii++] = "49      당신은 일그러진 작은 통로의 미로에 있습니다. ";
   xx[ii++] =
     "50      You are in a maze of twisty little passages, all alike.                         ";
+  xx[ii++] = "50      당신은 일그러진 작은 통로의 미로에 있습니다. ";
   xx[ii++] =
     "51      You are in a maze of twisty little passages, all alike.                         ";
+  xx[ii++] = "51      당신은 일그러진 작은 통로의 미로에 있습니다. ";
   xx[ii++] =
     "52      You are in a maze of twisty little passages, all alike.                         ";
-  xx[ii++] =
+    xx[ii++] = "52      당신은 일그러진 작은 통로의 미로에 있습니다. ";
+    xx[ii++] =
     "53      You are in a maze of twisty little passages, all alike.                         ";
-  xx[ii++] =
+    xx[ii++] = "53      당신은 일그러진 작은 통로의 미로에 있습니다. ";
+    xx[ii++] =
     "54      Dead end                                                                        ";
-  xx[ii++] =
+    xx[ii++] = "54      막다른 곳입니다. ";
+    xx[ii++] =
     "55      You are in a maze of twisty little passages, all alike.                         ";
-  xx[ii++] =
+    xx[ii++] = "55      당신은 일그러진 작은 통로의 미로에 있습니다. ";
+    xx[ii++] =
     "56      Dead end                                                                        ";
-  xx[ii++] =
+    xx[ii++] = "56      막다른 곳입니다. ";
+    xx[ii++] =
     "57      You are on the brink of a thirty foot pit with a massive orange column          ";
   xx[ii++] =
     "57      down one wall.  You could climb down here but you could not get back            ";
   xx[ii++] =
     "57      up.  The maze continues at this level.                                          ";
+    xx[ii++] =
+    "57      당신은 한쪽 벽에는 거대한 주황색 기둥이 있는 30피트 깊이의 구덩이 가장자리에 있습니다. 여기로 내려갈 수는 있지만 다시 올라올 수는 없습니다. 미로는 이 수준에서 계속됩니다. ";
   xx[ii++] =
     "58      Dead end                                                                        ";
-  xx[ii++] =
+    xx[ii++] = "58      막다른 곳입니다. ";
+    xx[ii++] =
     "59      You have crawled through a very low wide passage parallel to and north          ";
   xx[ii++] =
     "59      of the hall of mists.                                                           ";
+    xx[ii++] =
+    "59      당신은 안개의 전당과 평행한 매우 낮고 넓은 통로를 기어갔습니다. ";
   xx[ii++] =
     "60      You are at the east end of a very long hall apparently without side             ";
   xx[ii++] =
     "60      chambers.  To the east a low wide crawl slants up.  To the north a              ";
   xx[ii++] =
     "60      round two foot hole slants down.                                                ";
-
-  xx[ii++] =
-    "41      당신은 안개의 전당의 서쪽 끝에 있습니다. 낮은 넓은 기어갈 수 있는 통로가 서쪽으로 이어지고, 또 다른 통로가 북쪽으로 이어집니다. 남쪽에는 높이로 6피트의 작은 통로가 있습니다.";
-  xx[ii++] = "42      당신은 일그러진 작은 통로의 미로에 있습니다. ";
-  xx[ii++] = "43      당신은 일그러진 작은 통로의 미로에 있습니다. ";
-  xx[ii++] = "44      당신은 일그러진 작은 통로의 미로에 있습니다. ";
-  xx[ii++] = "45      당신은 일그러진 작은 통로의 미로에 있습니다. ";
-  xx[ii++] = "46      막다른 곳입니다. ";
-  xx[ii++] = "47      막다른 곳입니다. ";
-  xx[ii++] = "48      막다른 곳입니다. ";
-  xx[ii++] = "49      당신은 일그러진 작은 통로의 미로에 있습니다. ";
-  xx[ii++] = "50      당신은 일그러진 작은 통로의 미로에 있습니다. ";
-  xx[ii++] = "51      당신은 일그러진 작은 통로의 미로에 있습니다. ";
-  xx[ii++] = "52      당신은 일그러진 작은 통로의 미로에 있습니다. ";
-  xx[ii++] = "53      당신은 일그러진 작은 통로의 미로에 있습니다. ";
-  xx[ii++] = "54      막다른 곳입니다. ";
-  xx[ii++] = "55      당신은 일그러진 작은 통로의 미로에 있습니다. ";
-  xx[ii++] = "56      막다른 곳입니다. ";
-  xx[ii++] =
-    "57      당신은 한쪽 벽에는 거대한 주황색 기둥이 있는 30피트 깊이의 구덩이 가장자리에 있습니다. 여기로 내려갈 수는 있지만 다시 올라올 수는 없습니다. 미로는 이 수준에서 계속됩니다. ";
-  xx[ii++] = "58      막다른 곳입니다. ";
-  xx[ii++] =
-    "59      당신은 안개의 전당과 평행한 매우 낮고 넓은 통로를 기어갔습니다. ";
-  xx[ii++] =
+    xx[ii++] =
     "60      당신은 측면의 방이 없는 아주 긴 전당의 동쪽 끝에 있습니다. 동쪽으로 낮고 넓은 기어갈 수 있는 통로가 올라갑니다. ";
   xx[ii++] =
     "60      북쪽으로는 작은 둥근 구멍이 2피트 아래로 기울어져 내려갑니다. ";
@@ -346,25 +344,47 @@ function readData() {
   xx[ii++] =
     "61      joins up with a narrow north/south passage.                                     ";
   xx[ii++] =
+    "61      당신은 아주 긴, 특징 없는 홀의 서쪽 끝에 있습니다.  이 홀은                ";
+    xx[ii++] =
+    "61      좁은 남/북 통로와 연결되어 있습니다.                                     ";
+  xx[ii++] =
     "62      You are at a crossover of a high N/S passage and a low E/W one.                 ";
+    xx[ii++] =
+    "62      당신은 높은 남/북 통로와 낮은 동/서 통로가 교차하는 지점에 있습니다.             ";
   xx[ii++] =
     "63      You are in a dusty storage room lined with empty shelves.                       ";
+    xx[ii++] =
+    "63      빈 선반으로 가득한 먼지 낀 저장실에 있습니다.                           ";
   xx[ii++] =
     "64      You are at a complex junction.  A low hands and knees passage from the          ";
   xx[ii++] =
     "64      north joins a higher crawl from the east to make a walking passage              ";
   xx[ii++] =
     "64      going west.  There is also a large room above.  The air is damp here.           ";
+    xx[ii++] =
+    "64      복잡한 교차로에 있습니다. 북쪽에서는 낮은 엉덩이와 무릎을 사용하는 통로가          ";
+  xx[ii++] =
+    "64      연결되어 동쪽에서 올라가는 좁은 통로를 만들어서 서쪽으로 이어집니다.              ";
+  xx[ii++] =
+    "64      위에는 큰 방도 있습니다. 공기가 습기를 띠고 있습니다.                      ";
   xx[ii++] =
     "65      You are in bedquilt, a long east/west passage with holes everywhere.            ";
   xx[ii++] =
     "65      To explore at random select north, south, up, or down.                          ";
+    xx[ii++] =
+    "65      당신은 베드퀼트에 있습니다. 구멍이 어디에나 있는 긴 동/서 통로입니다.       ";
+  xx[ii++] =
+    "65      무작위로 탐험하려면 북, 남, 위, 아래 중 하나를 선택하십시오.               ";
   xx[ii++] =
     "66      You are in a room whose walls resemble swiss cheese.  Obvious passages          ";
   xx[ii++] =
     "66      go west, east, NE, and NW.  Part of the room is occupied by a large             ";
   xx[ii++] =
     "66      bedrock block.                                                                  ";
+    xx[ii++] =
+    "66      당신은 스위스 치즈와 같은 벽돌 방에 있습니다. 북, 동, 북동, 북서로           ";
+  xx[ii++] =
+    "66      명백한 통로가 이어져 있습니다. 방의 일부는 큰 바위 블록으로 차지되어 있습니다.   ";
   xx[ii++] =
     "67      You are at the east end of the twopit room.  The floor here is                  ";
   xx[ii++] =
@@ -377,155 +397,7 @@ function readData() {
     "67      wall directly over the west pit where you can't get to it. A narrow path leads  ";
   xx[ii++] =
     "67      north.                                                                          ";
-  xx[ii++] =
-    "68      You are in a large low circular chamber whose floor is an immense slab          ";
-  xx[ii++] =
-    "68      fallen from the ceiling (slab room).  East and west there once were             ";
-  xx[ii++] =
-    "68      large passages, but they are now filled with boulders.  Low small               ";
-  xx[ii++] =
-    "68      passages go north and south, and the south one quickly bends west               ";
-  xx[ii++] =
-    "68      around the boulders.                                                            ";
-  xx[ii++] =
-    "69      You are in a secret N/S canyon above a large room.                              ";
-  xx[ii++] =
-    "70      You are in a secret N/S canyon above a sizable passage.                         ";
-  xx[ii++] =
-    "71      You are in a secret canyon at a junction of three canyons, bearing              ";
-  xx[ii++] =
-    "71      north, south, and SE.  The north one is as tall as the other two                ";
-  xx[ii++] =
-    "71      combined.                                                                       ";
-  xx[ii++] =
-    "72      You are in a large low room.  Crawls lead north, SE, and SW.                    ";
-  xx[ii++] =
-    "73      Dead end crawl.                                                                 ";
-  xx[ii++] =
-    "74      You are in a secret canyon which here runs E/W.  It crosses over a              ";
-  xx[ii++] =
-    "74      very tight canyon 15 feet below.  If you go down you may not be able            ";
-  xx[ii++] =
-    "74      to get back up.                                                                 ";
-  xx[ii++] =
-    "75      You are at a wide place in a very tight N/S canyon.                             ";
-  xx[ii++] =
-    "76      You are in a low wide room with an exit to the north.                           ";
-  xx[ii++] =
-    "76      Partially projecting from a low alcove in the south wall is the frozen stone    ";
-  xx[ii++] =
-    "76      form of a dwarf seemingly struggling to escape his rocky confines.              ";
-  xx[ii++] =
-    "76      A brass plaque hangs above the alcove.                                          ";
-  xx[ii++] =
-    "77      You are in a tall E/W canyon.  A low tight crawl goes 3 feet north and          ";
-  xx[ii++] =
-    "77      seems to open up.                                                               ";
-  xx[ii++] =
-    "78      The canyon runs into a mass of boulders -- dead end.                            ";
-  xx[ii++] =
-    "79      The stream flows out through a pair of 1 foot diameter drainage pipes.          ";
-  xx[ii++] =
-    "79      It would be advisable to use the exit.                                          ";
-  xx[ii++] =
-    "80      You are in a maze of twisty little passages, all alike.                         ";
-  xx[ii++] =
-    "81      Dead end                                                                        ";
-  xx[ii++] =
-    "82      Dead end                                                                        ";
-  xx[ii++] =
-    "83      You are in a maze of twisty little passages, all alike.                         ";
-  xx[ii++] =
-    "84      You are in a maze of twisty little passages, all alike.                         ";
-  xx[ii++] =
-    "85      Dead end                                                                        ";
-  xx[ii++] =
-    "86      Dead end                                                                        ";
-  xx[ii++] =
-    "87      You are in a maze of twisty little passages, all alike.                         ";
-  xx[ii++] =
-    "88      You are in a long, narrow corridor stretching out of sight to the               ";
-  xx[ii++] =
-    "88      west.  At the eastern end is a hole through which you can see a                 ";
-  xx[ii++] =
-    "88      profusion of leaves.                                                            ";
-  xx[ii++] =
-    '89      There is nothing here to climb.  Use "up" or "out" to leave the pit.            ';
-  xx[ii++] =
-    "90      You have climbed up the plant and out of the pit.                               ";
-  xx[ii++] =
-    "91      You are at the top of a steep incline above a large room.  You could            ";
-  xx[ii++] =
-    "91      climb down here, but you would not be able to climb up.  There is a             ";
-  xx[ii++] =
-    "91      passage leading back to the north.                                              ";
-  xx[ii++] =
-    "92      You are in the giant room.  The ceiling here is too high up for your            ";
-  xx[ii++] =
-    "92      lamp to show it.  Cavernous passages lead east, north, and south.  On           ";
-  xx[ii++] =
-    '92      the west wall is scrawled the inscription, "Fee fie foe foo" <sic>.             ';
-  xx[ii++] =
-    "93      You are on a wide ledge with an exit south and a narrow opening leading down.   ";
-  xx[ii++] =
-    "94      You are at one end of an immense north/south passage.                           ";
-  xx[ii++] =
-    "95      You are in a magnificent cavern with a rushing stream, which cascades           ";
-  xx[ii++] =
-    "95      over a sparkling waterfall into a roaring whirlpool which disappears            ";
-  xx[ii++] =
-    "95      through a hole in the floor.  Passages exit to the south and west.              ";
-  xx[ii++] =
-    "96      You are in the soft room.  The walls are covered with heavy curtains,           ";
-  xx[ii++] =
-    "96      the floor with a thick pile carpet.  Moss covers the ceiling.                   ";
-  xx[ii++] =
-    "97      This is the oriental room.  Ancient oriental cave drawings cover the            ";
-  xx[ii++] =
-    "97      walls.  A gently sloping passage leads upward to the north, another             ";
-  xx[ii++] =
-    "97      passage leads SE, and a hands and knees crawl leads west.                       ";
-  xx[ii++] =
-    "98      You are following a wide path around the outer edge of a large cavern.          ";
-  xx[ii++] =
-    "98      Far below, through a heavy white mist, strange splashing noises can be          ";
-  xx[ii++] =
-    "98      heard.  The mist rises up through a fissure in the ceiling.  The path           ";
-  xx[ii++] =
-    "98      exits to the south and west.                                                    ";
-  xx[ii++] =
-    "99      You are in an alcove.  A small NW path seems to widen after a short             ";
-  xx[ii++] =
-    "99      distance.  An extremely tight tunnel leads east.  It looks like a very          ";
-  xx[ii++] =
-    "99      tight squeeze.  An eerie light can be seen at the other end.                    ";
-  xx[ii++] =
-    "100     You're in a small chamber lit by an eerie green light.  An extremely            ";
-  xx[ii++] =
-    "100     narrow tunnel exits to the west.  A dark corridor leads NE.                     ";
-  xx[ii++] =
-    "61      당신은 아주 긴, 특징 없는 홀의 서쪽 끝에 있습니다.  이 홀은                ";
-  xx[ii++] =
-    "61      좁은 남/북 통로와 연결되어 있습니다.                                     ";
-  xx[ii++] =
-    "62      당신은 높은 남/북 통로와 낮은 동/서 통로가 교차하는 지점에 있습니다.             ";
-  xx[ii++] =
-    "63      빈 선반으로 가득한 먼지 낀 저장실에 있습니다.                           ";
-  xx[ii++] =
-    "64      복잡한 교차로에 있습니다. 북쪽에서는 낮은 엉덩이와 무릎을 사용하는 통로가          ";
-  xx[ii++] =
-    "64      연결되어 동쪽에서 올라가는 좁은 통로를 만들어서 서쪽으로 이어집니다.              ";
-  xx[ii++] =
-    "64      위에는 큰 방도 있습니다. 공기가 습기를 띠고 있습니다.                      ";
-  xx[ii++] =
-    "65      당신은 베드퀼트에 있습니다. 구멍이 어디에나 있는 긴 동/서 통로입니다.       ";
-  xx[ii++] =
-    "65      무작위로 탐험하려면 북, 남, 위, 아래 중 하나를 선택하십시오.               ";
-  xx[ii++] =
-    "66      당신은 스위스 치즈와 같은 벽돌 방에 있습니다. 북, 동, 북동, 북서로           ";
-  xx[ii++] =
-    "66      명백한 통로가 이어져 있습니다. 방의 일부는 큰 바위 블록으로 차지되어 있습니다.   ";
-  xx[ii++] =
+    xx[ii++] =
     "67      당신은 이중 구덩이 방의 동쪽 끝에 있습니다. 바닥은                        ";
   xx[ii++] =
     "67      얇은 바위 판자로 얼룩져 있어 구덩이로 내려가기 쉽습니다.                    ";
@@ -536,6 +408,16 @@ function readData() {
   xx[ii++] =
     "67      좁은 길이 북쪽으로 이어집니다.                                           ";
   xx[ii++] =
+    "68      You are in a large low circular chamber whose floor is an immense slab          ";
+  xx[ii++] =
+    "68      fallen from the ceiling (slab room).  East and west there once were             ";
+  xx[ii++] =
+    "68      large passages, but they are now filled with boulders.  Low small               ";
+  xx[ii++] =
+    "68      passages go north and south, and the south one quickly bends west               ";
+  xx[ii++] =
+    "68      around the boulders.                                                            ";
+    xx[ii++] =
     "68      당신은 거대한 원형 방 안에 있습니다. 바닥은 천장에서 떨어진 거대한          ";
   xx[ii++] =
     "68      돌 덩어리로 이루어져 있습니다. 동/서쪽에는 큰 통로가 있었지만 지금은        ";
@@ -544,24 +426,54 @@ function readData() {
   xx[ii++] =
     "68      남쪽 통로는 빠르게 서쪽으로 돌아갑니다.                                      ";
   xx[ii++] =
+    "69      You are in a secret N/S canyon above a large room.                              ";
+    xx[ii++] =
     "69      당신은 큰 방 위에 있는 비밀 남/북 협곡에 있습니다.                          ";
   xx[ii++] =
+    "70      You are in a secret N/S canyon above a sizable passage.                         ";
+    xx[ii++] =
     "70      당신은 상당한 통로 위에 있는 비밀 남/북 협곡에 있습니다.                    ";
   xx[ii++] =
+    "71      You are in a secret canyon at a junction of three canyons, bearing              ";
+  xx[ii++] =
+    "71      north, south, and SE.  The north one is as tall as the other two                ";
+  xx[ii++] =
+    "71      combined.                                                                       ";
+    xx[ii++] =
     "71      당신은 세 개의 협곡이 교차하는 비밀 협곡에 있으며, 북, 남, 남동쪽으로       ";
   xx[ii++] =
     "71      이어집니다. 북쪽 협곡은 다른 두 협곡과 같은 높이입니다.                      ";
   xx[ii++] =
+    "72      You are in a large low room.  Crawls lead north, SE, and SW.                    ";
+    xx[ii++] =
     "72      당신은 큰 낮은 방에 있습니다. 북쪽, 남동, 남서로 기어가는 통로가 있습니다.       ";
   xx[ii++] =
+    "73      Dead end crawl.                                                                 ";
+    xx[ii++] =
     "73      막다른 기어로 진행할 수 없습니다.                                       ";
   xx[ii++] =
+    "74      You are in a secret canyon which here runs E/W.  It crosses over a              ";
+  xx[ii++] =
+    "74      very tight canyon 15 feet below.  If you go down you may not be able            ";
+  xx[ii++] =
+    "74      to get back up.                                                                 ";
+    xx[ii++] =
     "74      여기서 동/서로 달리는 비밀 협곡에 있습니다. 이곳은 아래에 매우 좁은          ";
   xx[ii++] =
     "74      협곡이 가로지르고 있습니다. 아래로 내려가면 다시 올라올 수 없을 수도 있습니다. ";
   xx[ii++] =
+    "75      You are at a wide place in a very tight N/S canyon.                             ";
+    xx[ii++] =
     "75      아주 좁은 남/북 협곡의 넓은 곳에 있습니다.                                   ";
   xx[ii++] =
+    "76      You are in a low wide room with an exit to the north.                           ";
+  xx[ii++] =
+    "76      Partially projecting from a low alcove in the south wall is the frozen stone    ";
+  xx[ii++] =
+    "76      form of a dwarf seemingly struggling to escape his rocky confines.              ";
+  xx[ii++] =
+    "76      A brass plaque hangs above the alcove.                                          ";
+    xx[ii++] =
     "76      북쪽으로 나가는 작은 폭의 방에 있습니다.                                   ";
   xx[ii++] =
     "76      남쪽 벽의 낮은 동굴에서는 돌로 둘러싸인 작은 돌아간 중에 갇힌 드워프의            ";
@@ -570,86 +482,176 @@ function readData() {
   xx[ii++] =
     "76      알코브 위에 황동 표판이 매달려 있습니다.                                  ";
   xx[ii++] =
+    "77      You are in a tall E/W canyon.  A low tight crawl goes 3 feet north and          ";
+  xx[ii++] =
+    "77      seems to open up.                                                               ";
+    xx[ii++] =
     "77      당신은 긴 동/서 협곡에 있습니다. 남쪽으로 3피트의 좁은 기어가 북쪽으로        ";
   xx[ii++] =
     "77      펼쳐져 있는 것 같습니다.                                                  ";
   xx[ii++] =
+    "78      The canyon runs into a mass of boulders -- dead end.                            ";
+    xx[ii++] =
     "78      협곡은 바위 더미에 닿습니다. 막다른 곳입니다.                               ";
   xx[ii++] =
+    "79      The stream flows out through a pair of 1 foot diameter drainage pipes.          ";
+  xx[ii++] =
+    "79      It would be advisable to use the exit.                                          ";
+    xx[ii++] =
     "79      시냇물이 직경 1피트의 배수 파이프를 통해 흘러나옵니다. 나가는 것이 좋습니다. ";
   xx[ii++] = "79      ";
   xx[ii++] =
+    "80      You are in a maze of twisty little passages, all alike.                         ";
+    xx[ii++] =
     "80      얽힌 작은 통로의 미로에 있습니다. 모든 통로가 닮았습니다.                    ";
   xx[ii++] =
+    "81      Dead end                                                                        ";
+    xx[ii++] =
     "81      막다른 곳입니다.                                                          ";
   xx[ii++] =
+    "82      Dead end                                                                        ";
+    xx[ii++] =
     "82      막다른 곳입니다.                                                          ";
   xx[ii++] =
+    "83      You are in a maze of twisty little passages, all alike.                         ";
+    xx[ii++] =
     "83      얽힌 작은 통로의 미로에 있습니다. 모든 통로가 닮았습니다.                    ";
   xx[ii++] =
+    "84      You are in a maze of twisty little passages, all alike.                         ";
+    xx[ii++] =
     "84      얽힌 작은 통로의 미로에 있습니다. 모든 통로가 닮았습니다.                    ";
   xx[ii++] =
+    "85      Dead end                                                                        ";
+    xx[ii++] =
     "85      막다른 곳입니다.                                                          ";
   xx[ii++] =
+    "86      Dead end                                                                        ";
+    xx[ii++] =
     "86      막다른 곳입니다.                                                          ";
   xx[ii++] =
+    "87      You are in a maze of twisty little passages, all alike.                         ";
+    xx[ii++] =
     "87      얽힌 작은 통로의 미로에 있습니다. 모든 통로가 닮았습니다.                    ";
   xx[ii++] =
+    "88      You are in a long, narrow corridor stretching out of sight to the               ";
+  xx[ii++] =
+    "88      west.  At the eastern end is a hole through which you can see a                 ";
+  xx[ii++] =
+    "88      profusion of leaves.                                                            ";
+    xx[ii++] =
     "88      서쪽으로 끝없이 이어지는 좁고 긴 복도에 있습니다. 동쪽 끝에는                  ";
   xx[ii++] =
     "88      덮개가 풀려있어 수많은 나뭇잎이 보입니다.                                    ";
   xx[ii++] =
+    '89      There is nothing here to climb.  Use "up" or "out" to leave the pit.            ';
+    xx[ii++] =
     '89      여기에 오를 곳이 없습니다. "위로" 또는 "밖으로"를 사용하여 구덩이에서 나갑니다. ';
   xx[ii++] =
+    "90      You have climbed up the plant and out of the pit.                               ";
+    xx[ii++] =
     "90      당신은 식물을 오르고 구덩이에서 나왔습니다.                                 ";
   xx[ii++] =
+    "91      You are at the top of a steep incline above a large room.  You could            ";
+  xx[ii++] =
+    "91      climb down here, but you would not be able to climb up.  There is a             ";
+  xx[ii++] =
+    "91      passage leading back to the north.                                              ";
+    xx[ii++] =
     "91      큰 방 위의 가파른 경사로 위에 있습니다. 이곳으로 내려갈 수는 있지만          ";
   xx[ii++] =
     "91      다시 올라갈 수는 없습니다. 북쪽으로 이어지는 통로가 있습니다.                 ";
   xx[ii++] =
+    "92      You are in the giant room.  The ceiling here is too high up for your            ";
+  xx[ii++] =
+    "92      lamp to show it.  Cavernous passages lead east, north, and south.  On           ";
+  xx[ii++] =
+    '92      the west wall is scrawled the inscription, "Fee fie foe foo" <sic>.             ';
+    xx[ii++] =
     "92      당신은 거대한 방에 있습니다. 여기 천장은 등등한 높이로 당신의                ";
   xx[ii++] =
     "92      램프로는 비추기 어렵습니다. 굴착 통로가 동쪽, 북쪽, 남쪽으로 이어집니다.     ";
   xx[ii++] =
     '92      서쪽 벽에는 "Fee fie foe foo"라는 문구가 쓰여져 있습니다.                  ';
   xx[ii++] =
+    "93      You are on a wide ledge with an exit south and a narrow opening leading down.   ";
+    xx[ii++] =
     "93      좁은 개구리로부터 남쪽으로 통로가 이어지는 넓은 언덕 위에 있습니다.            ";
   xx[ii++] =
+    "94      You are at one end of an immense north/south passage.                           ";
+    xx[ii++] =
     "94      거대한 남/북 통로의 한쪽 끝에 있습니다.                                     ";
   xx[ii++] =
+    "95      You are in a magnificent cavern with a rushing stream, which cascades           ";
+  xx[ii++] =
+    "95      over a sparkling waterfall into a roaring whirlpool which disappears            ";
+  xx[ii++] =
+    "95      through a hole in the floor.  Passages exit to the south and west.              ";
+    xx[ii++] =
     "95      황량한 동굴에는 분출하는 시냇물이 흐르며, 그 시냇물은 반짝이는 폭포로 흘러들어 ";
   xx[ii++] =
     "95      바닥의 로어링 워터풀로 사라집니다. 남쪽과 서쪽으로 통로가 이어집니다.         ";
   xx[ii++] =
+    "96      You are in the soft room.  The walls are covered with heavy curtains,           ";
+  xx[ii++] =
+    "96      the floor with a thick pile carpet.  Moss covers the ceiling.                   ";
+    xx[ii++] =
     "96      당신은 부드러운 방에 있습니다. 벽은 두꺼운 커튼으로 덮여 있고,                 ";
   xx[ii++] =
     "96      바닥은 두꺼운 양탄자로 되어 있습니다. 천장은 이끼로 덮여 있습니다.          ";
   xx[ii++] =
+    "97      This is the oriental room.  Ancient oriental cave drawings cover the            ";
+  xx[ii++] =
+    "97      walls.  A gently sloping passage leads upward to the north, another             ";
+  xx[ii++] =
+    "97      passage leads SE, and a hands and knees crawl leads west.                       ";
+    xx[ii++] =
     "97      이곳은 동양식 방입니다. 벽에는 고대 동양의 동굴 그림이 그려져 있습니다.        ";
   xx[ii++] =
     "97      북쪽으로 올라가는 약한 경사로, 남동쪽으로 이어지는 다른 통로,                ";
   xx[ii++] =
     "97      서쪽으로 가는 엉덩이와 무릎을 사용하는 기어로 이어집니다.                    ";
   xx[ii++] =
+    "98      You are following a wide path around the outer edge of a large cavern.          ";
+  xx[ii++] =
+    "98      Far below, through a heavy white mist, strange splashing noises can be          ";
+  xx[ii++] =
+    "98      heard.  The mist rises up through a fissure in the ceiling.  The path           ";
+  xx[ii++] =
+    "98      exits to the south and west.                                                    ";
+    xx[ii++] =
     "98      당신은 큰 동굴의 외곽을 따라 넓은 길을 따라가고 있습니다.                    ";
   xx[ii++] =
     "98      아래로는 짙은 하얀 안개 속을 통해 이상한 물소리가 들립니다.                  ";
   xx[ii++] =
     "98      안개가 천장의 틈으로 올라오고 있습니다. 이 길은 남쪽과 서쪽으로 이어집니다.   ";
   xx[ii++] =
+    "99      You are in an alcove.  A small NW path seems to widen after a short             ";
+  xx[ii++] =
+    "99      distance.  An extremely tight tunnel leads east.  It looks like a very          ";
+  xx[ii++] =
+    "99      tight squeeze.  An eerie light can be seen at the other end.                    ";
+    xx[ii++] =
     "99      동쪽으로 향하는 매우 좁은 터널이 있는 곳으로 넓어지는 것 같은 작은           ";
   xx[ii++] =
     "99      북서쪽 통로가 있는 계곡에 있습니다. 터널은 매우 좁아 보입니다.                 ";
   xx[ii++] =
     "99      다른 쪽 끝에서는 기괴한 빛이 보입니다.                                      ";
   xx[ii++] =
+    "100     You're in a small chamber lit by an eerie green light.  An extremely            ";
+  xx[ii++] =
+    "100     narrow tunnel exits to the west.  A dark corridor leads NE.                     ";
+    xx[ii++] =
     "100     당신은 음산한 초록빛으로 밝힌 작은 방에 있습니다. 매우 좁은 터널이 서쪽으로    ";
   xx[ii++] =
     "100     이어집니다. 어두운 복도가 북동쪽으로 이어집니다.                             ";
   xx[ii++] =
     "101     You're in the dark-room.  A corridor leading south is the only exit.            ";
+    xx[ii++] =
+    "101     당신은 어두운 방에 있습니다. 남쪽으로 통로가 나가는 유일한 출구입니다.              ";
   xx[ii++] =
     "102     You are in an arched hall.  A narrow passage continues up and east from here.   ";
+    xx[ii++] =
+    "102     당신은 아치 형태의 홀에 있습니다. 여기서 북쪽으로 좁은 통로가 이어집니다.          ";
   xx[ii++] =
     "103     You're in a large room carved out of sedimentary rock.  The floor and           ";
   xx[ii++] =
@@ -658,18 +660,36 @@ function readData() {
     "103     shallow passage proceeds downward, and a somewhat steeper one leads             ";
   xx[ii++] =
     "103     up.  A low hands and knees passage enters from the south.                       ";
+    xx[ii++] =
+    "103     당신은 침전암으로 조각된 큰 방에 있습니다. 바닥과 벽에는 돌에 박힌 조각들이          ";
+  xx[ii++] =
+    "103     흩어져 있습니다. 얕은 통로가 아래로 이어지고, 다소 가파른 통로가 위로 이어집니다.   ";
+  xx[ii++] =
+    "103     남쪽에서는 낮은 기어로 이어지는 통로가 있습니다.                                    ";
   xx[ii++] =
     "104     You are in a long sloping corridor with ragged sharp walls.                     ";
+    xx[ii++] =
+    "104     당신은 울퉁불퉁하고 예리한 벽이 있는 긴 경사로 있는 복도에 있습니다.                  ";
   xx[ii++] =
     "105     You are in a cul-de-sac about eight feet across.                                ";
+    xx[ii++] =
+    "105     당신은 지름 약 8피트의 막다른 곳에 있습니다.                                      ";
   xx[ii++] =
     "106     You are in an anteroom leading to a large passage to the east.  Small           ";
   xx[ii++] =
     "106     passages go west and up.  The remnants of recent digging are evident.           ";
+    xx[ii++] =
+    "106     당신은 동쪽으로 이어지는 큰 통로로 통하는 대기실에 있습니다. 작은 통로가            ";
+  xx[ii++] =
+    "106     서쪽과 위로 이어지고 있습니다. 최근 발굴의 흔적이 보입니다.                           ";
   xx[ii++] =
     "107     You are in a maze of twisty little passages, all different.                     ";
+    xx[ii++] =
+    "107     얽힌 작은 통로의 미로에 있습니다. 모두 다릅니다.                                   ";
   xx[ii++] =
     "108     You are at Witt's end.  Passages lead off in *all* directions.                  ";
+    xx[ii++] =
+    "108     이곳은 '위트의 끝'에 있습니다. 통로가 *모든* 방향으로 뻗어 있습니다.                  ";
   xx[ii++] =
     "109     You are in a north/south canyon about 25 feet across.  The floor is             ";
   xx[ii++] =
@@ -684,6 +704,18 @@ function readData() {
     "109     for the use of the dwarves, who as you know, are extremely vain.)  a            ";
   xx[ii++] =
     "109     small window can be seen in either wall, some fifty feet up.                    ";
+    xx[ii++] =
+    "109     당신은 약 25피트 폭의 북/남쪽 협곡에 있습니다. 바닥은 북쪽에서 스며들어 오는         ";
+  xx[ii++] =
+    "109     흰 안개로 뒤덮여 있습니다. 벽은 100피트 이상 높이로 솟아오릅니다.                   ";
+  xx[ii++] =
+    "109     알아볼 수 없는 어딘가 높은 곳에서 걸려 있는 거대한 양면 거울이 협곡의 벽과          ";
+  xx[ii++] =
+    "109     중앙에 평행하게 매달려 있습니다. (거울은 알다시피 극도로 자신에게 매우                  ";
+  xx[ii++] =
+    "109     자만심이 있는 도애처럼 사용하기 위해 제공되었습니다.) 각 벽에는 작은 창이            ";
+  xx[ii++] =
+    "109     50피트 높이에 볼 수 있습니다.                                                    ";
   xx[ii++] =
     "110     You're at a low window overlooking a huge pit, which extends up out of          ";
   xx[ii++] =
@@ -698,14 +730,32 @@ function readData() {
     "110     25 feet away there is a similar window looking into a lighted room.  A          ";
   xx[ii++] =
     "110     shadowy figure can be seen there peering back at you.                           ";
+    xx[ii++] =
+    "110     당신은 아래에서 올라오는 거대한 구덩이를 내려다보는 낮은 창가에 있습니다.           ";
+  xx[ii++] =
+    "110     바닥은 약 50피트 아래에 희미하게 보입니다. 흰 안개의 흔적이 바닥에 덮여 있으며,         ";
+  xx[ii++] =
+    "110     왼쪽으로 갈수록 짙어집니다. 창가 주변의 먼지에 남겨진 자국은 최근에                ";
+  xx[ii++] =
+    "110     누군가가 이곳에 있었음을 암시합니다. 당신과 25피트 떨어진 곳에는 비슷한              ";
+  xx[ii++] =
+    "110     창이 있으며, 그 안에서 불이 들어오는 방을 바라보고 있는 어둡고 모습이               ";
+  xx[ii++] =
+    "110     드리운 인물이 보입니다.                                                          ";
   xx[ii++] =
     "111     A large stalactite extends from the roof and almost reaches the floor           ";
   xx[ii++] =
     "111     below.  You could climb down it, and jump from it to the floor, but             ";
   xx[ii++] =
     "111     having done so you would be unable to reach it to climb back up.                ";
+    xx[ii++] =
+    "111     큰 석순이 천장에서 시작하여 거의 바닥까지 내려옵니다. 이를 따라                   ";
+  xx[ii++] =
+    "111     내려갈 수 있고, 그대로 땅으로 점프할 수 있지만, 다시 올라갈 수는 없습니다.          ";
   xx[ii++] =
     "112     You are in a little maze of twisting passages, all different.                   ";
+    xx[ii++] =
+    "112     당신은 뒤얽힌 작은 통로의 미로에 있습니다. 모두 다릅니다.                          ";
   xx[ii++] =
     "113     You are at the edge of a large underground reservoir.  An opaque cloud          ";
   xx[ii++] =
@@ -716,8 +766,18 @@ function readData() {
     "113     overhead and splashes noisily into the water somewhere within the               ";
   xx[ii++] =
     "113     mist.  A passage leads south and a narrow path climbs eastward.                 ";
+    xx[ii++] =
+    "113     당신은 큰 지하 저수지의 가장자리에 있습니다. 흰 안개의 불투명한 구름이              ";
+  xx[ii++] =
+    "113     방을 채우며 급속히 올라옵니다. 호수는 벽에 10피트 정도 높이에 있는                  ";
+  xx[ii++] =
+    "113     구멍에서 흘러나와 어딘가에서 물에 찍혀 소리를 내며 떨어지고 있습니다.                ";
+  xx[ii++] =
+    "113     통로는 남쪽으로 이어지고 좁은 길이 동쪽으로 올라갑니다.                             ";
   xx[ii++] =
     "114     Dead end                                                                        ";
+    xx[ii++] =
+    "114     막다른 곳에 있습니다.                                                               ";
   xx[ii++] =
     "115     You are at the northeast end of an immense room, even larger than the           ";
   xx[ii++] =
@@ -740,6 +800,26 @@ function readData() {
     "115     wall, and stretches to the other end of the room, where various other           ";
   xx[ii++] =
     "115     sundry objects can be glimpsed dimly in the distance.                           ";
+    xx[ii++] =
+    "115     당신은 거대한 방의 북동쪽 끝에 서 있습니다. 이 방은 심지어                      ";
+  xx[ii++] =
+    "115     거대한 방보다도 더 큰 것 같습니다. '어드벤처' 프로그램을 위한                        ";
+  xx[ii++] =
+    "115     저장고인 것 같습니다. 아주 높은 곳에 걸린 거대한 횃불이 방을 연기 나는             ";
+  xx[ii++] =
+    "115     노란빛으로 비추고 있습니다. 주변에는 빈 병들의 더미(모두 비어 있음),                    ";
+  xx[ii++] =
+    "115     속삭이는 어린 콩잠자리들의 보호소, 굴레에 매인 암맥 한 줌, 그리고                   ";
+  xx[ii++] =
+    "115     황금 랜턴들의 모음이 흩어져 있습니다. 한 쪽에는 많은 드워프들이                    ";
+  xx[ii++] =
+    "115     바닥에 자고 있으며, 크게 코를 골고루 쉬고 있습니다. 근처에 있는                      ";
+  xx[ii++] =
+    "115     표지판에는 '드워프들을 깨우지 말아주세요!'라고 쓰여 있습니다.                          ";
+  xx[ii++] =
+    "115     방의 한 벽에는 거대한 거울이 걸려 있으며, 그 길이는 방의 끝까지 이어져 있으며,         ";
+  xx[ii++] =
+    "115     거울을 통해 희미하게 멀리서 다른 여러 가지 물건들을 엿볼 수 있습니다.               ";
   xx[ii++] =
     "116     You are at the southwest end of the repository.  To one side is a pit           ";
   xx[ii++] =
@@ -756,42 +836,88 @@ function readData() {
     '116     steel grate, next to which is a sign which reads, "Treasure vault.              ';
   xx[ii++] =
     '116     Keys in main office."                                                           ';
+    xx[ii++] =
+    "116     당신은 저장소의 남서쪽 끝에 서 있습니다. 한쪽에는 맹독을 품은 녹색 뱀들로            ";
+  xx[ii++] =
+    "116     가득한 구덩이가 있습니다. 다른 쪽에는 작은 꺾이는 새장들이 일렬로 있고,              ";
+  xx[ii++] =
+    "116     각각에는 홱한 새 한 마리씩이 들어 있습니다. 한 쪽 구석에는 녹슨                          ";
+  xx[ii++] =
+    "116     점이 있는 검은 막대 다발이 있습니다. 바닥에는 많은 벨벳 베개들이                   ";
+  xx[ii++] =
+    "116     흩어져 있습니다. 북동쪽으로 거대한 거울이 뻗어 있으며, 어두운                      ";
+  xx[ii++] =
+    "116     곳에 있는 근접한 감옥입니다. 그 옆에는 '보물 금고. 메인 오피스에                 ";
+  xx[ii++] =
+    "116     열쇠 있음.'이라고 쓰여진 표지판이 있습니다.                                         ";
   xx[ii++] =
     "117     You are on one side of a large, deep chasm.  A heavy white mist rising          ";
   xx[ii++] =
     "117     up from below obscures all view of the far side.  A SW path leads away          ";
   xx[ii++] =
     "117     from the chasm into a winding corridor.                                         ";
+    xx[ii++] =
+    "117     당신은 큰, 깊은 협곡의 한쪽에 있습니다. 밑으로부터 올라오는 흰 안개가                ";
+  xx[ii++] =
+    "117     멀리 있는 반대편을 모두 가리고 있습니다. 남서쪽으로 향하는 길이 협곡에서             ";
+  xx[ii++] =
+    "117     떨어져 나가는 약간 굽은 복도로 이어집니다.                                           ";
   xx[ii++] =
     "118     You are in a long winding corridor sloping out of sight in both                 ";
   xx[ii++] =
     "118     directions.                                                                     ";
+    xx[ii++] =
+    "118     당신은 양쪽으로 멀리까지 이어지는 긴 구불구불한 복도에 있습니다.                        ";
   xx[ii++] =
     "119     You are in a secret canyon which exits to the north and east.                   ";
+    xx[ii++] =
+    "119     당신은 북쪽과 동쪽으로 이어지는 비밀 협곡에 있습니다.                                  ";
   xx[ii++] =
     "120     You are in a secret canyon which exits to the north and east.                   ";
+    xx[ii++] =
+    "120     당신은 북쪽과 동쪽으로 이어지는 비밀 협곡에 있습니다.                                  ";
   xx[ii++] =
     "121     You are in a secret canyon which exits to the north and east.                   ";
+    xx[ii++] =
+    "121     당신은 북쪽과 동쪽으로 이어지는 비밀 협곡에 있습니다.                                  ";
   xx[ii++] =
     "122     You are on the far side of the chasm.  A NE path leads away from the            ";
   xx[ii++] =
     "122     chasm on this side.                                                             ";
+    xx[ii++] =
+    "122     당신은 협곡의 반대편에 있습니다. 북동쪽으로 이어지는 길이 이쪽에서                   ";
+  xx[ii++] =
+    "122     떨어져 나가고 있습니다.                                                             ";
   xx[ii++] =
     "123     You're in a long east/west corridor.  A faint rumbling noise can be             ";
   xx[ii++] =
     "123     heard in the distance.                                                          ";
+    xx[ii++] =
+    "123     당신은 먼 도피가 보이는 긴 동/서 복도에 있습니다. 먼 거리에서는                     ";
+  xx[ii++] =
+    "123     연속된 울림 소리가 들립니다.                                                        ";
   xx[ii++] =
     "124     The path forks here.  The left fork leads northeast.  A dull rumbling           ";
   xx[ii++] =
     "124     seems to get louder in that direction.  The right fork leads southeast          ";
   xx[ii++] =
     "124     down a gentle slope.  The main corridor enters from the west.                   ";
+    xx[ii++] =
+    "124     이곳에서 길이 갈라집니다. 왼쪽 길은 북동쪽으로 이어집니다. 둔한                     ";
+  xx[ii++] =
+    "124     울림 소리는 그 방향에서 점점 커지는 것 같습니다. 오른쪽 길은 남동쪽으로              ";
+  xx[ii++] =
+    "124     가는 완만한 경사로 이어집니다. 주요 복도는 서쪽에서 들어옵니다.                        ";
   xx[ii++] =
     "125     The walls are quite warm here.  From the north can be heard a steady            ";
   xx[ii++] =
     "125     roar, so loud that the entire cave seems to be trembling.  Another              ";
   xx[ii++] =
     "125     passage leads south, and a low crawl goes east.                                 ";
+    xx[ii++] =
+    "125     벽은 여기서 꽤 따뜻합니다. 북쪽에서는 꾸준한 울림 소리가 들립니다. 다른             ";
+  xx[ii++] =
+    "125     통로는 남쪽으로 이어지며, 낮은 기어로 동쪽으로 이어집니다.                             ";
   xx[ii++] =
     "126     You are on the edge of a breath-taking view.  Far below you is an               ";
   xx[ii++] =
@@ -830,157 +956,7 @@ function readData() {
     "126     own, which lends an additional infernal splendor to the already                 ";
   xx[ii++] =
     "126     hellish scene.  A dark, foreboding passage exits to the south.                  ";
-  xx[ii++] =
-    "127     You are in a small chamber filled with large boulders.  The walls are           ";
-  xx[ii++] =
-    "127     very warm, causing the air in the room to be almost stifling from the           ";
-  xx[ii++] =
-    "127     heat.  The only exit is a crawl heading west, through which is coming           ";
-  xx[ii++] =
-    "127     a low rumbling.                                                                 ";
-  xx[ii++] =
-    "128     You are walking along a gently sloping north/south passage lined with           ";
-  xx[ii++] =
-    "128     oddly shaped limestone formations.                                              ";
-  xx[ii++] =
-    "129     You are standing at the entrance to a large, barren room.  A sign               ";
-  xx[ii++] =
-    '129     posted above the entrance reads:  "Caution! Bear in room!"                      ';
-  xx[ii++] =
-    "130     You are inside a barren room.  The center of the room is completely             ";
-  xx[ii++] =
-    "130     empty except for some dust.  Marks in the dust lead away toward the             ";
-  xx[ii++] =
-    "130     far end of the room.  The only exit is the way you came in.                     ";
-  xx[ii++] =
-    "101     당신은 어두운 방에 있습니다. 남쪽으로 통로가 나가는 유일한 출구입니다.              ";
-  xx[ii++] =
-    "102     당신은 아치 형태의 홀에 있습니다. 여기서 북쪽으로 좁은 통로가 이어집니다.          ";
-  xx[ii++] =
-    "103     당신은 침전암으로 조각된 큰 방에 있습니다. 바닥과 벽에는 돌에 박힌 조각들이          ";
-  xx[ii++] =
-    "103     흩어져 있습니다. 얕은 통로가 아래로 이어지고, 다소 가파른 통로가 위로 이어집니다.   ";
-  xx[ii++] =
-    "103     남쪽에서는 낮은 기어로 이어지는 통로가 있습니다.                                    ";
-  xx[ii++] =
-    "104     당신은 울퉁불퉁하고 예리한 벽이 있는 긴 경사로 있는 복도에 있습니다.                  ";
-  xx[ii++] =
-    "105     당신은 지름 약 8피트의 막다른 곳에 있습니다.                                      ";
-  xx[ii++] =
-    "106     당신은 동쪽으로 이어지는 큰 통로로 통하는 대기실에 있습니다. 작은 통로가            ";
-  xx[ii++] =
-    "106     서쪽과 위로 이어지고 있습니다. 최근 발굴의 흔적이 보입니다.                           ";
-  xx[ii++] =
-    "107     얽힌 작은 통로의 미로에 있습니다. 모두 다릅니다.                                   ";
-  xx[ii++] =
-    "108     이곳은 '위트의 끝'에 있습니다. 통로가 *모든* 방향으로 뻗어 있습니다.                  ";
-  xx[ii++] =
-    "109     당신은 약 25피트 폭의 북/남쪽 협곡에 있습니다. 바닥은 북쪽에서 스며들어 오는         ";
-  xx[ii++] =
-    "109     흰 안개로 뒤덮여 있습니다. 벽은 100피트 이상 높이로 솟아오릅니다.                   ";
-  xx[ii++] =
-    "109     알아볼 수 없는 어딘가 높은 곳에서 걸려 있는 거대한 양면 거울이 협곡의 벽과          ";
-  xx[ii++] =
-    "109     중앙에 평행하게 매달려 있습니다. (거울은 알다시피 극도로 자신에게 매우                  ";
-  xx[ii++] =
-    "109     자만심이 있는 도애처럼 사용하기 위해 제공되었습니다.) 각 벽에는 작은 창이            ";
-  xx[ii++] =
-    "109     50피트 높이에 볼 수 있습니다.                                                    ";
-  xx[ii++] =
-    "110     당신은 아래에서 올라오는 거대한 구덩이를 내려다보는 낮은 창가에 있습니다.           ";
-  xx[ii++] =
-    "110     바닥은 약 50피트 아래에 희미하게 보입니다. 흰 안개의 흔적이 바닥에 덮여 있으며,         ";
-  xx[ii++] =
-    "110     왼쪽으로 갈수록 짙어집니다. 창가 주변의 먼지에 남겨진 자국은 최근에                ";
-  xx[ii++] =
-    "110     누군가가 이곳에 있었음을 암시합니다. 당신과 25피트 떨어진 곳에는 비슷한              ";
-  xx[ii++] =
-    "110     창이 있으며, 그 안에서 불이 들어오는 방을 바라보고 있는 어둡고 모습이               ";
-  xx[ii++] =
-    "110     드리운 인물이 보입니다.                                                          ";
-  xx[ii++] =
-    "111     큰 석순이 천장에서 시작하여 거의 바닥까지 내려옵니다. 이를 따라                   ";
-  xx[ii++] =
-    "111     내려갈 수 있고, 그대로 땅으로 점프할 수 있지만, 다시 올라갈 수는 없습니다.          ";
-  xx[ii++] =
-    "112     당신은 뒤얽힌 작은 통로의 미로에 있습니다. 모두 다릅니다.                          ";
-  xx[ii++] =
-    "113     당신은 큰 지하 저수지의 가장자리에 있습니다. 흰 안개의 불투명한 구름이              ";
-  xx[ii++] =
-    "113     방을 채우며 급속히 올라옵니다. 호수는 벽에 10피트 정도 높이에 있는                  ";
-  xx[ii++] =
-    "113     구멍에서 흘러나와 어딘가에서 물에 찍혀 소리를 내며 떨어지고 있습니다.                ";
-  xx[ii++] =
-    "113     통로는 남쪽으로 이어지고 좁은 길이 동쪽으로 올라갑니다.                             ";
-  xx[ii++] =
-    "114     막다른 곳에 있습니다.                                                               ";
-  xx[ii++] =
-    "115     당신은 거대한 방의 북동쪽 끝에 서 있습니다. 이 방은 심지어                      ";
-  xx[ii++] =
-    "115     거대한 방보다도 더 큰 것 같습니다. '어드벤처' 프로그램을 위한                        ";
-  xx[ii++] =
-    "115     저장고인 것 같습니다. 아주 높은 곳에 걸린 거대한 횃불이 방을 연기 나는             ";
-  xx[ii++] =
-    "115     노란빛으로 비추고 있습니다. 주변에는 빈 병들의 더미(모두 비어 있음),                    ";
-  xx[ii++] =
-    "115     속삭이는 어린 콩잠자리들의 보호소, 굴레에 매인 암맥 한 줌, 그리고                   ";
-  xx[ii++] =
-    "115     황금 랜턴들의 모음이 흩어져 있습니다. 한 쪽에는 많은 드워프들이                    ";
-  xx[ii++] =
-    "115     바닥에 자고 있으며, 크게 코를 골고루 쉬고 있습니다. 근처에 있는                      ";
-  xx[ii++] =
-    "115     표지판에는 '드워프들을 깨우지 말아주세요!'라고 쓰여 있습니다.                          ";
-  xx[ii++] =
-    "115     방의 한 벽에는 거대한 거울이 걸려 있으며, 그 길이는 방의 끝까지 이어져 있으며,         ";
-  xx[ii++] =
-    "115     거울을 통해 희미하게 멀리서 다른 여러 가지 물건들을 엿볼 수 있습니다.               ";
-  xx[ii++] =
-    "116     당신은 저장소의 남서쪽 끝에 서 있습니다. 한쪽에는 맹독을 품은 녹색 뱀들로            ";
-  xx[ii++] =
-    "116     가득한 구덩이가 있습니다. 다른 쪽에는 작은 꺾이는 새장들이 일렬로 있고,              ";
-  xx[ii++] =
-    "116     각각에는 홱한 새 한 마리씩이 들어 있습니다. 한 쪽 구석에는 녹슨                          ";
-  xx[ii++] =
-    "116     점이 있는 검은 막대 다발이 있습니다. 바닥에는 많은 벨벳 베개들이                   ";
-  xx[ii++] =
-    "116     흩어져 있습니다. 북동쪽으로 거대한 거울이 뻗어 있으며, 어두운                      ";
-  xx[ii++] =
-    "116     곳에 있는 근접한 감옥입니다. 그 옆에는 '보물 금고. 메인 오피스에                 ";
-  xx[ii++] =
-    "116     열쇠 있음.'이라고 쓰여진 표지판이 있습니다.                                         ";
-  xx[ii++] =
-    "117     당신은 큰, 깊은 협곡의 한쪽에 있습니다. 밑으로부터 올라오는 흰 안개가                ";
-  xx[ii++] =
-    "117     멀리 있는 반대편을 모두 가리고 있습니다. 남서쪽으로 향하는 길이 협곡에서             ";
-  xx[ii++] =
-    "117     떨어져 나가는 약간 굽은 복도로 이어집니다.                                           ";
-  xx[ii++] =
-    "118     당신은 양쪽으로 멀리까지 이어지는 긴 구불구불한 복도에 있습니다.                        ";
-  xx[ii++] =
-    "119     당신은 북쪽과 동쪽으로 이어지는 비밀 협곡에 있습니다.                                  ";
-  xx[ii++] =
-    "120     당신은 북쪽과 동쪽으로 이어지는 비밀 협곡에 있습니다.                                  ";
-  xx[ii++] =
-    "121     당신은 북쪽과 동쪽으로 이어지는 비밀 협곡에 있습니다.                                  ";
-  xx[ii++] =
-    "122     당신은 협곡의 반대편에 있습니다. 북동쪽으로 이어지는 길이 이쪽에서                   ";
-  xx[ii++] =
-    "122     떨어져 나가고 있습니다.                                                             ";
-  xx[ii++] =
-    "123     당신은 먼 도피가 보이는 긴 동/서 복도에 있습니다. 먼 거리에서는                     ";
-  xx[ii++] =
-    "123     연속된 울림 소리가 들립니다.                                                        ";
-  xx[ii++] =
-    "124     이곳에서 길이 갈라집니다. 왼쪽 길은 북동쪽으로 이어집니다. 둔한                     ";
-  xx[ii++] =
-    "124     울림 소리는 그 방향에서 점점 커지는 것 같습니다. 오른쪽 길은 남동쪽으로              ";
-  xx[ii++] =
-    "124     가는 완만한 경사로 이어집니다. 주요 복도는 서쪽에서 들어옵니다.                        ";
-  xx[ii++] =
-    "125     벽은 여기서 꽤 따뜻합니다. 북쪽에서는 꾸준한 울림 소리가 들립니다. 다른             ";
-  xx[ii++] =
-    "125     통로는 남쪽으로 이어지며, 낮은 기어로 동쪽으로 이어집니다.                             ";
-  xx[ii++] =
+    xx[ii++] =
     "126     당신은 숨을 멎을만한 경치의 가장자리에 서 있습니다. 아래로는 활동적인                ";
   xx[ii++] =
     "126     화산이 펼쳐져 있으며, 거대한 용암이 뿜어져 나와 깊은 심연으로                     ";
@@ -1013,20 +989,42 @@ function readData() {
   xx[ii++] =
     "126     화면을 제공합니다. 어둡고 불길한 통로가 남쪽으로 이어져 있습니다.                      ";
   xx[ii++] =
+    "127     You are in a small chamber filled with large boulders.  The walls are           ";
+  xx[ii++] =
+    "127     very warm, causing the air in the room to be almost stifling from the           ";
+  xx[ii++] =
+    "127     heat.  The only exit is a crawl heading west, through which is coming           ";
+  xx[ii++] =
+    "127     a low rumbling.                                                                 ";
+    xx[ii++] =
     "127     당신은 큰 바위로 가득한 작은 방에 있습니다. 벽은 매우 따뜻하여 방 안은             ";
   xx[ii++] =
     "127     열기 때문에 거의 기운이 빠지는 것 같습니다. 유일한 출구는 서쪽으로 가는             ";
   xx[ii++] =
     "127     기어오르는 통로이며, 그 방향에서는 낮은 울림이 들려옵니다.                           ";
   xx[ii++] =
+    "128     You are walking along a gently sloping north/south passage lined with           ";
+  xx[ii++] =
+    "128     oddly shaped limestone formations.                                              ";
+    xx[ii++] =
     "128     당신은 이상하게 형성된 석회암 형태로 둘러싸인 약간 경사진 북/남쪽 통로를           ";
   xx[ii++] =
     "128     따라 걷고 있습니다.                                                               ";
   xx[ii++] =
+    "129     You are standing at the entrance to a large, barren room.  A sign               ";
+  xx[ii++] =
+    '129     posted above the entrance reads:  "Caution! Bear in room!"                      ';
+    xx[ii++] =
     "129     당신은 크고 황량한 방의 입구에 서 있습니다. 입구 위에는                         ";
   xx[ii++] =
     "129     '주의! 방 안에 곰 있음!'이라는 표지가 있습니다.                                    ";
   xx[ii++] =
+    "130     You are inside a barren room.  The center of the room is completely             ";
+  xx[ii++] =
+    "130     empty except for some dust.  Marks in the dust lead away toward the             ";
+  xx[ii++] =
+    "130     far end of the room.  The only exit is the way you came in.                     ";
+    xx[ii++] =
     "130     당신은 황량한 방 안에 있습니다. 방의 중앙은 먼지 뿐인 완전히                      ";
   xx[ii++] =
     "130     비어 있는 상태입니다. 먼지에 남아있는 흔적이 방의 끝쪽으로 향하고 있습니다.         ";
@@ -1034,66 +1032,124 @@ function readData() {
     "130     유일한 출구는 들어온 방향입니다.                                                     ";
   xx[ii++] =
     "131     You are in a maze of twisting little passages, all different.                   ";
+    xx[ii++] =
+    "131     당신은 얽히고 설킨 작은 통로의 미로에 있습니다. 모든 통로가 서로 다릅니다.               ";
   xx[ii++] =
     "132     You are in a little maze of twisty passages, all different.                     ";
+    xx[ii++] =
+    "132     당신은 얽히고 설킨 작은 통로의 작은 미로에 있습니다. 모든 통로가 서로 다릅니다.         ";
   xx[ii++] =
     "133     You are in a twisting maze of little passages, all different.                   ";
+    xx[ii++] =
+    "133     당신은 얽히고 설킨 작은 통로의 미로에 있습니다. 모든 통로가 서로 다릅니다.               ";
   xx[ii++] =
     "134     You are in a twisting little maze of passages, all different.                   ";
+    xx[ii++] =
+    "134     당신은 얽히고 설킨 작은 통로의 미로에 있습니다. 모든 통로가 서로 다릅니다.               ";
   xx[ii++] =
     "135     You are in a twisty little maze of passages, all different.                     ";
+    xx[ii++] =
+    "135     당신은 얽히고 설킨 작은 통로의 미로에 있습니다. 모든 통로가 서로 다릅니다.               ";
   xx[ii++] =
     "136     You are in a twisty maze of little passages, all different.                     ";
+    xx[ii++] =
+    "136     당신은 얽히고 설킨 작은 통로의 미로에 있습니다. 모든 통로가 서로 다릅니다.               ";
   xx[ii++] =
     "137     You are in a little twisty maze of passages, all different.                     ";
+    xx[ii++] =
+    "137     당신은 얽히고 설킨 작은 통로의 작은 미로에 있습니다. 모든 통로가 서로 다릅니다.         ";
   xx[ii++] =
     "138     You are in a maze of little twisting passages, all different.                   ";
+    xx[ii++] =
+    "138     당신은 작고 얽히고 설킨 통로의 작은 미로에 있습니다. 모든 통로가 서로 다릅니다.         ";
   xx[ii++] =
     "139     You are in a maze of little twisty passages, all different.                     ";
+    xx[ii++] =
+    "139     당신은 작고 얽히고 설킨 통로의 작은 미로에 있습니다. 모든 통로가 서로 다릅니다.         ";
   xx[ii++] =
     "140     Dead end                                                                        ";
+    xx[ii++] =
+    "140     막다른 곳입니다.                                                                   ";
   xx[ii++] =
     "141     You are in a small well room. A well opening is set in the floor.               ";
+    xx[ii++] =
+    "141     당신은 작은 우물 방에 있습니다. 바닥에 우물이 열려 있습니다.                             ";
   xx[ii++] =
     "142     You are at the bottom of an empty well.                                         ";
+    xx[ii++] =
+    "142     당신은 빈 우물의 맨 아래에 있습니다.                                                 ";
   xx[ii++] =
     "143     You are on a small beach at the north end of a large reservoir. There is a      ";
   xx[ii++] =
     "143     passage to the north and a narrow path leading down. To the south the low       ";
   xx[ii++] =
     "143     water level makes the reservoir passable.                                       ";
+    xx[ii++] =
+    "143     당신은 큰 저수지의 북쪽 끝에 작은 해변에 서 있습니다. 북쪽으로 통로가 있으며,              ";
+  xx[ii++] =
+    "143     좁은 길이 아래로 이어집니다. 남쪽으로는 수위가 낮아 저수지를 건널 수 있습니다.           ";
   xx[ii++] =
     "144     You are in a room with rubble covering the floor. A clear path travels east/west.";
+    xx[ii++] =
+    "144     당신은 돌멩이로 가득한 방 안에 있습니다. 분명한 길이 동/서쪽으로 이어집니다.              ";
   xx[ii++] =
     "145     You are in an awkward sloping traverse. Exits are to the east and west.         ";
+    xx[ii++] =
+    "145     당신은 어색하게 경사진 통로에 있습니다. 동쪽과 서쪽으로 나갈 수 있습니다.                  ";
   xx[ii++] =
     "146     You are in a low crawl with an exit west and a narrow passage leading down.     ";
+    xx[ii++] =
+    "146     당신은 서쪽으로 나가는 낮은 기어오르기 통로에 있으며, 좁은 통로가 아래로 이어집니다.           ";
   xx[ii++] =
     "147     You are in a wide room with a low domed ceiling and an exit heading up.         ";
+    xx[ii++] =
+    "147     당신은 낮은 천장이 있는 넓은 방에 있으며, 위로 올라가는 통로가 있습니다.                      ";
   xx[ii++] =
     "148     You are at the north end of a low chamber full of razor-sharp crystalline shards";
   xx[ii++] =
     "148     projecting from all surfaces. Moving further into the room would be very unwise.";
+    xx[ii++] =
+    "148     당신은 날카로운 결정조각으로 가득 찬 낮은 방의 북쪽 끝에 있습니다.                            ";
+  xx[ii++] =
+    "148     방 안으로 더 들어가는 것은 매우 무모한 행동일 것입니다.                                        ";
   xx[ii++] =
     "149     You are at the west end of a wide road made up of thousands of interlocking     ";
   xx[ii++] =
     "149     basalt columns thrust up from a deep volcanic fissure. The tops of the columns  ";
   xx[ii++] =
     "149     form stepping stones that stretch from west to east. An exit leads south.       ";
+    xx[ii++] =
+    "149     당신은 수천 개의 서로 맞물리는 화강암 기둥으로 이루어진 넓은 길의 서쪽 끝에 있습니다.        ";
+  xx[ii++] =
+    "149     기둥 위에는 서쪽에서 동쪽으로 이어지는 발판이 형성되어 있습니다. 남쪽으로 나가는 출구가 있습니다. ";
   xx[ii++] =
     "150     You are at the end of a wide road leading west. To the east is a wide open area.";
   xx[ii++] =
     "150     An exit also leads south.                                                       ";
+    xx[ii++] =
+    "150     당신은 서쪽으로 향하는 넓은 길의 끝에 있습니다. 동쪽에는 넓은 오픈 에리어가 있습니다.           ";
+  xx[ii++] =
+    "150     나가는 출구로는 남쪽으로 이어집니다.                                                     ";
   xx[ii++] =
     "151     You are at an elbow junction with exits northwest and northeast.                ";
+    xx[ii++] =
+    "151     당신은 북서쪽과 북동쪽으로 나가는 커브된 각이 있는 지점에 있습니다.                              ";
   xx[ii++] =
     "152     You are in a wide natural rock amphitheater with an exit west.                  ";
+    xx[ii++] =
+    "152     당신은 동쪽으로 나가는 넓은 천연 암 극장에 있습니다.                                          ";
   xx[ii++] =
     "153     You are in a shallow pit with upper exits in the east and west sides.           ";
+    xx[ii++] =
+    "153     당신은 동쪽과 서쪽 측면에 상승구가 있는 얕은 구덩이에 있습니다.                                  ";
   xx[ii++] =
     "154     You are in a low room cut in half by a wide rift in the rock floor. An exit leads east. ";
+    xx[ii++] =
+    "154     당신은 돌바닥의 넓은 균열로 절반으로 나뉜 낮은 방에 있습니다. 동쪽으로 나가는 출구가 있습니다. ";
   xx[ii++] =
     "155     You are in a low room west of a wide rift. An exit leads south.                 ";
+    xx[ii++] =
+    "155     당신은 넓은 균열 서쪽에 있는 낮은 방에 있습니다. 남쪽으로 나가는 출구가 있습니다.                  ";
   xx[ii++] =
     "156     You are in a room lavishly decorated with Egyptian art. The east and south walls ";
   xx[ii++] =
@@ -1102,81 +1158,7 @@ function readData() {
     "156     a doorway set in an impressively large pyramid.                                 ";
   xx[ii++] =
     "156     The west wall is unadorned and slopes outward from the floor to the ceiling.    ";
-  xx[ii++] =
-    "157     You are in a dead end.                                                          ";
-  xx[ii++] =
-    '158     The words "Staff break room" are printed on the far wall above a large message ';
-  xx[ii++] =
-    "158     board holding a number of pinned messages. Two dwarves sit at one of many small ";
-  xx[ii++] =
-    "158     tables, deep in conversation. They pointedly ignore you.                        ";
-  xx[ii++] =
-    "159     You are in a small chamber with walls of smooth granite. A wide stairway leads  ";
-  xx[ii++] =
-    "159     upwards.                                                                        ";
-  xx[ii++] =
-    "160     You are in a large chamber. The walls are richly decorated with scenes of burial ";
-  xx[ii++] =
-    "160     rituals. A narrow staiway leads up and a wide stairway leads down.              ";
-  xx[ii++] =
-    "131     당신은 얽히고 설킨 작은 통로의 미로에 있습니다. 모든 통로가 서로 다릅니다.               ";
-  xx[ii++] =
-    "132     당신은 얽히고 설킨 작은 통로의 작은 미로에 있습니다. 모든 통로가 서로 다릅니다.         ";
-  xx[ii++] =
-    "133     당신은 얽히고 설킨 작은 통로의 미로에 있습니다. 모든 통로가 서로 다릅니다.               ";
-  xx[ii++] =
-    "134     당신은 얽히고 설킨 작은 통로의 미로에 있습니다. 모든 통로가 서로 다릅니다.               ";
-  xx[ii++] =
-    "135     당신은 얽히고 설킨 작은 통로의 미로에 있습니다. 모든 통로가 서로 다릅니다.               ";
-  xx[ii++] =
-    "136     당신은 얽히고 설킨 작은 통로의 미로에 있습니다. 모든 통로가 서로 다릅니다.               ";
-  xx[ii++] =
-    "137     당신은 얽히고 설킨 작은 통로의 작은 미로에 있습니다. 모든 통로가 서로 다릅니다.         ";
-  xx[ii++] =
-    "138     당신은 작고 얽히고 설킨 통로의 작은 미로에 있습니다. 모든 통로가 서로 다릅니다.         ";
-  xx[ii++] =
-    "139     당신은 작고 얽히고 설킨 통로의 작은 미로에 있습니다. 모든 통로가 서로 다릅니다.         ";
-  xx[ii++] =
-    "140     막다른 곳입니다.                                                                   ";
-  xx[ii++] =
-    "141     당신은 작은 우물 방에 있습니다. 바닥에 우물이 열려 있습니다.                             ";
-  xx[ii++] =
-    "142     당신은 빈 우물의 맨 아래에 있습니다.                                                 ";
-  xx[ii++] =
-    "143     당신은 큰 저수지의 북쪽 끝에 작은 해변에 서 있습니다. 북쪽으로 통로가 있으며,              ";
-  xx[ii++] =
-    "143     좁은 길이 아래로 이어집니다. 남쪽으로는 수위가 낮아 저수지를 건널 수 있습니다.           ";
-  xx[ii++] =
-    "144     당신은 돌멩이로 가득한 방 안에 있습니다. 분명한 길이 동/서쪽으로 이어집니다.              ";
-  xx[ii++] =
-    "145     당신은 어색하게 경사진 통로에 있습니다. 동쪽과 서쪽으로 나갈 수 있습니다.                  ";
-  xx[ii++] =
-    "146     당신은 서쪽으로 나가는 낮은 기어오르기 통로에 있으며, 좁은 통로가 아래로 이어집니다.           ";
-  xx[ii++] =
-    "147     당신은 낮은 천장이 있는 넓은 방에 있으며, 위로 올라가는 통로가 있습니다.                      ";
-  xx[ii++] =
-    "148     당신은 날카로운 결정조각으로 가득 찬 낮은 방의 북쪽 끝에 있습니다.                            ";
-  xx[ii++] =
-    "148     방 안으로 더 들어가는 것은 매우 무모한 행동일 것입니다.                                        ";
-  xx[ii++] =
-    "149     당신은 수천 개의 서로 맞물리는 화강암 기둥으로 이루어진 넓은 길의 서쪽 끝에 있습니다.        ";
-  xx[ii++] =
-    "149     기둥 위에는 서쪽에서 동쪽으로 이어지는 발판이 형성되어 있습니다. 남쪽으로 나가는 출구가 있습니다. ";
-  xx[ii++] =
-    "150     당신은 서쪽으로 향하는 넓은 길의 끝에 있습니다. 동쪽에는 넓은 오픈 에리어가 있습니다.           ";
-  xx[ii++] =
-    "150     나가는 출구로는 남쪽으로 이어집니다.                                                     ";
-  xx[ii++] =
-    "151     당신은 북서쪽과 북동쪽으로 나가는 커브된 각이 있는 지점에 있습니다.                              ";
-  xx[ii++] =
-    "152     당신은 동쪽으로 나가는 넓은 천연 암 극장에 있습니다.                                          ";
-  xx[ii++] =
-    "153     당신은 동쪽과 서쪽 측면에 상승구가 있는 얕은 구덩이에 있습니다.                                  ";
-  xx[ii++] =
-    "154     당신은 돌바닥의 넓은 균열로 절반으로 나뉜 낮은 방에 있습니다. 동쪽으로 나가는 출구가 있습니다. ";
-  xx[ii++] =
-    "155     당신은 넓은 균열 서쪽에 있는 낮은 방에 있습니다. 남쪽으로 나가는 출구가 있습니다.                  ";
-  xx[ii++] =
+    xx[ii++] =
     "156     당신은 이집트 예술로 화려하게 장식된 방에 있습니다. 동쪽과 남쪽 벽에는                        ";
   xx[ii++] =
     "156     종교 장면이 그려져 있습니다. 종교 의식을 하는 종업원들이 미라를 향해 담고 있는 사체를          ";
@@ -1185,16 +1167,32 @@ function readData() {
   xx[ii++] =
     "156     서쪽 벽은 꾸밈이 없으며 바닥에서 천장으로 경사를 이루고 있습니다.                              ";
   xx[ii++] =
+    "157     You are in a dead end.                                                          ";
+    xx[ii++] =
     "157     막다른 곳입니다.                                                                   ";
   xx[ii++] =
+    '158     The words "Staff break room" are printed on the far wall above a large message ';
+  xx[ii++] =
+    "158     board holding a number of pinned messages. Two dwarves sit at one of many small ";
+  xx[ii++] =
+    "158     tables, deep in conversation. They pointedly ignore you.                        ";
+    xx[ii++] =
     '158     "직원 휴게실"이라는 글씨가 작성된 멀리 벽 위에는 많은 메시지가 달린 대형 메시지                ';
   xx[ii++] =
     "158     보드가 있습니다. 두 명의 드워프가 작은 탁자 중 하나에 앉아 대화를 나누고 있습니다.                  ";
   xx[ii++] =
     "158     그들은 당신을 무시하고 있습니다.                                                        ";
   xx[ii++] =
+    "159     You are in a small chamber with walls of smooth granite. A wide stairway leads  ";
+  xx[ii++] =
+    "159     upwards.                                                                        ";
+    xx[ii++] =
     "159     당신은 매끄러운 화강암으로 된 작은 방에 있습니다. 넓은 계단이 위로 올라갑니다.                       ";
   xx[ii++] =
+    "160     You are in a large chamber. The walls are richly decorated with scenes of burial ";
+  xx[ii++] =
+    "160     rituals. A narrow staiway leads up and a wide stairway leads down.              ";
+xx[ii++] =
     "160     당신은 장식이 가득한 큰 방에 있습니다. 벽에는 장례 의식이 그려져 있습니다.                          ";
   xx[ii++] =
     "160     좁은 계단이 위로 올라가고 넓은 계단이 아래로 내려갑니다.                                        ";
@@ -1202,20 +1200,38 @@ function readData() {
     "161     You are in a barren alcove with rough-hewn walls and ceiling. A narrow stairway ";
   xx[ii++] =
     "161     leads down.                                                                     ";
+    xx[ii++] =
+    "161     당신은 거칠게 깎아지른 벽과 천장을 가진 황량한 동굴에 있습니다. 좁은 계단이";
+  xx[ii++] =
+    "161     아래로 이어져 있습니다.                                                           ";
   xx[ii++] =
     "162     There is no way to go in that direction.                                        ";
+    xx[ii++] =
+    "162     해당 방향으로 이동할 수 없습니다.                                                  ";
   xx[ii++] =
     "163     You are in open forest, with a deep valley to one side.                         ";
+    xx[ii++] =
+    "163     당신은 깊은 계곡이 있는 산림 속에 있습니다.                                            ";
   xx[ii++] =
     "164     You are in open forest near a road.                                             ";
+    xx[ii++] =
+    "164     당신은 도로 근처의 산림 속에 있습니다.                                                ";
   xx[ii++] =
     "165     You are in forest clearing. In the center stands a lone pine sapling.           ";
+    xx[ii++] =
+    "165     당신은 숲의 공터에 있습니다. 중앙에는 고립된 소나무 새싹이 서 있습니다.                          ";
   xx[ii++] =
     "166     You are in open forest near a road.                                             ";
+    xx[ii++] =
+    "166     당신은 도로 근처의 산림 속에 있습니다.                                                ";
   xx[ii++] =
     "167     You are in a chamber consisting of a series of stone arches heading north.      ";
   xx[ii++] =
     "167     A descending passage disappears west.                                           ";
+  xx[ii++] =
+    "167     당신은 북쪽으로 이어지는 일련의 돌 아치로 이루어진 방에 있습니다.                             ";
+  xx[ii++] =
+    "167     내려가는 통로가 서쪽으로 사라집니다.                                                  ";
   xx[ii++] =
     "168     You are on a slender rock promontory overlooking a vast subterranean space.     ";
   xx[ii++] =
@@ -1250,24 +1266,6 @@ function readData() {
     "168     grotto of the sea.                                                              ";
   xx[ii++] =
     "168     The Road to Isengard, Book II, The Lord of the Rings by J. R. R. Tolkien.       ";
-  xx[ii++] =
-    "161     당신은 거칠게 깎아지른 벽과 천장을 가진 황량한 동굴에 있습니다. 좁은 계단이";
-  xx[ii++] =
-    "161     아래로 이어져 있습니다.                                                           ";
-  xx[ii++] =
-    "162     해당 방향으로 이동할 수 없습니다.                                                  ";
-  xx[ii++] =
-    "163     당신은 깊은 계곡이 있는 산림 속에 있습니다.                                            ";
-  xx[ii++] =
-    "164     당신은 도로 근처의 산림 속에 있습니다.                                                ";
-  xx[ii++] =
-    "165     당신은 숲의 공터에 있습니다. 중앙에는 고립된 소나무 새싹이 서 있습니다.                          ";
-  xx[ii++] =
-    "166     당신은 도로 근처의 산림 속에 있습니다.                                                ";
-  xx[ii++] =
-    "167     당신은 북쪽으로 이어지는 일련의 돌 아치로 이루어진 방에 있습니다.                             ";
-  xx[ii++] =
-    "167     내려가는 통로가 서쪽으로 사라집니다.                                                  ";
   xx[ii++] =
     "168     당신은 광활한 지하 공간을 내려다보는 가느다란 바위 투척물 위에 서 있습니다.                           ";
   xx[ii++] =
@@ -1309,381 +1307,381 @@ function readData() {
   xx[ii++] =
     "1       You're at end of road again.                                                    ";
   xx[ii++] =
-    "2       You're at hill in road.                                                         ";
-  xx[ii++] =
-    "3       You're inside building.                                                         ";
-  xx[ii++] =
-    "4       You're in valley.                                                               ";
-  xx[ii++] =
-    "5       You're in forest.                                                               ";
-  xx[ii++] =
-    "6       You're in forest.                                                               ";
-  xx[ii++] =
-    "7       You're at slit in streambed.                                                    ";
-  xx[ii++] =
-    "8       You're outside grate.                                                           ";
-  xx[ii++] =
-    "9       You're below the grate.                                                         ";
-  xx[ii++] =
-    "10      You're in cobble crawl.                                                         ";
-  xx[ii++] =
-    "11      You're in debris room.                                                          ";
-  xx[ii++] =
-    "13      You're in bird chamber.                                                         ";
-  xx[ii++] =
-    "14      You're at top of small pit.                                                     ";
-  xx[ii++] =
-    "15      You're in hall of mists.                                                        ";
-  xx[ii++] =
-    "17      You're on east bank of fissure.                                                 ";
-  xx[ii++] =
-    "18      You're in nugget of gold room.                                                  ";
-  xx[ii++] =
-    "19      You're in hall of Mt King.                                                      ";
-  xx[ii++] =
-    "23      You're at west end of twopit room.                                              ";
-  xx[ii++] =
-    "24      You're in east pit.                                                             ";
-  xx[ii++] =
-    "25      You're in west pit.                                                             ";
-  xx[ii++] =
-    '33      You\'re at "Y2".                                                                 ';
-  xx[ii++] =
-    "35      You're at window on pit.                                                        ";
-  xx[ii++] =
-    "36      You're in dirty passage.                                                        ";
-  xx[ii++] =
-    "39      You're in dusty rock room.                                                      ";
-  xx[ii++] =
-    "41      You're at west end of hall of mists.                                            ";
-  xx[ii++] =
-    "57      You're at brink of pit.                                                         ";
-  xx[ii++] =
-    "60      You're at east end of long hall.                                                ";
-  xx[ii++] =
-    "61      You're at west end of long hall.                                                ";
-  xx[ii++] =
-    "63      You're at storage room.                                                         ";
-  xx[ii++] =
-    "64      You're at complex junction.                                                     ";
-  xx[ii++] =
-    "66      You're in swiss cheese room.                                                    ";
-  xx[ii++] =
-    "67      You're at east end of twopit room.                                              ";
-  xx[ii++] =
-    "68      You're in slab room.                                                            ";
-  xx[ii++] =
-    "71      You're at junction of three secret canyons.                                     ";
-  xx[ii++] =
-    "74      You're in secret E/W canyon above tight canyon.                                 ";
-  xx[ii++] =
-    "76      You're in the tomb of the seventh dwarf.                                        ";
-  xx[ii++] =
-    "88      You're in narrow corridor.                                                      ";
-  xx[ii++] =
-    "91      You're at steep incline above large room.                                       ";
-  xx[ii++] =
-    "92      You're in giant room.                                                           ";
-  xx[ii++] =
-    "93      You're on wide ledge.                                                           ";
-  xx[ii++] =
-    "95      You're in cavern with waterfall.                                                ";
-  xx[ii++] =
-    "96      You're in soft room.                                                            ";
-  xx[ii++] =
-    "97      You're in oriental room.                                                        ";
-  xx[ii++] =
-    "98      You're in misty cavern.                                                         ";
-  xx[ii++] =
-    "99      You're in alcove.                                                               ";
-  xx[ii++] =
-    "100     You're in plover room.                                                          ";
-  xx[ii++] =
-    "101     You're in dark-room.                                                            ";
-  xx[ii++] =
-    "102     You're in arched hall.                                                          ";
-  xx[ii++] =
-    "103     You're in shell room.                                                           ";
-  xx[ii++] =
-    "106     You're in anteroom.                                                             ";
-  xx[ii++] =
-    "108     You're at Witt's end.                                                           ";
-  xx[ii++] =
-    "109     You're in mirror canyon.                                                        ";
-  xx[ii++] =
-    "110     You're at window on pit.                                                        ";
-  xx[ii++] =
-    "111     You're at top of stalactite.                                                    ";
-  xx[ii++] =
-    "113     You're at reservoir.                                                            ";
-  xx[ii++] =
-    "115     You're at NE end.                                                               ";
-  xx[ii++] =
-    "116     You're at SW end.                                                               ";
-  xx[ii++] =
-    "117     You're on SW side of chasm.                                                     ";
-  xx[ii++] =
-    "118     You're in sloping corridor.                                                     ";
-  xx[ii++] =
-    "122     You're on NE side of chasm.                                                     ";
-  xx[ii++] =
-    "123     You're in corridor.                                                             ";
-  xx[ii++] =
-    "124     You're at fork in path.                                                         ";
-  xx[ii++] =
-    "125     You're at junction with warm walls.                                             ";
-  xx[ii++] =
-    "126     You're at breath-taking view.                                                   ";
-  xx[ii++] =
-    "127     You're in chamber of boulders.                                                  ";
-  xx[ii++] =
-    "128     You're in limestone passage.                                                    ";
-  xx[ii++] =
-    "129     You're in front of barren room.                                                 ";
-  xx[ii++] =
-    "130     You're in barren room.                                                          ";
-  xx[ii++] =
-    "141     You're in well room.                                                            ";
-  xx[ii++] =
-    "142     You're in bottom of well.                                                       ";
-  xx[ii++] =
-    "143     You're on north beach.                                                          ";
-  xx[ii++] =
-    "144     You're in rubble room.                                                          ";
-  xx[ii++] =
-    "145     You're in diagonal traverse.                                                    ";
-  xx[ii++] =
-    "146     You're in low crawl.                                                            ";
-  xx[ii++] =
-    "147     You're in glowworm grotto.                                                      ";
-  xx[ii++] =
-    "148     You're in sharp room.                                                           ";
-  xx[ii++] =
-    "149     You're at west end of Giant's Causeway.                                         ";
-  xx[ii++] =
-    "150     You're at east end of Giant's Causeway.                                         ";
-  xx[ii++] =
-    "151     You're at elbow junction.                                                       ";
-  xx[ii++] =
-    "152     You're in amphitheater.                                                         ";
-  xx[ii++] =
-    "153     You're in pebble pit.                                                           ";
-  xx[ii++] =
-    "154     You're east of rift.                                                            ";
-  xx[ii++] =
-    "155     You're west of rift.                                                            ";
-  xx[ii++] =
-    "156     You're in Egyptian room.                                                        ";
-  xx[ii++] =
-    "157     You're in dead end.                                                             ";
-  xx[ii++] =
-    "158     You're in staff break room.                                                     ";
-  xx[ii++] =
-    "159     You're in middle chamber.                                                       ";
-  xx[ii++] =
-    "160     You're in burial chamber.                                                       ";
-  xx[ii++] =
-    "161     You're in alcove.                                                               ";
-  xx[ii++] =
-    "163     You're in forest.                                                               ";
-  xx[ii++] =
-    "164     You're in forest.                                                               ";
-  xx[ii++] =
-    "165     You're in clearing.                                                             ";
-  xx[ii++] =
-    "166     You're in forest.                                                               ";
-  xx[ii++] =
-    "167     You're in stone arch room.                                                               ";
-  xx[ii++] =
-    "168     You're in Tolkien room.                                                               ";
-  xx[ii++] =
     "1       당신은 다시 도로의 끝에 있습니다.                                                    ";
+  xx[ii++] =
+    "2       You're at hill in road.                                                         ";
   xx[ii++] =
     "2       당신은 도로의 언덕에 있습니다.                                                       ";
   xx[ii++] =
+    "3       You're inside building.                                                         ";
+  xx[ii++] =
     "3       당신은 건물 안에 있습니다.                                                         ";
+  xx[ii++] =
+    "4       You're in valley.                                                               ";
   xx[ii++] =
     "4       당신은 계곡에 있습니다.                                                               ";
   xx[ii++] =
+    "5       You're in forest.                                                               ";
+  xx[ii++] =
     "5       당신은 숲에 있습니다.                                                               ";
+  xx[ii++] =
+    "6       You're in forest.                                                               ";
   xx[ii++] =
     "6       당신은 숲에 있습니다.                                                               ";
   xx[ii++] =
+    "7       You're at slit in streambed.                                                    ";
+  xx[ii++] =
     "7       당신은 시냇가의 틈새에 있습니다.                                                    ";
+  xx[ii++] =
+    "8       You're outside grate.                                                           ";
   xx[ii++] =
     "8       당신은 빗장 밖에 있습니다.                                                           ";
   xx[ii++] =
+    "9       You're below the grate.                                                         ";
+  xx[ii++] =
     "9       당신은 빗장 아래에 있습니다.                                                         ";
+  xx[ii++] =
+    "10      You're in cobble crawl.                                                         ";
   xx[ii++] =
     "10      당신은 자갈로 된 통로에 있습니다.                                                     ";
   xx[ii++] =
+    "11      You're in debris room.                                                          ";
+  xx[ii++] =
     "11      당신은 잔해가 있는 방에 있습니다.                                                    ";
+  xx[ii++] =
+    "13      You're in bird chamber.                                                         ";
   xx[ii++] =
     "13      당신은 새들의 방에 있습니다.                                                         ";
   xx[ii++] =
+    "14      You're at top of small pit.                                                     ";
+  xx[ii++] =
     "14      당신은 작은 구덩이의 꼭대기에 있습니다.                                               ";
+  xx[ii++] =
+    "15      You're in hall of mists.                                                        ";
   xx[ii++] =
     "15      당신은 안개의 홀에 있습니다.                                                         ";
   xx[ii++] =
+    "17      You're on east bank of fissure.                                                 ";
+  xx[ii++] =
     "17      당신은 균열의 동쪽 둑 위에 있습니다.                                                 ";
+  xx[ii++] =
+    "18      You're in nugget of gold room.                                                  ";
   xx[ii++] =
     "18      당신은 금의 작은 덩어리 방에 있습니다.                                                ";
   xx[ii++] =
+    "19      You're in hall of Mt King.                                                      ";
+  xx[ii++] =
     "19      당신은 산의 왕의 홀에 있습니다.                                                      ";
+  xx[ii++] =
+    "23      You're at west end of twopit room.                                              ";
   xx[ii++] =
     "23      당신은 두 구덩이 방의 서쪽 끝에 있습니다.                                              ";
   xx[ii++] =
+    "24      You're in east pit.                                                             ";
+  xx[ii++] =
     "24      당신은 동쪽 구덩이에 있습니다.                                                        ";
+  xx[ii++] =
+    "25      You're in west pit.                                                             ";
   xx[ii++] =
     "25      당신은 서쪽 구덩이에 있습니다.                                                        ";
   xx[ii++] =
+    '33      You\'re at "Y2".                                                                 ';
+  xx[ii++] =
     '33      당신은 "Y2"에 있습니다.                                                               ';
+  xx[ii++] =
+    "35      You're at window on pit.                                                        ";
   xx[ii++] =
     "35      당신은 구덩이 위의 창가에 있습니다.                                                   ";
   xx[ii++] =
+    "36      You're in dirty passage.                                                        ";
+  xx[ii++] =
     "36      당신은 더러운 통로에 있습니다.                                                        ";
+  xx[ii++] =
+    "39      You're in dusty rock room.                                                      ";
   xx[ii++] =
     "39      당신은 먼지 낀 바위 방에 있습니다.                                                   ";
   xx[ii++] =
+    "41      You're at west end of hall of mists.                                            ";
+  xx[ii++] =
     "41      당신은 안개의 홀의 서쪽 끝에 있습니다.                                                 ";
+  xx[ii++] =
+    "57      You're at brink of pit.                                                         ";
   xx[ii++] =
     "57      당신은 구덩이의 가장자리에 있습니다.                                                  ";
   xx[ii++] =
+    "60      You're at east end of long hall.                                                ";
+  xx[ii++] =
     "60      당신은 긴 홀의 동쪽 끝에 있습니다.                                                    ";
+  xx[ii++] =
+    "61      You're at west end of long hall.                                                ";
   xx[ii++] =
     "61      당신은 긴 홀의 서쪽 끝에 있습니다.                                                    ";
   xx[ii++] =
+    "63      You're at storage room.                                                         ";
+  xx[ii++] =
     "63      당신은 저장실에 있습니다.                                                             ";
+  xx[ii++] =
+    "64      You're at complex junction.                                                     ";
   xx[ii++] =
     "64      당신은 복잡한 교차로에 있습니다.                                                      ";
   xx[ii++] =
+    "66      You're in swiss cheese room.                                                    ";
+  xx[ii++] =
     "66      당신은 스위스 치즈 방에 있습니다.                                                     ";
+  xx[ii++] =
+    "67      You're at east end of twopit room.                                              ";
   xx[ii++] =
     "67      당신은 두 구덩이 방의 동쪽 끝에 있습니다.                                              ";
   xx[ii++] =
+    "68      You're in slab room.                                                            ";
+  xx[ii++] =
     "68      당신은 돌반 지붕 방에 있습니다.                                                       ";
+  xx[ii++] =
+    "71      You're at junction of three secret canyons.                                     ";
   xx[ii++] =
     "71      당신은 세 개의 비밀 캐니언의 교차로에 있습니다.                                        ";
   xx[ii++] =
+    "74      You're in secret E/W canyon above tight canyon.                                 ";
+  xx[ii++] =
     "74      당신은 타이트 캐니언 위에있는 동서 캐니언에서 비밀 캐니언으로 이동하는 길에 있습니다.                 ";
+  xx[ii++] =
+    "76      You're in the tomb of the seventh dwarf.                                        ";
   xx[ii++] =
     "76      당신은 일곱 번째 난쟁이의 무덤에 있습니다.                                              ";
   xx[ii++] =
+    "88      You're in narrow corridor.                                                      ";
+  xx[ii++] =
     "88      당신은 좁은 복도에 있습니다.                                                          ";
+  xx[ii++] =
+    "91      You're at steep incline above large room.                                       ";
   xx[ii++] =
     "91      당신은 큰 방 위의 가파른 경사로에 있습니다.                                            ";
   xx[ii++] =
+    "92      You're in giant room.                                                           ";
+  xx[ii++] =
     "92      당신은 거대한 방에 있습니다.                                                          ";
+  xx[ii++] =
+    "93      You're on wide ledge.                                                           ";
   xx[ii++] =
     "93      당신은 넓은 터라에 있습니다.                                                          ";
   xx[ii++] =
+    "95      You're in cavern with waterfall.                                                ";
+  xx[ii++] =
     "95      당신은 폭포가 있는 동굴에 있습니다.                                                    ";
+  xx[ii++] =
+    "96      You're in soft room.                                                            ";
   xx[ii++] =
     "96      당신은 부드러운 방에 있습니다.                                                        ";
   xx[ii++] =
+    "97      You're in oriental room.                                                        ";
+  xx[ii++] =
     "97      당신은 동양적인 방에 있습니다.                                                        ";
+  xx[ii++] =
+    "98      You're in misty cavern.                                                         ";
   xx[ii++] =
     "98      당신은 안개 동굴에 있습니다.                                                          ";
   xx[ii++] =
+    "99      You're in alcove.                                                               ";
+  xx[ii++] =
     "99      당신은 벽감에 있습니다.                                                              ";
+  xx[ii++] =
+    "100     You're in plover room.                                                          ";
   xx[ii++] =
     "100     당신은 철새 방에 있습니다.                                                            ";
   xx[ii++] =
+    "101     You're in dark-room.                                                            ";
+  xx[ii++] =
     "101     당신은 어두운 방에 있습니다.                                                          ";
+  xx[ii++] =
+    "102     You're in arched hall.                                                          ";
   xx[ii++] =
     "102     당신은 아치 형태의 홀에 있습니다.                                                     ";
   xx[ii++] =
+    "103     You're in shell room.                                                           ";
+  xx[ii++] =
     "103     당신은 조개껍질 방에 있습니다.                                                        ";
+  xx[ii++] =
+    "106     You're in anteroom.                                                             ";
   xx[ii++] =
     "106     당신은 대기실에 있습니다.                                                             ";
   xx[ii++] =
+    "108     You're at Witt's end.                                                           ";
+  xx[ii++] =
     "108     당신은 끝에 다다랐습니다.                                                             ";
+  xx[ii++] =
+    "109     You're in mirror canyon.                                                        ";
   xx[ii++] =
     "109     당신은 거울 캐니언에 있습니다.                                                        ";
   xx[ii++] =
+    "110     You're at window on pit.                                                        ";
+  xx[ii++] =
     "110     당신은 구덩이 위의 창가에 있습니다.                                                   ";
+  xx[ii++] =
+    "111     You're at top of stalactite.                                                    ";
   xx[ii++] =
     "111     당신은 석순의 꼭대기에 있습니다.                                                      ";
   xx[ii++] =
+    "113     You're at reservoir.                                                            ";
+  xx[ii++] =
     "113     당신은 저수지에 있습니다.                                                             ";
+  xx[ii++] =
+    "115     You're at NE end.                                                               ";
   xx[ii++] =
     "115     당신은 북동쪽 끝에 있습니다.                                                          ";
   xx[ii++] =
+    "116     You're at SW end.                                                               ";
+  xx[ii++] =
     "116     당신은 남서쪽 끝에 있습니다.                                                          ";
+  xx[ii++] =
+    "117     You're on SW side of chasm.                                                     ";
   xx[ii++] =
     "117     당신은 협곡의 남쪽에 있습니다.                                                        ";
   xx[ii++] =
+    "118     You're in sloping corridor.                                                     ";
+  xx[ii++] =
     "118     당신은 경사로가 있는 복도에 있습니다.                                                  ";
+  xx[ii++] =
+    "122     You're on NE side of chasm.                                                     ";
   xx[ii++] =
     "122     당신은 협곡의 북동쪽에 있습니다.                                                      ";
   xx[ii++] =
+    "123     You're in corridor.                                                             ";
+  xx[ii++] =
     "123     당신은 복도에 있습니다.                                                              ";
+  xx[ii++] =
+    "124     You're at fork in path.                                                         ";
   xx[ii++] =
     "124     당신은 길이 갈라지는 곳에 있습니다.                                                    ";
   xx[ii++] =
+    "125     You're at junction with warm walls.                                             ";
+  xx[ii++] =
     "125     당신은 따뜻한 벽들이 있는 교차로에 있습니다.                                           ";
+  xx[ii++] =
+    "126     You're at breath-taking view.                                                   ";
   xx[ii++] =
     "126     당신은 아슬아슬한 전망을 바라보고 있습니다.                                            ";
   xx[ii++] =
+    "127     You're in chamber of boulders.                                                  ";
+  xx[ii++] =
     "127     당신은 바위 방에 있습니다.                                                            ";
+  xx[ii++] =
+    "128     You're in limestone passage.                                                    ";
   xx[ii++] =
     "128     당신은 석회암 통로에 있습니다.                                                        ";
   xx[ii++] =
+    "129     You're in front of barren room.                                                 ";
+  xx[ii++] =
     "129     당신은 황량한 방 앞에 있습니다.                                                       ";
+  xx[ii++] =
+    "130     You're in barren room.                                                          ";
   xx[ii++] =
     "130     당신은 황량한 방에 있습니다.                                                          ";
   xx[ii++] =
+    "141     You're in well room.                                                            ";
+  xx[ii++] =
     "141     당신은 우물 방에 있습니다.                                                            ";
+  xx[ii++] =
+    "142     You're in bottom of well.                                                       ";
   xx[ii++] =
     "142     당신은 우물의 바닥에 있습니다.                                                        ";
   xx[ii++] =
+    "143     You're on north beach.                                                          ";
+  xx[ii++] =
     "143     당신은 북쪽 해변에 있습니다.                                                          ";
+  xx[ii++] =
+    "144     You're in rubble room.                                                          ";
   xx[ii++] =
     "144     당신은 돌바닥 방에 있습니다.                                                          ";
   xx[ii++] =
+    "145     You're in diagonal traverse.                                                    ";
+  xx[ii++] =
     "145     당신은 대각선 통로에 있습니다.                                                        ";
+  xx[ii++] =
+    "146     You're in low crawl.                                                            ";
   xx[ii++] =
     "146     당신은 낮은 기어오르기에 있습니다.                                                     ";
   xx[ii++] =
+    "147     You're in glowworm grotto.                                                      ";
+  xx[ii++] =
     "147     당신은 발광 웜홀의 동쪽 끝에 있습니다.                                                  ";
+  xx[ii++] =
+    "148     You're in sharp room.                                                           ";
   xx[ii++] =
     "148     당신은 날카로운 방에 있습니다.                                                        ";
   xx[ii++] =
+    "149     You're at west end of Giant's Causeway.                                         ";
+  xx[ii++] =
     "149     당신은 거인의 길 코즈웨이의 서쪽 끝에 있습니다.                                         ";
+  xx[ii++] =
+    "150     You're at east end of Giant's Causeway.                                         ";
   xx[ii++] =
     "150     당신은 거인의 길 코즈웨이의 동쪽 끝에 있습니다.                                         ";
   xx[ii++] =
+    "151     You're at elbow junction.                                                       ";
+  xx[ii++] =
     "151     당신은 팔꿈치 모양의 교차로에 있습니다.                                                ";
+  xx[ii++] =
+    "152     You're in amphitheater.                                                         ";
   xx[ii++] =
     "152     당신은 원형 극장에 있습니다.                                                          ";
   xx[ii++] =
+    "153     You're in pebble pit.                                                           ";
+  xx[ii++] =
     "153     당신은 자갈 구덩이에 있습니다.                                                        ";
+  xx[ii++] =
+    "154     You're east of rift.                                                            ";
   xx[ii++] =
     "154     당신은 균열 동쪽에 있습니다.                                                          ";
   xx[ii++] =
+    "155     You're west of rift.                                                            ";
+  xx[ii++] =
     "155     당신은 균열 서쪽에 있습니다.                                                          ";
+  xx[ii++] =
+    "156     You're in Egyptian room.                                                        ";
   xx[ii++] =
     "156     당신은 이집트 방에 있습니다.                                                          ";
   xx[ii++] =
+    "157     You're in dead end.                                                             ";
+  xx[ii++] =
     "157     당신은 막다른 곳에 있습니다.                                                          ";
+  xx[ii++] =
+    "158     You're in staff break room.                                                     ";
   xx[ii++] =
     "158     당신은 직원 휴게실에 있습니다.                                                        ";
   xx[ii++] =
+    "159     You're in middle chamber.                                                       ";
+  xx[ii++] =
     "159     당신은 중간의 방에 있습니다.                                                          ";
+  xx[ii++] =
+    "160     You're in burial chamber.                                                       ";
   xx[ii++] =
     "160     당신은 매장의 방에 있습니다.                                                          ";
   xx[ii++] =
+    "161     You're in alcove.                                                               ";
+  xx[ii++] =
     "161     당신은 동풍석에 있습니다.                                                             ";
+  xx[ii++] =
+    "163     You're in forest.                                                               ";
   xx[ii++] =
     "163     당신은 숲에 있습니다.                                                               ";
   xx[ii++] =
+    "164     You're in forest.                                                               ";
+  xx[ii++] =
     "164     당신은 숲에 있습니다.                                                               ";
+  xx[ii++] =
+    "165     You're in clearing.                                                             ";
   xx[ii++] =
     "165     당신은 공터에 있습니다.                                                             ";
   xx[ii++] =
+    "166     You're in forest.                                                               ";
+  xx[ii++] =
     "166     당신은 숲에 있습니다.                                                               ";
   xx[ii++] =
+    "167     You're in stone arch room.                                                               ";
+  xx[ii++] =
     "167     당신은 돌 아치 방에 있습니다.                                                               ";
+  xx[ii++] =
+    "168     You're in Tolkien room.                                                               ";
   xx[ii++] =
     "168     당신은 톨킨의 방에 있습니다.                                                               ";
   xx[ii++] =
@@ -3569,161 +3567,317 @@ function readData() {
   xx[ii++] =
     "1       Set of keys                                                                     ";
   xx[ii++] =
+    "1       열쇠 세트                                                                       ";
+  xx[ii++] =
     "0000    There are some keys on the ground here.                                         ";
+  xx[ii++] =
+    "0000    여기에 몇 개의 열쇠가 떨어져 있습니다.                                           ";
   xx[ii++] =
     "2       Brass lantern                                                                   ";
   xx[ii++] =
+    "2       황동 촛대                                                                       ";
+  xx[ii++] =
     "0000    There is a shiny brass lamp nearby.                                             ";
+  xx[ii++] =
+    "0000    근처에 반짝이는 황동 램프가 있습니다.                                           ";
   xx[ii++] =
     "0100    There is a lamp shining nearby.                                                 ";
   xx[ii++] =
+    "0100    근처에서 빛나는 램프가 있습니다.                                                 ";
+  xx[ii++] =
     "3       *grate                                                                          ";
+  xx[ii++] =
+    "3       *격자문                                                                          ";
   xx[ii++] =
     "0000    The grate is locked.                                                            ";
   xx[ii++] =
+    "0000    격자문이 잠겨 있습니다.                                                          ";
+  xx[ii++] =
     "0100    The grate is open.                                                              ";
+  xx[ii++] =
+    "0100    격자문이 열려 있습니다.                                                          ";
   xx[ii++] =
     "4       Wicker cage                                                                     ";
   xx[ii++] =
+    "4       바스켓장식                                                                       ";
+  xx[ii++] =
     "0000    There is a small wicker cage discarded nearby.                                  ";
+  xx[ii++] =
+    "0000    근처에 버려진 작은 바스켓장식이 있습니다.                                        ";
   xx[ii++] =
     "5       Black rod                                                                       ";
   xx[ii++] =
+    "5       검은 막대기                                                                      ";
+  xx[ii++] =
     "0000    A three foot black rod with a rusty star on an end lies nearby.                 ";
+  xx[ii++] =
+    "0000    근처에는 끝에 녹슨 별이 달린 3피트 길이의 검은 막대기가 놓여 있습니다.                    ";
   xx[ii++] =
     "6       Black rod                                                                       ";
   xx[ii++] =
+    "6       검은 막대기                                                                      ";
+  xx[ii++] =
     "0000    A three foot black rod with a rusty mark on an end lies nearby.                 ";
+  xx[ii++] =
+    "0000    근처에는 끝에 녹슨 표식이 있는 3피트 길이의 검은 막대기가 놓여 있습니다.                  ";
   xx[ii++] =
     "7       *steps                                                                          ";
   xx[ii++] =
+    "7       *계단                                                                           ";
+  xx[ii++] =
     "0000    Rough stone steps lead down the pit.                                            ";
+  xx[ii++] =
+    "0000    거친 돌 계단이 구덩이로 이어집니다.                                             ";
   xx[ii++] =
     "0100    Rough stone steps lead up the dome.                                             ";
   xx[ii++] =
+    "0100    거친 돌 계단이 돔으로 이어집니다.                                               ";
+  xx[ii++] =
     "8       Little bird in cage                                                             ";
+  xx[ii++] =
+    "8       새장에 있는 작은 새                                                               ";
   xx[ii++] =
     "0000    A cheerful little bird is sitting here singing.                                 ";
   xx[ii++] =
+    "0000    기쁜 작은 새가 여기에 앉아 노래를 부릅니다.                                       ";
+  xx[ii++] =
     "0100    There is a little bird in the cage.                                             ";
+  xx[ii++] =
+    "0100    새장에 작은 새가 있습니다.                                                       ";
   xx[ii++] =
     "9       *rusty door                                                                     ";
   xx[ii++] =
+    "9       *녹슨 문                                                                         ";
+  xx[ii++] =
     "0000    The way north is barred by a massive, rusty, iron door.                         ";
+  xx[ii++] =
+    "0000    북쪽 길은 거대한 녹슨 철문에 막혀 있습니다.                                        ";
   xx[ii++] =
     "0100    The way north leads through a massive, rusty, iron door.                        ";
   xx[ii++] =
+    "0100    북쪽 길은 거대한 녹슨 철문을 통해 이어집니다.                                     ";
+  xx[ii++] =
     "10      Velvet pillow                                                                   ";
+  xx[ii++] =
+    "10      벨벳 베개                                                                       ";
   xx[ii++] =
     "0000    A small velvet pillow lies on the floor.                                        ";
   xx[ii++] =
+    "0000    작은 벨벳 베개가 바닥에 놓여 있습니다.                                            ";
+  xx[ii++] =
     "11      *snake                                                                          ";
+  xx[ii++] =
+    "11      *뱀                                                                             ";
   xx[ii++] =
     "0000    A huge green fierce snake bars the way!                                         ";
   xx[ii++] =
+    "0000    거대하고 초록빛을 띈 사나운 뱀이 길을 막고 있습니다!                                  ";
+  xx[ii++] =
     "0100    >$<  (chased away)                                                              ";
   xx[ii++] =
+    "0100    >$<  (물리쳤습니다)                                                              ";
+  xx[ii++] =
     "12      *fissure                                                                        ";
+  xx[ii++] =
+    "12      *균열                                                                           ";
+  xx[ii++] =
+    "0000    >$<                                                                             ";
   xx[ii++] =
     "0000    >$<                                                                             ";
   xx[ii++] =
     "0100    A crystal bridge now spans the fissure.                                         ";
   xx[ii++] =
+    "0100    이제 결계를 건널 수 있는 크리스탈 다리가 생겼습니다.                                  ";
+  xx[ii++] =
     "0200    The crystal bridge has vanished!                                                ";
+  xx[ii++] =
+    "0200    크리스탈 다리가 사라졌습니다!                                                       ";
   xx[ii++] =
     "13      *stone tablet                                                                   ";
   xx[ii++] =
+    "13      *돌 태블릿                                                                        ";
+  xx[ii++] =
     "0000    A massive stone tablet imbedded in the wall reads:                              ";
+  xx[ii++] =
+    "0000    벽에 박힌 거대한 돌 태블릿에 새겨져 있는 글입니다:                                    ";
   xx[ii++] =
     '0000    "Congratulations on bringing light into the dark-room!"                         ';
   xx[ii++] =
+    '0000    "어두운 방 안에 빛을 가져온 것을 축하합니다!"                                       ';
+  xx[ii++] =
     "14      giant clam  >grunt!<                                                            ";
+  xx[ii++] =
+    "14      거대한 조개                                                                      ";
   xx[ii++] =
     "0000    There is an enormous clam here with its shell tightly closed.                   ";
   xx[ii++] =
+    "0000    여기에는 껍질이 단단히 닫힌 거대한 조개가 있습니다.                                  ";
+  xx[ii++] =
     "15      Giant oyster  >groan!<                                                          ";
   xx[ii++] =
+    "15      거대한 굴                                                                        ";
+  xx[ii++] =
     "0000    There is an enormous oyster here with its shell tightly closed.                 ";
+  xx[ii++] =
+    "0000    여기에는 껍질이 단단히 닫힌 거대한 굴이 있습니다.                                    ";
   xx[ii++] =
     "0100    Interesting.  There seems to be something written on the underside of           ";
   xx[ii++] =
     "0100    the oyster.                                                                     ";
   xx[ii++] =
+    "0100    흥미로운데요. 굴의 아래면에 무언가 적혀 있는 것 같습니다.                             ";
+  xx[ii++] =
     '16      "Spelunker Today"                                                               ';
   xx[ii++] =
+    '16      "스펠룬커 투데이"                                                               ';
+  xx[ii++] =
     '0000    There are a few recent issues of "Spelunker Today" magazine here.               ';
+  xx[ii++] =
+    '0000    여기에는 최근 발행된 "스펠룬커 투데이" 잡지 몇 권이 있습니다.                          ';
+  xx[ii++] =
+    "0100    >$<                                                                             ";
   xx[ii++] =
     "0100    >$<                                                                             ";
   xx[ii++] =
     "19      Tasty food                                                                      ";
   xx[ii++] =
+    "19      맛있는 음식                                                                     ";
+  xx[ii++] =
     "0000    There is food here.                                                             ";
+  xx[ii++] =
+    "0000    여기에는 음식이 있습니다.                                                           ";
   xx[ii++] =
     "20      Small bottle                                                                    ";
   xx[ii++] =
+    "20      작은 병                                                                          ";
+  xx[ii++] =
     "0000    There is a bottle of water here.                                                ";
+  xx[ii++] =
+    "0000    여기에는 물병이 있습니다.                                                            ";
   xx[ii++] =
     "0100    There is an empty bottle here.                                                  ";
   xx[ii++] =
+    "0100    여기에는 빈 병이 있습니다.                                                          ";
+  xx[ii++] =
     "0200    There is a bottle of oil here.                                                  ";
   xx[ii++] =
+    "0200    여기에는 기름병이 있습니다.                                                          ";  
+    xx[ii++] =
     "21      Water in the bottle                                                             ";
+  xx[ii++] =
+    "21      병 안의 물                                                                      ";
   xx[ii++] =
     "22      Oil in the bottle                                                               ";
   xx[ii++] =
+    "22      병 안의 기름                                                                    ";
+  xx[ii++] =
     "23      *mirror                                                                         ";
+  xx[ii++] =
+    "23      *거울                                                                            ";
+  xx[ii++] =
+    "0000    >$<                                                                             ";
   xx[ii++] =
     "0000    >$<                                                                             ";
   xx[ii++] =
     "24      *plant                                                                          ";
   xx[ii++] =
+    "24      *식물                                                                            ";
+  xx[ii++] =
     '0000    There is a tiny little plant in the pit, murmuring "water, water, ..."          ';
   xx[ii++] =
+    '0000    구덩이에 작은 작은 식물이 있으며, "물, 물, ..."이라고 속삭입니다.                        ';
+  xx[ii++] =
     "0100    The plant spurts into furious growth for a few seconds.                         ";
+  xx[ii++] =
+    "0100    식물이 격렬하게 자라나 몇 초 동안 크게 커집니다.                                     ";
   xx[ii++] =
     "0200    There is a 12-foot-tall beanstalk stretching up out of the pit,                 ";
   xx[ii++] =
     '0200    bellowing "Water!! Water!!"                                                     ';
   xx[ii++] =
+    "0200    구덩이에서 위로 솟아 오르는 12피트 높이의 콩나무가 있으며,                              ";
+  xx[ii++] =
+    '"물!! 물!!"이라고 외칩니다.                                                                ';
+  xx[ii++] =
     "0300    The plant grows explosively, almost filling the bottom of the pit.              ";
+  xx[ii++] =
+    "0300    식물이 폭발적으로 자라나 구덩이 바닥을 거의 가득 채우게 됩니다.                        ";
   xx[ii++] =
     "0400    There is a gigantic beanstalk stretching all the way up to the hole.            ";
   xx[ii++] =
+    "0400    구덩이 아래부터 구멍까지 이어지는 거대한 콩나무가 있습니다.                           ";
+  xx[ii++] =
     "0500    You've over-watered the plant!  It's shriveling up!  It's, it's...              ";
   xx[ii++] =
+    "0500    식물에 물을 너무 많이 주셨습니다! 식물이 시들어 가고 있습니다!                        ";
+  xx[ii++] =
     "25      *phony plant (seen in twopit room only when tall enough)                        ";
+  xx[ii++] =
+    "25      *가짜 식물 (크기가 충분히 커졌을 때만 투핏 방에서 나타남)                             ";
+  xx[ii++] =
+    "0000    >$<                                                                             ";
   xx[ii++] =
     "0000    >$<                                                                             ";
   xx[ii++] =
     "0100    The top of a 12-foot-tall beanstalk is poking out of the west pit.              ";
   xx[ii++] =
+    "0100    12피트 높이의 콩나무 꼭대기가 서쪽 구덩이에서 빠져나와 있습니다.                           ";
+  xx[ii++] =
     "0200    There is a huge beanstalk growing out of the west pit up to the hole.           ";
   xx[ii++] =
+    "0200    서쪽 구덩이에서 구멍까지 자라가고 있는 거대한 콩나무가 있습니다.                        ";
+  xx[ii++] =
     "26      *stalactite                                                                     ";
+  xx[ii++] =
+    "26      *석순                                                                            ";
+  xx[ii++] =
+    "0000    >$<                                                                             ";
   xx[ii++] =
     "0000    >$<                                                                             ";
   xx[ii++] =
     "27      *shadowy figure                                                                 ";
   xx[ii++] =
+    "27      *어둠 속의 인물                                                                   ";
+  xx[ii++] =
     "0000    The shadowy figure seems to be trying to attract your attention.                ";
+  xx[ii++] =
+    "0000    어둠 속의 인물이 당신의 주의를 끌려고 하는 것 같습니다.                                ";
   xx[ii++] =
     "28      Dwarf's axe                                                                     ";
   xx[ii++] =
+    "28      난쟁이의 도끼                                                                    ";
+  xx[ii++] =
     "0000    There is a little axe here.                                                     ";
+  xx[ii++] =
+    "0000    여기에는 작은 도끼가 있습니다.                                                       ";
   xx[ii++] =
     "0100    There is a little axe lying beside the bear.                                    ";
   xx[ii++] =
+    "0100    작은 도끼가 곰 옆에 놓여 있습니다.                                                  ";
+  xx[ii++] =
     "29      *cave drawings                                                                  ";
+  xx[ii++] =
+    "29      *동굴 그림                                                                       ";
+  xx[ii++] =
+    "0000    >$<                                                                             ";
   xx[ii++] =
     "0000    >$<                                                                             ";
   xx[ii++] =
     "30      *pirate                                                                         ";
   xx[ii++] =
+    "30      *해적                                                                            ";
+  xx[ii++] =
+    "0000    >$<                                                                             ";
+  xx[ii++] =
     "0000    >$<                                                                             ";
   xx[ii++] =
     "31      *dragon                                                                         ";
   xx[ii++] =
+    "31      *용                                                                              ";
+  xx[ii++] =
     "0000    A huge green fierce dragon bars the way!                                        ";
+  xx[ii++] =
+    "0000    거대하고 푸른 장애물용 용이 길을 막고 있습니다!                                      ";
   xx[ii++] =
     "0100    Congratulations!  You have just vanquished a dragon with your bare              ";
   xx[ii++] =
@@ -3731,17 +3885,23 @@ function readData() {
   xx[ii++] =
     "0200    The body of a huge green dead dragon is lying off to one side.                  ";
   xx[ii++] =
+    "0200    거대하고 푸른 죽은 용의 시체가 한쪽에 누워 있습니다.                                  ";
+  xx[ii++] =
     "32      *chasm                                                                          ";
+  xx[ii++] =
+    "32      *균열                                                                            ";
   xx[ii++] =
     "0000    A rickety wooden bridge extends across the chasm, vanishing into the            ";
   xx[ii++] =
-    '0000    mist.  A sign posted on the bridge reads, "STOP! Pay troll!"                    ';
+    "0000    mist.  A sign posted on the bridge reads, \"STOP! Pay troll!\"                    ";
   xx[ii++] =
     "0100    the wreckage of a bridge (and a dead bear) can be seen at the bottom            ";
   xx[ii++] =
     "0100    of the chasm.                                                                   ";
   xx[ii++] =
     "33      *troll                                                                          ";
+  xx[ii++] =
+    "33      *트롤                                                                            ";
   xx[ii++] =
     "0000    A burly troll stands by the bridge and insists you throw him a                  ";
   xx[ii++] =
@@ -3751,459 +3911,815 @@ function readData() {
   xx[ii++] =
     "0200    >$<  (chased away)                                                              ";
   xx[ii++] =
+    "0200    >$<  (추격당함)                                                                   ";
+  xx[ii++] =
     "34      *phony troll                                                                    ";
+  xx[ii++] =
+    "34      *가짜 트롤                                                                       ";
   xx[ii++] =
     "0000    The troll is nowhere to be seen.                                                ";
   xx[ii++] =
+    "0000    트롤은 어디에도 없습니다.                                                          ";
+  xx[ii++] =
     "35      >$<  (bear uses rtext 141)                                                      ";
+  xx[ii++] =
+    "35      >$<  (곰이 rtext 141을 사용함)                                                     ";
   xx[ii++] =
     "0000    There is a ferocious cave bear eying you from the far end of the room!          ";
   xx[ii++] =
+    "0000    먼 거리의 끝에서 당신을 응시하는 험악한 동굴 곰이 있습니다!                           ";
+  xx[ii++] =
     "0100    There is a gentle cave bear sitting placidly in one corner.                     ";
+  xx[ii++] =
+    "0100    한 모퉁이에서 평온하게 앉아 있는 온순한 동굴 곰이 있습니다.                             ";
   xx[ii++] =
     "0200    There is a contented-looking bear wandering about nearby.                       ";
   xx[ii++] =
+    "0200    근처를 돌아다니는 만족스러워 보이는 곰이 있습니다.                                    ";
+  xx[ii++] =
     "0300    >$<  (dead)                                                                     ";
   xx[ii++] =
+    "0300    >$<  (죽음)                                                                       ";
+  xx[ii++] =
     "36      *message in second maze                                                         ";
+  xx[ii++] =
+    "36      *두 번째 미로의 메시지                                                            ";
   xx[ii++] =
     "0000    There is a message scrawled in the dust in a flowery script, reading:           ";
   xx[ii++] =
     '0000    "This is not the maze where the pirate leaves his treasure chest."              ';
   xx[ii++] =
+    '0000    "이곳은 해적이 보물 상자를 두는 미로가 아닙니다."라고 먼지에 낙서된 메시지가 있습니다.    ';
+  xx[ii++] =
     "37      *volcano and/or geyser                                                          ";
+  xx[ii++] =
+    "37      *화산과/또는 간헐천                                                               ";
+  xx[ii++] =
+    "0000    >$<                                                                             ";
   xx[ii++] =
     "0000    >$<                                                                             ";
   xx[ii++] =
     "38      *vending machine                                                                ";
   xx[ii++] =
+    "38      *자동판매기                                                                      ";
+  xx[ii++] =
     "0000    There is a massive vending machine here.  The instructions on it read:          ";
   xx[ii++] =
     '0000    "Drop coins here to receive fresh batteries."                                   ';
   xx[ii++] =
+    '0000    여기에 거대한 자동판매기가 있습니다. 안내문에는 "동전을 넣고 신선한 전지를 받으세요."라고 적혀 있습니다. ';
+  xx[ii++] =
     "39      batteries                                                                       ";
+  xx[ii++] =
+    "39      전지                                                                             ";
   xx[ii++] =
     "0000    There are fresh batteries here.                                                 ";
   xx[ii++] =
+    "0000    여기에 신선한 전지가 있습니다.                                                      ";
+  xx[ii++] =
     "0100    Some worn-out batteries have been discarded nearby.                             ";
+  xx[ii++] =
+    "0100    근처에 사용된 전지 몇 개가 버려져 있습니다.                                         ";
   xx[ii++] =
     "40     *carpet and/or moss                                                             ";
   xx[ii++] =
+    "40      *카펫 및/또는 이끼                                                               ";
+  xx[ii++] =
+    "0000    >$<                                                                             ";
+  xx[ii++] =
     "0000    >$<                                                                             ";
 
+    xx[ii++] =
+    "41      *well                                                                             ";
   xx[ii++] =
-    "41      *well                                                                           ";
+    "41      *우물                                                                             ";
   xx[ii++] =
     "0000    A runged ladder runs down the inside of the empty well.                         ";
+  xx[ii++] =
+    "0000    빈 우물 안쪽을 따라 사다리가 내려가 있습니다.                                        ";
   xx[ii++] =
     "0100    Water fills the well, overflows onto the floor and exits through a pair of 1    ";
   xx[ii++] =
     "0100    foot diameter drainage pipes in the outer room.                                 ";
   xx[ii++] =
+    "0100    우물이 물로 차오르고 바닥으로 넘쳐서 외부 방에 있는 지름 1피트의 배수관으로 나가게 됩니다. ";
+  xx[ii++] =
     "0200    Using the corkscrew you manage (with some effort) to extract the plug.          ";
+  xx[ii++] =
+    "0200    코크스크류를 사용하여 (어느 정도의 노력으로) 콘을 빼내는 데 성공합니다.                  ";
   xx[ii++] =
     "0200    Water surges up through the hole, rapidly rising past your waist.               ";
   xx[ii++] =
+    "0200    물이 구멍을 통해 분출되며, 빠르게 허리를 넘어 올라갑니다.                               ";
+  xx[ii++] =
     "0200    You are forced to climb out of the well as fast as you can!                     ";
+  xx[ii++] =
+    "0200    가능한 빠르게 우물에서 올라가야 합니다!                                               ";
 
   xx[ii++] =
-    "42      Large cork plug                                                                 ";
+    "42      Large cork plug                                                                 "; 
+  xx[ii++] =
+    "42      *큰 코르크 콘                                                                   ";
   xx[ii++] =
     "0000    There is a large cork plug embedded in the stone floor.                         ";
   xx[ii++] =
+    "0000    돌 바닥에 큰 코르크 콘이 박혀 있습니다.                                              ";
+  xx[ii++] =
     "0100    There is a large cork plug here.                                                ";
-
   xx[ii++] =
+    "0100    여기에 큰 코르크 콘이 있습니다.                                                     ";
+
+    xx[ii++] =
     "43      Corkscrew                                                                       ";
-  xx[ii++] =
+    xx[ii++] =
+    "43      *코르크 스크류                                                                    ";
+    xx[ii++] =
     "0000    Lying half-buried in the mud is a corkscrew.                                    ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    물에 반쯤 묻어있는 코르크 스크류가 있습니다.                                         ";
+    xx[ii++] =
     "0100    There is a corkscrew here.                                                      ";
-
-  xx[ii++] =
+    xx[ii++] =
+    "0100    여기에 코르크 스크류가 있습니다.                                                     ";
+    
+    xx[ii++] =
     "44      *reservoir                                                                      ";
-  xx[ii++] =
+    xx[ii++] =
+    "44      *저수지                                                                         ";
+    xx[ii++] =
     "0000    >$<                                                                             ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    수위가 상당히 낮아졌습니다. 건너는 것이 안전할 것입니다.                                 ";
+    xx[ii++] =
     "0100    The water level has lowered substantially. It should be safe to cross.          ";
+    xx[ii++] =
+    "0100    물의 수위가 상당히 낮아졌습니다. 건너는 것이 안전할 것입니다.                           ";
 
-  xx[ii++] =
+    xx[ii++] =
     "46      *glowworm grotto                                                                ";
-  xx[ii++] =
+    xx[ii++] =
+    "46      *반딧불 동굴                                                                    ";
+    xx[ii++] =
     "0000    The ceiling is covered in silken webs. Writhing within are many small           ";
-  xx[ii++] =
+    xx[ii++] =
     "0000    worm-like creatures.                                                            ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    천장은 비단처럼 얽혀 있습니다. 그 안에는 작은 벌레 모양의 생물들이 비틀거리고 있습니다. ";
+    xx[ii++] =
     "0100    Without an external light source the ceiling has burst into a thousand points of";
-  xx[ii++] =
+    xx[ii++] =
     "0100    light which form an uncanny facsimile of the night sky.                         ";
-  xx[ii++] =
+    xx[ii++] =
     "0100    One exception seems to be the star Sirius which is glowing a dull red rather    ";
-  xx[ii++] =
+    xx[ii++] =
     "0100    than its customary brillliant blue-white.                                       ";
-  xx[ii++] =
+    xx[ii++] =
+    "0100    외부 광원이 없으면 천장은 천 개의 빛점으로 터져 나오며 밤하늘을 흉내 내는 기이한 모습입니다. ";
+    xx[ii++] =
     "0200    The ceiling projects a remarkable starry firmament.                             ";
+    xx[ii++] =
+    "0200    천장은 놀라운 별이 가득한 천체계를 투영합니다.                                           ";
 
-  xx[ii++] =
+    xx[ii++] =
     "48      *magazine rack                                                                  ";
-  xx[ii++] =
+    xx[ii++] =
+    "48      *잡지 선반                                                                        ";
+    xx[ii++] =
     "0000    There is an empty magazine rack standing off to one side.                       ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    한쪽에 비어 있는 잡지 선반이 서 있습니다.                                         ";
+    xx[ii++] =
     '0100    Off to the side is a magazine rack holding a few recent issues of "Spelunker Today" magazine.';
+    xx[ii++] =
+    '0100    한쪽에는 "스펠렁커 투데이" 잡지의 최근 몇 호가 담긴 잡지 선반이 있습니다.';
 
-  xx[ii++] =
+    xx[ii++] =
     "49      Large leaf                                                                      ";
-  xx[ii++] =
+    xx[ii++] =
+    "49      *큰 잎                                                                             ";
+    xx[ii++] =
     "0000    >$<                                                                             ";
-  xx[ii++] =
-    "0100    There is large plant leaf here.                                                 ";
-
-  xx[ii++] =
+    xx[ii++] =
+    "0000    큰 식물 잎이 여기에 있습니다.                                                 ";
+    xx[ii++] =
+    "0100    There is a large plant leaf here.                                                 ";
+    xx[ii++] =
+    "0100    여기에 큰 식물 잎이 있습니다.                                                 ";
+ 
+    xx[ii++] =
     "50      *giant's archway                                                                ";
-  xx[ii++] =
+    xx[ii++] =
+    "50      *거인의 아치문                                                                    ";
+    xx[ii++] =
     "0000    >$<                                                                             ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    서쪽 벽에 거인 크기의 아치문이 있습니다.                            ";
+    xx[ii++] =
     "0100    There is a giant-sized archway set in the west wall.                            ";
+    xx[ii++] =
+    "0100    서쪽 벽에 거인 크기의 아치문이 있습니다.                            ";
 
-  xx[ii++] =
+    xx[ii++] =
     "52      Small white rabbit                                                              ";
-  xx[ii++] =
+    xx[ii++] =
+    "52      작은 흰 토끼                                                                       ";
+    xx[ii++] =
     "0000    There is a small white rabbit sitting amidst the crystals. Hanging from the     ";
-  xx[ii++] =
+    xx[ii++] =
     "0000    rabbit's neck is a fine exquisitely wrought necklace!                           ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    크리스탈 사이에 앉아있는 작은 흰 토끼가 있습니다. 토끼의 목에는 정교하게 만들어진 아름다운 목걸이가 달려 있습니다! ";
+    xx[ii++] =
     "0100    The rabbit sits here happily munching on the plant leaf.                        ";
-  xx[ii++] =
+    xx[ii++] =
+    "0100    토끼가 여기에 앉아서 신나게 식물 잎을 먹고 있습니다.                            ";
+    xx[ii++] =
     "0200    >$<                                                                             ";
 
-  xx[ii++] =
+    xx[ii++] =
     "55      *rift                                                                           ";
-  xx[ii++] =
+    xx[ii++] =
+    "55      *균열                                                                            ";
+    xx[ii++] =
     "0000    Set in the floor is a narrow three foot channel that terminates in a       ";
-  xx[ii++] =
+    xx[ii++] =
     "0000    star-shaped impression at the edge of the rift.                                 ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    바닥에는 세 개의 폭이 좁은 도랑이 있으며, 그 도랑은 균열 가장자리에 별 모양의 홈으로 끝납니다. ";
+    xx[ii++] =
     "0100    There is a twenty foot pole extended over the rift.                             ";
+    xx[ii++] =
+    "0100    균열 위로 스물 피트 길이의 막대기가 펼쳐져 있습니다.                               ";
 
-  xx[ii++] =
+    xx[ii++] =
     "56      Shovel                                                                          ";
-  xx[ii++] =
+    xx[ii++] =
+    "56      삽                                                                              ";
+    xx[ii++] =
     "0000    There is a shovel here.                                                         ";
+    xx[ii++] =
+    "0000    여기에 삽이 있습니다.                                                               ";
 
-  xx[ii++] =
+
+    xx[ii++] =
     "57      *pebbles                                                                        ";
-  xx[ii++] =
+    xx[ii++] =
+    "57      *자갈                                                                          ";
+    xx[ii++] =
     "0000    The floor of the pit is covered in flat oval-shaped pebbles.                    ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    구덩이 바닥에는 납작한 타원형 자갈이 덮여 있습니다.                                ";
+    xx[ii++] =
     "0100    The pebble-covered floor is knee-deep in water.                                 ";
-  xx[ii++] =
+    xx[ii++] =
+    "0100    자갈로 덮인 바닥은 무릎깊이의 물에 잠겨 있습니다.                                  ";
+    xx[ii++] =
     "0200    >$<                                                                             ";
-  xx[ii++] =
+    xx[ii++] =
     "0300    Hundreds of dead beetles float on the surface of the water.                     ";
+    xx[ii++] =
+    "0300    물 표면에는 수백 마리의 죽은 딱정벌레들이 떠 있습니다.                             ";  
 
-  xx[ii++] =
+
+    xx[ii++] =
     "58      *pedestal 1                                                                     ";
-  xx[ii++] =
+    xx[ii++] =
+    "58      *기단 1                                                                          ";
+    xx[ii++] =
     "0000    There is a pedestal in the middle of the room. A shallow square-shaped recess   ";
-  xx[ii++] =
+    xx[ii++] =
     "0000    is cut into the pedestal top.                                                   ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    중앙에 기단이 있습니다. 얕은 사각형 모양의 움푹한 홈이 기단 위에 파여 있습니다.   ";
+    xx[ii++] =
     "0100    There is a pedestal in the middle of the room. A shallow square-shaped recess   ";
-  xx[ii++] =
+    xx[ii++] =
     "0100    is cut into the pedestal top. A platinum pyramid is sitting in the recess!      ";
+    xx[ii++] =
+    "0100    중앙에 기단이 있습니다. 얕은 사각형 모양의 움푹한 홈이 기단 위에 파여 있습니다.   ";
+    xx[ii++] =
+    "0100    홈 안에는 플래티넘 피라미드가 놓여 있습니다!                                    ";
+ 
 
-  xx[ii++] =
+    xx[ii++] =
     "59      *chittering 1                                                                   ";
-  xx[ii++] =
+    xx[ii++] =
+    "59      *지저귐 1                                                                        ";
+    xx[ii++] =
     "0000    >$<                                                                             ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    동쪽 출구에서는 불길한 지저귐 소리가 들립니다.                                      ";
+    xx[ii++] =
     "0100    There is an ominous chittering sound coming from the east exit.                 ";
+    xx[ii++] =
+    "0100    동쪽 출구에서 불길한 지저귐 소리가 들립니다.                                      ";
 
-  xx[ii++] =
+    xx[ii++] =
     "60      *chittering 2                                                                   ";
-  xx[ii++] =
+    xx[ii++] =
+    "60      *지저귐 2                                                                        ";
+    xx[ii++] =
     "0000    >$<                                                                             ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    아래로 향하는 길에서 불안감 가득한 지저귐 소리가 풍겨옵니다.                          ";
+    xx[ii++] =
     "0100    There is a disquieting chittering sound rising from the downward path.          ";
+    xx[ii++] =
+    "0100    아래로 향하는 길에서 불안감 가득한 지저귐 소리가 풍겨옵니다.                          "; 
 
-  xx[ii++] =
-    "61      *beetles                                                                        ";
-  xx[ii++] =
-    "0000    >$<                                                                             ";
-  xx[ii++] =
-    "0100    Hundreds of dead beetles float on the surface of the water.                     ";
+    xx[ii++] =
+    "61 *beetles ";
+    xx[ii++] =
+    "61 *딱정벌레 ";
+    xx[ii++] =
+    "0000 >$< ";
+    xx[ii++] =
+    "0100 Hundreds of dead beetles float on the surface of the water. ";
+    xx[ii++] =
+    "물의 표면에 수백 마리의 죽은 딱정벌레들이 떠 있습니다. ";
 
-  xx[ii++] =
+    xx[ii++] =
     "62      *trench                                                                         ";
-  xx[ii++] =
+    xx[ii++] =
+    "62      *차를 수로                                                                         ";
+    xx[ii++] =
     "0000    An unfinished trench runs from the reservoir edge to the downward path.         ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    미완성된 차를 수로가 저수지 가장자리부터 아래로 향하는 길로 이어집니다.               ";
+    xx[ii++] =
     "0100    A water-filled trench runs from the water's edge to the downward path.         ";
+    xx[ii++] =
+    "물이 가득한 차를 수로가 물가에서 아래로 향하는 길로 이어집니다.                              ";
 
-  xx[ii++] =
+    xx[ii++] =
     "63      Sign                                                                            ";
-  xx[ii++] =
+    xx[ii++] =
+    "63      표지판                                                                            ";
+    xx[ii++] =
     "0000    There is a sign lying face down on the ground.                                  ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    지면에 뒤집혀 놓인 표지판이 있습니다.                                               ";
+    xx[ii++] =
     '0100    A sign in midair here says "Cave under construction beyond this point.          ';
-  xx[ii++] =
+    xx[ii++] =
     '0100    Proceed at own risk. Witt Construction Company."                                ';
+    xx[ii++] =
+    '0100    여기에 공중에 떠 있는 표지판에는 "이 지점을 지나가면 공사중인 동굴이 있습니다. 진입은 자기 책임 하에 하십시오. 위트 건설 회사" 라고 적혀 있습니다.  ';
 
-  xx[ii++] =
+    xx[ii++] =
     "64      Feather                                                                         ";
-  xx[ii++] =
+    xx[ii++] =
+    "64      깃털                                                                            ";
+    xx[ii++] =
     "0000    There is a small blue feather here.                                             ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    여기에 작은 파란색 깃털이 있습니다.                                             ";
+    xx[ii++] =
     "0100    >$<                                                                             ";
 
-  xx[ii++] =
+    xx[ii++] =
     "65      *pedestal 2                                                                     ";
-  xx[ii++] =
+    xx[ii++] =
+    "65      *받침대 2                                                                       ";
+    xx[ii++] =
     "0000    A pedestal very similar to the one in the outer chamber sits here.              ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    바깥 방의 받침대와 매우 흡사한 받침대가 여기에 있습니다.                      ";
+    xx[ii++] =
     "0100    A low doorway is set in the east wall.                                          ";
-  xx[ii++] =
+    xx[ii++] =
+    "0100    낮은 문이 동쪽 벽에 있습니다.                                                      ";
+    xx[ii++] =
     "0100    A pedestal very similar to the one in the outer chamber sits here. Resting on the ";
-  xx[ii++] =
+    xx[ii++] =
     "0100    pedestal is a platinum pyramid!                                                 ";
-
-  xx[ii++] =
+    xx[ii++] =
+    "0100    바깥 방의 받침대와 매우 흡사한 받침대가 여기에 있습니다. 받침대 위에는 백금 피라미드가 있습니다! ";
+ 
+    xx[ii++] =
     "66      *pyramid doorway                                                                ";
-  xx[ii++] =
+    xx[ii++] =
+    "66      *피라미드 문                                                                      ";
+    xx[ii++] =
     "0000    Exits lead north and south.                                                     ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    북쪽과 남쪽으로 나가는 출구가 있습니다.                                           ";
+    xx[ii++] =
     "0100    A low doorway is set in the west wall and exits lead north and south.           ";
+    xx[ii++] =
+    "0100    낮은 문이 서쪽 벽에 있으며 북쪽과 남쪽으로 나가는 출구가 있습니다.            ";
 
-  xx[ii++] =
+    xx[ii++] =
     "67      *hole with scarab                                                               ";
-  xx[ii++] =
+    xx[ii++] =
+    "67      *흙 속 구덩이와 스카라베 ";
+    xx[ii++] =
     "0000    A patch of earth appears discolored as if recently disturbed.                   ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    흙에 변색된 구역이 보이는데 최근에 손을 댄 것 같습니다. ";
+    xx[ii++] =
     "0100    There is a shallow hole in the ground.                                          ";
+    xx[ii++] =
+    "0100    땅에 얕은 구덩이가 있습니다. ";
 
-  xx[ii++] =
+
+    xx[ii++] =
     "68      *sarcophagus                                                                    ";
-  xx[ii++] =
+    xx[ii++] =
+    "68      *관상있는 석관 ";
+    xx[ii++] =
     "0000    A closed sarcophagus stands at the west end of the chamber.                     ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    서쪽 끝에 닫힌 석관이 서 있습니다. ";
+    xx[ii++] =
     "0100    A sarcophagus with its lid ajar stands at the west end of the chamber.          ";
-  xx[ii++] =
+    xx[ii++] =
+    "0100    서쪽 끝에 뚜껑이 열린 석관이 서 있습니다. ";
+    xx[ii++] =
     "0200    A sarcophagus with its lid ajar stands at the west end of the chamber. From     ";
-  xx[ii++] =
+    xx[ii++] =
     "0200    within sparkles a golden jewel-encrusted death mask!                            ";
+    xx[ii++] =
+    "0200    뚜껑이 열린 석관이 서 있습니다. 안에서는 황금으로 장식된 죽음의 가면이 반짝입니다! ";
 
-  xx[ii++] =
+    xx[ii++] =
     "69      *scales                                                                         ";
-  xx[ii++] =
+    xx[ii++] =
+    "69      *저울 ";
+    xx[ii++] =
     "0000    A large set of scales stands in the middle of the room. Resting on the lower    ";
-  xx[ii++] =
+    xx[ii++] =
     "0000    scale is what appears to be a mummified human heart. The upper scale is empty.  ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    방 중앙에 큰 저울이 서 있습니다. 아래 저울에는 미라된 인간의 심장처럼 보이는 것이 놓여 있습니다. 위 저울은 비어 있습니다. ";
+    xx[ii++] =
     "0100    A large set of scales stands in the middle of the room. Resting on the lower    ";
-  xx[ii++] =
+    xx[ii++] =
     "0100    scale is a blue feather. The upper scale is empty.                              ";
-  xx[ii++] =
+    xx[ii++] =
+    "0100    방 중앙에 큰 저울이 서 있습니다. 아래 저울에는 파란색 깃털이 놓여 있습니다. 위 저울은 비어 있습니다. ";
+    xx[ii++] =
     "0200    A large set of scales stands in the middle of the room. Nothing rests on either ";
-  xx[ii++] =
+    xx[ii++] =
     "0200    of the scales.                                                                  ";
-  xx[ii++] =
+    xx[ii++] =
+    "0200    방 중앙에 큰 저울이 서 있습니다. 저울 위나 아래에는 아무 것도 놓여 있지 않습니다. ";
+    xx[ii++] =
     "0300    A large set of scales stands in the middle of the room. Resting on the upper    ";
-  xx[ii++] =
+    xx[ii++] =
     "0300    scale is what appears to be a mummified human heart. The lower scale holds a    ";
-  xx[ii++] =
+    xx[ii++] =
     "0300    blue feather.                                                                   ";
+    xx[ii++] =
+    "0300    방 중앙에 큰 저울이 서 있습니다. 위 저울에는 미라된 인간의 심장처럼 보이는 것이 놓여 있습니다. 아래 저울에는 파란색 깃털이 놓여 있습니다. ";
 
-  xx[ii++] =
+    xx[ii++] =
     "70      Mummified heart                                                                 ";
-  xx[ii++] =
+    xx[ii++] =
+    "70      미라된 심장                                                                    ";
+    xx[ii++] =
     "0000    There is what appears to be a mummified heart here.                             ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    여기에 미라된 심장이 있는 것 같습니다.                                             ";
+    xx[ii++] =
     "0100    >$<                                                                             ";
 
-  xx[ii++] =
+    xx[ii++] =
     "71      *storage door panel                                                             ";
-  xx[ii++] =
+    xx[ii++] =
+    "71      *보관실 문 패널                                                                 ";
+    xx[ii++] =
     "0000    To the north is a door labelled 'Storage' and a numbered security panel (you can";
-  xx[ii++] =
+    xx[ii++] =
     "0000    enter codes by typing 'PUSH 1' etc.                                             ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    북쪽에는 '보관실'이라고 쓰여진 문과 번호가 매겨진 보안 패널이 있습니다 (숫자를 입력하여 코드를 입력할 수 있습니다. 'PUSH 1' 등을 입력하세요.) ";
+    xx[ii++] =
     "0100    >$<                                                                             ";
 
-  xx[ii++] =
+    xx[ii++] =
     "72      Scrap of paper                                                                  ";
-  xx[ii++] =
+    xx[ii++] =
+    "72      조각난 종이                                                                      ";
+    xx[ii++] =
     "0000    There is a crumpled scrap of paper here.                                        ";
+    xx[ii++] =
+    "0000    여기에 구겨진 조각난 종이가 있습니다.                                             ";
 
-  xx[ii++] =
+    xx[ii++] =
     "73      *elven wall                                                                     ";
-  xx[ii++] =
+    xx[ii++] =
+    "73      *엘프 벽                                                                          ";
+    xx[ii++] =
     "0000    The northern wall is scored with a fine silver tracery of lines depicting a     ";
-  xx[ii++] =
+    xx[ii++] =
     "0000    further archway flanked by two slender trees.                                   ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    북쪽 벽에는 가느다란 은색 선들로 이루어진 아름다운 패턴이 그려져 있습니다. 추가로 아치 모양의 문과 두 개의 날씬한 나무가 있는 모습입니다. ";
+    xx[ii++] =
     "0100    >$<                                                                             ";
 
-  xx[ii++] =
+    xx[ii++] =
     "74      Soda can                                                                        ";
-  xx[ii++] =
+    xx[ii++] =
+    "74      소다 캔                                                                          ";
+    xx[ii++] =
     "0000    There is a battered soda can here.                                              ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    헐렁헐렁한 소다 캔이 여기에 있습니다.                                               ";
+    xx[ii++] =
     "0100    There is a battered empty soda can here.                                        ";
+    xx[ii++] =
+    "0100    헐렁헐렁한 비어있는 소다 캔이 여기에 있습니다.                                     ";
 
-  xx[ii++] =
+    xx[ii++] =
     "150     Large gold nugget                                                               ";
-  xx[ii++] =
+    xx[ii++] =
+    "150     큰 금괴                                                                          ";
+    xx[ii++] =
     "0000    There is a large sparkling nugget of gold here!                                 ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    여기에 큰 반짝이는 금괴가 있습니다!                                                   ";
+    xx[ii++] =
     "151     Several diamonds                                                                ";
-  xx[ii++] =
+    xx[ii++] =
+    "151     몇 개의 다이아몬드                                                              ";
+    xx[ii++] =
     "0000    There are diamonds here!                                                        ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    여기에 다이아몬드들이 있습니다!                                                     ";
+    xx[ii++] =
     "152     Bars of silver                                                                  ";
-  xx[ii++] =
+    xx[ii++] =
+    "152     은 막대기                                                                       ";
+    xx[ii++] =
     "0000    There are bars of silver here!                                                  ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    여기에 은 막대기들이 있습니다!                                                       ";
+    xx[ii++] =
     "153     Precious jewelry                                                                ";
-  xx[ii++] =
+    xx[ii++] =
+    "153     귀중한 보석류                                                                   ";
+    xx[ii++] =
     "0000    There is precious jewelry here!                                                 ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    여기에 귀중한 보석류가 있습니다!                                                      ";
+    xx[ii++] =
     "154     Rare coins                                                                      ";
-  xx[ii++] =
+    xx[ii++] =
+    "154     희귀한 동전들                                                                   ";
+    xx[ii++] =
     "0000    There are many coins here!                                                      ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    여기에 많은 동전들이 있습니다!                                                       ";
+    xx[ii++] =
     "155     Treasure chest                                                                  ";
-  xx[ii++] =
+    xx[ii++] =
+    "155     보물 상자                                                                       ";
+    xx[ii++] =
     "0000    The pirate's treasure chest is here!                                            ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    해적의 보물 상자가 여기에 있습니다!                                                   ";
+    xx[ii++] =
     "156     Golden eggs                                                                     ";
-  xx[ii++] =
+    xx[ii++] =
+    "156     금빛 알들                                                                       ";
+    xx[ii++] =
     "0000    There is a large nest here, full of golden eggs!                                ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    여기에는 금빛 알로 가득한 큰 둥지가 있습니다!                                         ";
+    xx[ii++] =
     "0100    The nest of golden eggs has vanished!                                           ";
-  xx[ii++] =
+    xx[ii++] =
+    "0100    금빛 알로 가득한 둥지가 사라졌습니다!                                               ";
+    xx[ii++] =
     "0200    Done!                                                                           ";
-  xx[ii++] =
+    xx[ii++] =
+    "0200    완료!                                                                             ";
+    xx[ii++] =
     "157     Jeweled trident                                                                 ";
-  xx[ii++] =
+    xx[ii++] =
+    "157     보석으로 장식된 삼지창                                                          ";
+    xx[ii++] =
     "0000    There is a jewel-encrusted trident here!                                        ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    여기에 보석으로 장식된 삼지창이 있습니다!                                            ";
+    xx[ii++] =
     "158     Ming vase                                                                       ";
-  xx[ii++] =
+    xx[ii++] =
+    "158     명나라의 화병                                                                   ";
+    xx[ii++] =
     "0000    There is a delicate, precious, ming vase here!                                  ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    여기에는 섬세하고 귀중한 명나라의 화병이 있습니다!                                     ";
+    xx[ii++] =
     "0100    The vase is now resting, delicately, on a velvet pillow.                        ";
-  xx[ii++] =
+    xx[ii++] =
+    "0100    이제 화병이 섬세하게 벨벳 베개 위에 쉬고 있습니다.                                     ";
+    xx[ii++] =
     "0200    The floor is littered with worthless shards of pottery.                         ";
-  xx[ii++] =
+    xx[ii++] =
+    "0200    바닥은 쓸모 없는 도자기 파편으로 얼룩져 있습니다.                                    ";
+    xx[ii++] =
     "0300    The ming vase drops with a delicate crash.                                      ";
-  xx[ii++] =
+    xx[ii++] =
+    "0300    명나라의 화병이 섬세하게 떨어지면서 가벼운 충돌 소리가 납니다.                           ";
+    xx[ii++] =
     "159     Egg-sized emerald                                                               ";
-  xx[ii++] =
+    xx[ii++] =
+    "159     알 크기의 에메랄드                                                              ";
+    xx[ii++] =
     "0000    There is an emerald here the size of a plover's egg!                            ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    여기에는 신호기의 알 크기 정도의 에메랄드가 있습니다!                                  ";
+    xx[ii++] =
     "160     Platinum pyramid                                                                ";
-  xx[ii++] =
+    xx[ii++] =
+    "160     백금 피라미드                                                                   ";
+    xx[ii++] =
     "0000    There is a platinum pyramid here, 8 inches on a side!                           ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    여기에는 한 변이 8인치인 백금 피라미드가 있습니다!                                    ";
+    xx[ii++] =
     "0100    >$<                                                                             ";
-  xx[ii++] =
+  
+    xx[ii++] =
     "161     Glistening pearl                                                                ";
-  xx[ii++] =
+    xx[ii++] =
+    "161     반짝이는 진주                                                                    ";
+    xx[ii++] =
     "0000    Off to one side lies a glistening pearl!                                        ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    한쪽에 반짝이는 진주가 놓여 있습니다!                                                ";
+    xx[ii++] =
     "162     Persian rug                                                                     ";
-  xx[ii++] =
+    xx[ii++] =
+    "162     페르시안 러그                                                                    ";
+    xx[ii++] =
     "0000    There is a persian rug spread out on the floor!                                 ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    바닥에 펼쳐진 페르시안 러그가 있습니다!                                               ";
+    xx[ii++] =
     "0100    The dragon is sprawled out on a persian rug!!                                   ";
-  xx[ii++] =
+    xx[ii++] =
+    "0100    용이 페르시안 러그 위에 펴져 있습니다!                                               ";
+    xx[ii++] =
     "163     Rare spices                                                                     ";
-  xx[ii++] =
+    xx[ii++] =
+    "163     희귀한 향신료들                                                                  ";
+    xx[ii++] =
     "0000    There are rare spices here!                                                     ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    여기에 희귀한 향신료들이 있습니다!                                                   ";
+    xx[ii++] =
     "164     Golden chain                                                                    ";
-  xx[ii++] =
+    xx[ii++] =
+    "164     금사슬                                                                          ";
+    xx[ii++] =
     "0000    There is a golden chain lying in a heap on the floor!                           ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    바닥에 더미지게 놓여진 금사슬이 있습니다!                                            ";
+    xx[ii++] =
     "0100    The bear is locked to the wall with a golden chain!                             ";
-  xx[ii++] =
+    xx[ii++] =
+    "0100    곰이 금사슬로 벽에 묶여 있습니다!                                                    ";
+    xx[ii++] =
     "0200    There is a golden chain locked to the wall!                                     ";
-
-  xx[ii++] =
+    xx[ii++] =
+    "0200    벽에 잠겨진 금사슬이 있습니다!                                                       ";  
+  
+    xx[ii++] =
     "165     Rubber duck                                                                     ";
-  xx[ii++] =
+    xx[ii++] =
+    "165     고무 오리                                                                        ";
+    xx[ii++] =
     "0000    In the middle of the reservoir you can make out what appears to be a small      ";
-  xx[ii++] =
+    xx[ii++] =
     "0000    yellow duck bobbing up and down on the surface.                                 ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    저장소 중앙에는 수면 위로 오르내리며 떠다니는 작은 노란 오리가 보입니다.                     ";
+    xx[ii++] =
     "0100    A rubber duck with opal eyes is bobbing on the surface of the well!             ";
-  xx[ii++] =
+    xx[ii++] =
+    "0100    오팔 눈을 가진 고무 오리가 우물의 수면 위로 떠다니고 있습니다!                             ";
+    xx[ii++] =
     "0200    There is a yellow rubber duck with black opal eyes here!                        ";
-
-  xx[ii++] =
+    xx[ii++] =
+    "0200    여기에는 검은 오팔 눈을 가진 노란 고무 오리가 있습니다!                                  ";  
+  
+    xx[ii++] =
     "166     Jade dagger                                                                     ";
-  xx[ii++] =
+    xx[ii++] =
+    "166     비녀 단검                                                                       ";
+    xx[ii++] =
     "0000    There is an ornamental jade dagger here!                                        ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    여기에는 장식용 비녀 단검이 있습니다!                                                ";
+    xx[ii++] =
     "167     star ruby                                                                       ";
-  xx[ii++] =
+    xx[ii++] =
+    "167     별 모양 루비                                                                    ";
+    xx[ii++] =
     "0000    There is a star-shaped ruby here!                                               ";
+    xx[ii++] =
+    "0000    여기에는 별 모양의 루비가 있습니다!                                                  ";
 
-  xx[ii++] =
+    xx[ii++] =
     "168     Golden harp                                                                     ";
-  xx[ii++] =
+    xx[ii++] =
+    "168     금색 하프                                                                       ";
+    xx[ii++] =
     "0000    There is a golden harp here!                                                    ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    여기에는 금색 하프가 있습니다!                                                       ";
+    xx[ii++] =
     "0100    There is a golden harp here singing an ancient Celtic sea shanty! The words     ";
-  xx[ii++] =
+    xx[ii++] =
     "0100    reverberate around the natural amphitheater to give the impression of a full    ";
-  xx[ii++] =
+    xx[ii++] =
     "0100    singing choir.                                                                  ";
-  xx[ii++] =
+    xx[ii++] =
+    "0100    금색 하프가 여기에 있어서 고대 켈트해양 노래를 부르고 있습니다!                           ";
+    xx[ii++] =
+    "0100    그 말들은 자연 암흑에서 울려퍼져 마치 전체 합창단처럼 느껴집니다.                             ";
+    xx[ii++] =
     "0200    >$>                                                                             ";
-  xx[ii++] =
-    "0300    There is a golden harp here!                                                    ";
+    xx[ii++] =
+    "0200    There is a golden harp here!                                                    ";
+    xx[ii++] =
+    "0200    여기에는 금색 하프가 있습니다!                                                       ";
 
-  xx[ii++] =
+    xx[ii++] =
     "169     Fine necklace                                                                   ";
-  xx[ii++] =
+    xx[ii++] =
+    "169     고급 목걸이                                                                      ";
+    xx[ii++] =
     "0000    >$<                                                                             ";
-  xx[ii++] =
+    xx[ii++] =
     "0100    >$<                                                                             ";
-  xx[ii++] =
+    xx[ii++] =
     "0200    There is a finely wrought necklace here!                                        ";
+    xx[ii++] =
+    "0200    여기에는 섬세하게 만들어진 목걸이가 있습니다!                                      ";
 
-  xx[ii++] =
+    xx[ii++] =
     "170     Rose gold ring                                                                  ";
-  xx[ii++] =
+    xx[ii++] =
+    "170     장식용 장미 금반지                                                               ";
+    xx[ii++] =
     "0000    There is a giant-sized rose gold ring here!                                     ";
+    xx[ii++] =
+    "0000    여기에는 거대한 사이즈의 장식용 장미 금반지가 있습니다!                              ";
 
-  xx[ii++] =
+    xx[ii++] =
     "171     Gold scarab                                                                     ";
-  xx[ii++] =
+    xx[ii++] =
+    "171     금색 스카라베                                                                  ";
+    xx[ii++] =
     "0000    There is a golden scarab here!                                                  ";
+    xx[ii++] =
+    "0000    여기에는 금색 스카라베가 있습니다!                                                ";
 
-  xx[ii++] =
+    xx[ii++] =
     "172     Death mask                                                                      ";
-  xx[ii++] =
+    xx[ii++] =
+    "172     황금으로 장식된 죽음의 가면                                                          ";
+    xx[ii++] =
     "0000    There is a golden bejeweled death mask here!                                    ";
-  xx[ii++] =
+    xx[ii++] =
+    "0000    여기에는 황금으로 장식된 죽음의 가면이 있습니다!                                      ";
+    xx[ii++] =
     "0100    >$<                                                                             ";
 
-  xx[ii++] =
+    xx[ii++] =
     "173     Silver teapot                                                                   ";
-  xx[ii++] =
+    xx[ii++] =
+    "173     은빛 티포트                                                                         ";
+    xx[ii++] =
     "0000    There is a silver teapot here!                                                  ";
-
-  xx[ii++] =
+    xx[ii++] =
+    "0000    여기에는 은빛 티포트가 있습니다!                                                     ";
+    
+    xx[ii++] =
     "174     Silver brooch                                                                   ";
-  xx[ii++] =
-    "0000    There is a brooch like a geen leaf veined in silver here!                       ";
-
-  xx[ii++] =
+    xx[ii++] =
+    "174     은색으로 장식된 초록 잎 모양의 브로치                                                   ";
+    xx[ii++] =
+    "0000    There is a brooch like a green leaf veined in silver here!                       ";
+    xx[ii++] =
+    "0000    여기에는 은색으로 장식된 초록 잎 모양의 브로치가 있습니다!                              ";
+    
+    xx[ii++] =
     "175     Opal                                                                            ";
-  xx[ii++] =
+    xx[ii++] =
+    "175     반짝이는 오팔                                                                         ";
+    xx[ii++] =
     "0000    There is a glistening opal here!                                                ";
+    xx[ii++] =
+    "0000    여기에는 반짝이는 오팔이 있습니다!                                                     ";
+
+
+
 
   xx[ii++] =
     "-1                                                                                      ";
@@ -4236,121 +4752,227 @@ function readData() {
   xx[ii++] =
     "1       Contact Don if you have any questions, comments, etc.                           ";
   xx[ii++] =
+    '1       어딘가 가까이에는 거대한 동굴인 콜로설 케이브가 있습니다. 다른 사람들은 이곳에서 재물과 금을 발견했지만, 들어가고 나서 돌아오지 않는 사람들도 있다고 전해집니다. 마법은 동굴에서 작동한다고 합니다. 저는 당신의 눈과 손이 될 것입니다. 1 또는 2 단어로 명령을 내려주세요. 먼저 5글자만 보기 때문에 "북동"을 "북"과 구별하기 위해 "북동"으로 입력해야 합니다.';
+  xx[ii++] =
+    '1       (꼼짝 말고 막힌 상태에 빠지면 "도움말"이라고 입력하면 일반적인 힌트를 얻을 수 있습니다. 모험을 끝내는 방법 등에 대한 정보는 "정보"라고 입력하세요.)';
+  xx[ii++] =
+    "1                                     - - -                                             ";
+  xx[ii++] =
+    "1       이 프로그램은 Willie Crowther가 원래 개발했습니다. 현재 프로그램의 대부분은 Don Woods가 추가했습니다. (don @ su-ai에 문의하면 질문이나 의견 등을 할 수 있습니다.)";
+  xx[ii++] =
     "2       A little dwarf with a big knife blocks your way.                                ";
+  xx[ii++] =
+    "2       작은 난쟁이가 큰 칼을 들고 당신의 길을 막고 있습니다.                                ";
   xx[ii++] =
     "3       A little dwarf just walked around a corner, saw you, threw a little             ";
   xx[ii++] =
     "3       axe at you which missed, cursed, and ran away.                                  ";
+    xx[ii++] =
+    "3       작은 난쟁이가 방금 모퉁이를 돌아가다가 당신을 보고 작은 도끼를 던졌지만 놓쳤습니다.욕을 하고 도망갔습니다. ";
   xx[ii++] =
     "4       There is a threatening little dwarf in the room with you!                       ";
+    xx[ii++] =
+    "4       위협적인 작은 난쟁이가 당신과 함께 있는 방 안에 있습니다!                       ";
   xx[ii++] =
     "5       one sharp nasty knife is thrown at you!                                         ";
+    xx[ii++] =
+    "5       하나의 날카로운 나쁜 칼이 당신에게 던져집니다!                                         ";
   xx[ii++] =
     "6       None of them hit you!                                                           ";
+    xx[ii++] =
+    "6       아무도 당신을 맞히지 않았습니다!                                                           ";
   xx[ii++] =
     "7       One of them gets you!                                                           ";
+    xx[ii++] =
+    "7       그들 중 한 명이 당신에게 닿습니다!                                                           ";
   xx[ii++] =
     '8       A hollow voice says "PLUGH".                                                    ';
+    xx[ii++] =
+    '8       한쪽에서 "PLUGH"라고 빈칸이 들립니다.                                                    ';
   xx[ii++] =
     "9       There is no way to go in that direction.                                        ";
+    xx[ii++] =
+    "9       그 방향으로 이동할 수 있는 방법이 없습니다.                                        ";
   xx[ii++] =
     "10      I am unsure how you are facing.  Use compass points or nearby objects.          ";
+    xx[ii++] =
+    "10      어느 방향을 향하고 있는지 잘 모르겠습니다. 나침반 방향이나 근처의 물체를 사용하세요.     ";
   xx[ii++] =
     "11      I don't know in from out here.  Use compass points or name something            ";
   xx[ii++] =
     "11      in the general direction you want to go.                                        ";
+    xx[ii++] =
+    "11      어디에서 들어왔는지 모르겠습니다. 나침반 방향이나 가고자 하는 방향에 해당하는 것을 이름으로 지정하세요. ";
   xx[ii++] =
     "12      I don't know how to apply that word here.                                       ";
+    xx[ii++] =
+    "12      그 단어를 여기에 적용하는 방법을 모릅니다.                                       ";
   xx[ii++] =
     "13      I don't understand that!                                                        ";
+    xx[ii++] =
+    "13      그건 이해하지 못합니다!                                                        ";
   xx[ii++] =
     "14      I'm game.  Would you care to explain how?                                       ";
+    xx[ii++] =
+    "14      좋아요. 설명해 줄 수 있을까요?                                                 ";
   xx[ii++] =
     "15      Sorry, but I am not allowed to give more detail.  I will repeat the             ";
   xx[ii++] =
     "15      long description of your location.                                              ";
+    xx[ii++] =
+    "15      죄송하지만 더 자세한 정보를 제공할 수 없습니다. 위치의 상세한 설명을 다시 할 것입니다. ";
   xx[ii++] =
     "16      It is now pitch dark.  If you proceed you will likely fall into a pit.          ";
+    xx[ii++] =
+    "16      이제 어두워졌습니다. 앞으로 나아가면 큰 구덩이에 떨어질 가능성이 있습니다.                       ";
   xx[ii++] =
     "17      If you prefer, simply type w rather than west.                                  ";
+    xx[ii++] =
+    "17      당신은 그냥 w 대신 서쪽을 입력할 수 있습니다.                                       ";
   xx[ii++] =
     "18      Are you trying to catch the bird?                                               ";
+    xx[ii++] =
+    "18      새를 잡으려고 하는 건가요?                                                       ";
   xx[ii++] =
     "19      The bird is frightened right now and you cannot catch it no matter              ";
   xx[ii++] =
     "19      what you try.  Perhaps you might try later.                                     ";
+    xx[ii++] =
+    "19      새가 지금 겁먹고 있어서 아무리 노력해도 잡을 수 없습니다. 나중에 다시 시도해 보세요.       ";
   xx[ii++] =
     "20      Are you trying to somehow deal with the snake?                                  ";
+    xx[ii++] =
+    "20      뱀과 어떻게 대처하려고 하시는 건가요?                                                ";
   xx[ii++] =
     "21      You can't kill the snake, or drive it away, or avoid it, or anything            ";
   xx[ii++] =
     "21      like that.  There is a way to get by, but you don't have the necessary          ";
   xx[ii++] =
     "21      resources right now.                                                            ";
+    xx[ii++] =
+    "21      뱀을 죽일 수도, 몰아낼 수도, 피할 수도 없습니다. 하지만 지금은 필요한 자원이 없습니다.    ";
   xx[ii++] =
     "22      Do you really want to quit now?                                                 ";
+    xx[ii++] =
+    "22      지금 그만두고 싶으세요?                                                        ";
   xx[ii++] =
     "23      You fell into a pit and broke every bone in your body!                          ";
+    xx[ii++] =
+    "23      당신은 구덩이에 떨어져 모든 뼈가 부러졌습니다!                                       ";
   xx[ii++] =
     "24      You are already carrying it!                                                    ";
+    xx[ii++] =
+    "24      이미 그것을 가지고 있습니다!                                                     ";
   xx[ii++] =
     "25      You can't be serious!                                                           ";
+    xx[ii++] =
+    "25      진지해요!                                                                      ";
   xx[ii++] =
     "26      The bird was unafraid when you entered, but as you approach it becomes          ";
   xx[ii++] =
     "26      disturbed and you cannot catch it.                                              ";
+    xx[ii++] =
+    "26      새는 당신이 들어올 때는 겁을 먹지 않았지만, 가까이 다가가니 불안해지고 잡을 수 없습니다. ";
   xx[ii++] =
     "27      You can catch the bird, but you cannot carry it.                                ";
+    xx[ii++] =
+    "27      새를 잡을 수는 있지만, 옮길 수는 없습니다.                                       ";
   xx[ii++] =
     "28      There is nothing here with a lock!                                              ";
+    xx[ii++] =
+    "28      여기에는 자물쇠가 없습니다!                                                     ";
   xx[ii++] =
     "29      You aren't carrying it!                                                         ";
+    xx[ii++] =
+    "29      그걸 가지고 있지 않습니다!                                                     ";
   xx[ii++] =
     "30      The little bird attacks the green snake, and in an astounding flurry            ";
   xx[ii++] =
     "30      drives the snake away. A dislodged tail feather wafts slowly to the ground.     ";
+    xx[ii++] =
+    "30      작은 새가 녹색 뱀을 공격해서 경이로운 맹렬함으로 뱀을 쫓아냈습니다. 떨어진 꼬리깃털이 천천히 땅으로 떨어집니다. ";
   xx[ii++] =
     "31      You have no keys!                                                               ";
+    xx[ii++] =
+    "31      열쇠가 없습니다!                                                               ";
   xx[ii++] =
     "32      It has no lock.                                                                 ";
+    xx[ii++] =
+    "32      자물쇠가 없습니다.                                                             ";
   xx[ii++] =
     "33      I don't know how to lock or unlock such a thing.                                ";
+    xx[ii++] =
+    "33      그런 것을 잠그거나 열 수 있는 방법을 모릅니다.                                   ";
   xx[ii++] =
     "34      It was already locked.                                                          ";
+    xx[ii++] =
+    "34      이미 잠겨 있었습니다.                                                           ";
   xx[ii++] =
     "35      The grate is now locked.                                                        ";
+    xx[ii++] =
+    "35      그레이트가 잠겨 있습니다.                                                       ";
   xx[ii++] =
     "36      The grate is now unlocked.                                                      ";
+    xx[ii++] =
+    "36      그레이트가 열렸습니다.                                                          ";
   xx[ii++] =
     "37      It was already unlocked.                                                        ";
+    xx[ii++] =
+    "37      이미 열려 있었습니다.                                                           ";
   xx[ii++] =
     "38      You have no source of light.                                                    ";
+    xx[ii++] =
+    "38      빛을 발하는 소스가 없습니다.                                                     ";
   xx[ii++] =
     "39      Your lamp is now on.                                                            ";
+    xx[ii++] =
+    "39      램프가 켜졌습니다.                                                             ";
   xx[ii++] =
     "40      Your lamp is now off.                                                           ";
+    xx[ii++] =
+    "40      램프가 꺼졌습니다.                                                             ";
   xx[ii++] =
     "41      There is no way to get past the bear to unlock the chain, which is              ";
   xx[ii++] =
     "41      probably just as well.                                                          ";
+    xx[ii++] =
+    "41      곰을 통과해서 사슬을 풀 방법은 없습니다.                                            ";
   xx[ii++] =
     "42      Nothing happens.                                                                ";
+    xx[ii++] =
+    "42      아무 일도 일어나지 않습니다.                                                      ";
   xx[ii++] =
     "43      Where?                                                                          ";
+    xx[ii++] =
+    "43      어디에서요?                                                                    ";
   xx[ii++] =
     "44      There is nothing here to attack.                                                ";
+    xx[ii++] =
+    "44      여기에서 공격할 대상이 없습니다.                                                ";
   xx[ii++] =
     "45      The little bird is now dead.  Its body disappears.                              ";
+    xx[ii++] =
+    "45      작은 새가 이제 죽었습니다. 그 몸은 사라집니다.                                    ";
   xx[ii++] =
     "46      Attacking the snake both doesn't work and is very dangerous.                    ";
+    xx[ii++] =
+    "46      뱀을 공격하는 것은 효과가 없을 뿐만 아니라 매우 위험합니다.                             ";
   xx[ii++] =
     "47      You killed a little dwarf.                                                      ";
+    xx[ii++] =
+    "47      작은 난쟁이를 죽였습니다.                                                         ";
   xx[ii++] =
     "48      You attack a little dwarf, but he dodges out of the way.                        ";
+    xx[ii++] =
+    "48      작은 난쟁이를 공격했지만 그가 피하고 도망갔습니다.                                ";
   xx[ii++] =
     "49      With what?  your bare hands?                                                    ";
+    xx[ii++] =
+    "49      무엇으로요? 맨 손으로요?                                                        ";
   xx[ii++] =
     "50      Good try, but that is an old worn-out magic word.                               ";
+    xx[ii++] =
+    "50      좋은 시도였지만, 그건 낡아서 효과가 없는 마법 물건입니다.                           ";
   xx[ii++] =
     "51      I know of places, actions, and things.  Most of my vocabulary                   ";
   xx[ii++] =
@@ -4391,40 +5013,64 @@ function readData() {
     "51      room to the north does not guarantee entering the next from the south.          ";
   xx[ii++] =
     "51      Good luck!                                                                      ";
-  xx[ii++] =
+    xx[ii++] =
     "52      It misses!                                                                      ";
+    xx[ii++] =
+    "52      빗나갑니다!                                                                   ";
   xx[ii++] =
     "53      It gets you!                                                                    ";
+    xx[ii++] =
+    "53      당신에게 닿았습니다!                                                             ";
   xx[ii++] =
     "54      OK                                                                              ";
+    xx[ii++] =
+    "54      좋아요.                                                                        ";
   xx[ii++] =
     "55      You can't unlock the keys.                                                      ";
+    xx[ii++] =
+    "55      열쇠를 잠금 해제할 수 없습니다.                                                 ";
   xx[ii++] =
     "56      You have crawled around in some little holes and wound up back in the           ";
   xx[ii++] =
     "56      main passage.                                                                   ";
+    xx[ii++] =
+    "56      몇 개의 작은 구멍에 기어 다니다가 주요 통로로 다시 도착했습니다.                              ";
   xx[ii++] =
     "57      I don't know where the cave is, but hereabouts no stream can run on             ";
   xx[ii++] =
     "57      the surface for long.  I would try the stream.                                  ";
+    xx[ii++] =
+    "57      동굴이 어디에 있는지는 모르지만, 이 근처에서는 오래 강이 흐를 수 없습니다. 강을 따라 가보세요. ";
   xx[ii++] =
     "58      I need more detailed instructions to do that.                                   ";
+    xx[ii++] =
+    "58      그것을 하려면 더 자세한 지침이 필요합니다.                                       ";
   xx[ii++] =
     "59      I can only tell you what you see as you move about and manipulate               ";
   xx[ii++] =
     "59      things.  I cannot tell you where remote things are.                             ";
+    xx[ii++] =
+    "59      이동하고 물건을 조작하는 동안 볼 수있는 것만 알려 드릴 수 있습니다. 먼 곳에있는 것을 알려 드릴 수는 없습니다. ";
   xx[ii++] =
     "60      I don't know that word.                                                         ";
+    xx[ii++] =
+    "60      그 단어를 알지 못합니다.                                                         ";
   xx[ii++] =
     "61      What?                                                                           ";
+    xx[ii++] =
+    "61      뭐라고요?                                                                      ";
   xx[ii++] =
     "62      Are you trying to get into the cave?                                            ";
+    xx[ii++] =
+    "62      동굴에 들어가려고 하는 건가요?                                                   ";
   xx[ii++] =
     "63      The grate is very solid and has a hardened steel lock.  You cannot              ";
   xx[ii++] =
     "63      enter without a key, and there are no keys nearby.  I would recommend           ";
   xx[ii++] =
     "63      looking elsewhere for the keys.                                                 ";
+    xx[ii++] =
+    "63      그레이트는 매우 단단하고 강철 자물쇠가 있습니다. 키 없이는 들어갈 수 없으며 주변에 키가 없습니다. 다른 곳에서 키를 찾는 것을 추천합니다. ";
   xx[ii++] =
     "64      The trees of the forest are large hardwood oak and maple, with an               ";
   xx[ii++] =
@@ -4437,58 +5083,98 @@ function readData() {
     "64      all the leaves, but travel is quite easy if you detour around the               ";
   xx[ii++] =
     "64      spruce and berry bushes.                                                        ";
+    xx[ii++] =
+    "64      숲의 나무는 큰 오크와 메이플로 이루어져 있으며 가끔 소나무 또는 가문비나무 그루가 있습니다. 상당량의 자라가 있으며 주로 자작나무와 장박나무의 미명이있는 덤불도 있습니다. 이 계절에는 모든 잎 때문에 시야가 제한되지만, 가는 것은 꽤 쉽습니다. 참나무와 열매나무를 빼고 돌아가면 가는 것이 쉽습니다. ";
   xx[ii++] =
     "65      Welcome to Adventure 570!! 어드벤처 570에 오신 것을 환영합니다!!                                                      ";
   xx[ii++] =
     "65                                                                                      ";
   xx[ii++] =
     "65      Type 'instr' for instructions. 지침을 보려면 'instr'를 입력하세요.         ";
+    xx[ii++] =
+    "65      어드벤처 570에 오신 것을 환영합니다!                                                           ";
+  xx[ii++] =
+    "65                                                                                      ";
+  xx[ii++] =
+    "65      지침을 보려면 'instr'를 입력하세요.                                                   ";
   xx[ii++] =
     "66      Digging without a shovel is quite impractical.  Even with a shovel              ";
   xx[ii++] =
     "66      progress is unlikely.                                                           ";
+    xx[ii++] =
+    "66      삽 없이 팔다리로 파는 것은 상당히 비실용적입니다. 삽이 있어도 진전은 불가능합니다.        ";
   xx[ii++] =
     "67      Blasting requires dynamite.                                                     ";
+    xx[ii++] =
+    "67      폭발을 위해서는 다이너마이트가 필요합니다.                                         ";
   xx[ii++] =
     "68      I'm as confused as you are.                                                     ";
+    xx[ii++] =
+    "68      저도 당신만큼 헷갈려요.                                                          ";
   xx[ii++] =
     "69      Mist is a white vapor, usually water, seen from time to time in                 ";
   xx[ii++] =
     "69      caverns.  It can be found anywhere but is frequently a sign of a deep           ";
   xx[ii++] =
     "69      pit leading down to water.                                                      ";
+    xx[ii++] =
+    "69      안개는 주로 물로 이루어진 하얀 증기로 동굴에서 때때로 볼 수 있습니다. 어디에서나 발견될 수 있지만 종종 물로 이어지는 깊은 구덩이의 표시입니다. ";
   xx[ii++] =
     "70      Your feet are now wet.                                                          ";
+    xx[ii++] =
+    "70      당신의 발은 지금 젖었습니다.                                                      ";
   xx[ii++] =
     "71      I think I just lost my appetite.                                                ";
+    xx[ii++] =
+    "71      저는 방금 식욕을 잃은 것 같습니다.                                                ";
   xx[ii++] =
     "72      Thank you, it was delicious!                                                    ";
+    xx[ii++] =
+    "72      감사합니다. 맛있었습니다!                                                       ";
   xx[ii++] =
     "73      You have taken a drink from the stream.  The water tastes strongly of           ";
   xx[ii++] =
     "73      minerals, but is not unpleasant.  It is extremely cold.                         ";
+    xx[ii++] =
+    "73      스트림에서 마십니다. 물은 미네랄 맛이 강하나 그리 불쾌하지는 않습니다. 매우 차갑습니다.     ";
   xx[ii++] =
     "74      The bottle of water is now empty.                                               ";
+    xx[ii++] =
+    "74      물병이 이제 비어 있습니다.                                                       ";
   xx[ii++] =
     "75      Rubbing the electric lamp is not particularly rewarding.  Anyway,               ";
   xx[ii++] =
     "75      nothing exciting happens.                                                       ";
+    xx[ii++] =
+    "75      전기 램프를 문지르는 것은 특별히 보람이 없습니다. 어쨌든 아무런 흥미로운 일도 일어나지 않습니다. ";
   xx[ii++] =
     "76      Peculiar.  Nothing unexpected happens.                                          ";
+    xx[ii++] =
+    "76      이상합니다. 예상치 못한 일은 없습니다.                                             ";
   xx[ii++] =
     "77      Your bottle is empty and the ground is wet.                                     ";
+    xx[ii++] =
+    "77      당신의 병은 비어 있고 땅은 젖었습니다.                                             ";
   xx[ii++] =
     "78      You can't pour that.                                                            ";
+    xx[ii++] =
+    "78      그걸 부을 수 없습니다.                                                           ";
   xx[ii++] =
     "79      Watch it!                                                                       ";
+    xx[ii++] =
+    "79      조심하세요!                                                                     ";
   xx[ii++] =
     "80      Which way?                                                                      ";
+    xx[ii++] =
+    "80      어느 방향으로 가시겠습니까?                                                       ";
   xx[ii++] =
     "81      Oh dear, you seem to have gotten yourself killed.  I might be able to           ";
   xx[ii++] =
     "81      help you out, but I've never really done this before.  Do you want me           ";
   xx[ii++] =
     "81      to try to reincarnate you?                                                      ";
+    xx[ii++] =
+    "81      어머, 당신은 자신을 죽였습니다. 제가 도와줄 수 있을지도 모르지만, 사실 처음 해보는 일이에요. 부활을 시도해 볼까요? ";
   xx[ii++] =
     "82      All right.  But don't blame me if something goes wr......                       ";
   xx[ii++] =
@@ -4497,304 +5183,182 @@ function readData() {
     "82      You are engulfed in a cloud of orange smoke.  Coughing and gasping,             ";
   xx[ii++] =
     "82      you emerge from the smoke and find....                                          ";
-  xx[ii++] =
-    "83      You clumsy oaf, you've done it again!  I don't know how long I can              ";
-  xx[ii++] =
-    "83      keep this up.  Do you want me to try reincarnating you again?                   ";
-  xx[ii++] =
-    "84      Okay, now where did I put my orange smoke?....  >POOF!<                         ";
-  xx[ii++] =
-    "84      Everything disappears in a dense cloud of orange smoke.                         ";
-  xx[ii++] =
-    "85      Now you've really done it!  I'm out of orange smoke!  You don't expect          ";
-  xx[ii++] =
-    "85      me to do a decent reincarnation without any orange smoke, do you?               ";
-  xx[ii++] =
-    "86      okay, if you're so smart, do it yourself!  I'm leaving!                         ";
-  xx[ii++] =
-    '90      >>> messages 81 thru 90 are reserved for "obituaries". <<<                      ';
-  xx[ii++] =
-    "91      Sorry, but I no longer seem to remember how it was you got here.                ";
-  xx[ii++] =
-    "92      You can't carry anything more.  You'll have to drop something first.            ";
-  xx[ii++] =
-    "93      You can't go through a locked steel grate!                                      ";
-  xx[ii++] =
-    "94      I believe what you want is right here with you.                                 ";
-  xx[ii++] =
-    "95      You don't fit through a two-inch slit!                                          ";
-  xx[ii++] =
-    "96      I respectfully suggest you go across the bridge instead of jumping.             ";
-  xx[ii++] =
-    "97      There is no way across the fissure.                                             ";
-  xx[ii++] =
-    "98      You're not carrying anything.                                                   ";
-  xx[ii++] =
-    "99      You are currently holding the following:                                        ";
-  xx[ii++] =
-    "100     It's not hungry (it's merely pinin' for the fjords).  Besides, you              ";
-  xx[ii++] =
-    "100     have no bird seed.                                                              ";
-  xx[ii++] =
-    '1       어딘가 가까이에는 거대한 동굴인 콜로설 케이브가 있습니다. 다른 사람들은 이곳에서 재물과 금을 발견했지만, 들어가고 나서 돌아오지 않는 사람들도 있다고 전해집니다. 마법은 동굴에서 작동한다고 합니다. 저는 당신의 눈과 손이 될 것입니다. 1 또는 2 단어로 명령을 내려주세요. 먼저 5글자만 보기 때문에 "북동"을 "북"과 구별하기 위해 "북동"으로 입력해야 합니다.';
-  xx[ii++] =
-    '1       (꼼짝 말고 막힌 상태에 빠지면 "도움말"이라고 입력하면 일반적인 힌트를 얻을 수 있습니다. 모험을 끝내는 방법 등에 대한 정보는 "정보"라고 입력하세요.)';
-  xx[ii++] =
-    "1                                     - - -                                             ";
-  xx[ii++] =
-    "1       이 프로그램은 Willie Crowther가 원래 개발했습니다. 현재 프로그램의 대부분은 Don Woods가 추가했습니다. (don @ su-ai에 문의하면 질문이나 의견 등을 할 수 있습니다.)";
-  xx[ii++] =
-    "2       작은 난쟁이가 큰 칼을 들고 당신의 길을 막고 있습니다.                                ";
-  xx[ii++] =
-    "3       작은 난쟁이가 방금 모퉁이를 돌아가다가 당신을 보고 작은 도끼를 던졌지만 놓쳤습니다.욕을 하고 도망갔습니다. ";
-  xx[ii++] =
-    "4       위협적인 작은 난쟁이가 당신과 함께 있는 방 안에 있습니다!                       ";
-  xx[ii++] =
-    "5       하나의 날카로운 나쁜 칼이 당신에게 던져집니다!                                         ";
-  xx[ii++] =
-    "6       아무도 당신을 맞히지 않았습니다!                                                           ";
-  xx[ii++] =
-    "7       그들 중 한 명이 당신에게 닿습니다!                                                           ";
-  xx[ii++] =
-    '8       한쪽에서 "PLUGH"라고 빈칸이 들립니다.                                                    ';
-  xx[ii++] =
-    "9       그 방향으로 이동할 수 있는 방법이 없습니다.                                        ";
-  xx[ii++] =
-    "10      어느 방향을 향하고 있는지 잘 모르겠습니다. 나침반 방향이나 근처의 물체를 사용하세요.     ";
-  xx[ii++] =
-    "11      어디에서 들어왔는지 모르겠습니다. 나침반 방향이나 가고자 하는 방향에 해당하는 것을 이름으로 지정하세요. ";
-  xx[ii++] =
-    "12      그 단어를 여기에 적용하는 방법을 모릅니다.                                       ";
-  xx[ii++] =
-    "13      그건 이해하지 못합니다!                                                        ";
-  xx[ii++] =
-    "14      좋아요. 설명해 줄 수 있을까요?                                                 ";
-  xx[ii++] =
-    "15      죄송하지만 더 자세한 정보를 제공할 수 없습니다. 위치의 상세한 설명을 다시 할 것입니다. ";
-  xx[ii++] =
-    "16      이제 어두워졌습니다. 앞으로 나아가면 큰 구덩이에 떨어질 가능성이 있습니다.                       ";
-  xx[ii++] =
-    "17      당신은 그냥 w 대신 서쪽을 입력할 수 있습니다.                                       ";
-  xx[ii++] =
-    "18      새를 잡으려고 하는 건가요?                                                       ";
-  xx[ii++] =
-    "19      새가 지금 겁먹고 있어서 아무리 노력해도 잡을 수 없습니다. 나중에 다시 시도해 보세요.       ";
-  xx[ii++] =
-    "20      뱀과 어떻게 대처하려고 하시는 건가요?                                                ";
-  xx[ii++] =
-    "21      뱀을 죽일 수도, 몰아낼 수도, 피할 수도 없습니다. 하지만 지금은 필요한 자원이 없습니다.    ";
-  xx[ii++] =
-    "22      지금 그만두고 싶으세요?                                                        ";
-  xx[ii++] =
-    "23      당신은 구덩이에 떨어져 모든 뼈가 부러졌습니다!                                       ";
-  xx[ii++] =
-    "24      이미 그것을 가지고 있습니다!                                                     ";
-  xx[ii++] =
-    "25      진지해요!                                                                      ";
-  xx[ii++] =
-    "26      새는 당신이 들어올 때는 겁을 먹지 않았지만, 가까이 다가가니 불안해지고 잡을 수 없습니다. ";
-  xx[ii++] =
-    "27      새를 잡을 수는 있지만, 옮길 수는 없습니다.                                       ";
-  xx[ii++] =
-    "28      여기에는 자물쇠가 없습니다!                                                     ";
-  xx[ii++] =
-    "29      그걸 가지고 있지 않습니다!                                                     ";
-  xx[ii++] =
-    "30      작은 새가 녹색 뱀을 공격해서 경이로운 맹렬함으로 뱀을 쫓아냈습니다. 떨어진 꼬리깃털이 천천히 땅으로 떨어집니다. ";
-  xx[ii++] =
-    "31      열쇠가 없습니다!                                                               ";
-  xx[ii++] =
-    "32      자물쇠가 없습니다.                                                             ";
-  xx[ii++] =
-    "33      그런 것을 잠그거나 열 수 있는 방법을 모릅니다.                                   ";
-  xx[ii++] =
-    "34      이미 잠겨 있었습니다.                                                           ";
-  xx[ii++] =
-    "35      그레이트가 잠겨 있습니다.                                                       ";
-  xx[ii++] =
-    "36      그레이트가 열렸습니다.                                                          ";
-  xx[ii++] =
-    "37      이미 열려 있었습니다.                                                           ";
-  xx[ii++] =
-    "38      빛을 발하는 소스가 없습니다.                                                     ";
-  xx[ii++] =
-    "39      램프가 켜졌습니다.                                                             ";
-  xx[ii++] =
-    "40      램프가 꺼졌습니다.                                                             ";
-  xx[ii++] =
-    "41      곰을 통과해서 사슬을 풀 방법은 없습니다.                                            ";
-  xx[ii++] =
-    "42      아무 일도 일어나지 않습니다.                                                      ";
-  xx[ii++] =
-    "43      어디에서요?                                                                    ";
-  xx[ii++] =
-    "44      여기에서 공격할 대상이 없습니다.                                                ";
-  xx[ii++] =
-    "45      작은 새가 이제 죽었습니다. 그 몸은 사라집니다.                                    ";
-  xx[ii++] =
-    "46      뱀을 공격하는 것은 효과가 없을 뿐만 아니라 매우 위험합니다.                             ";
-  xx[ii++] =
-    "47      작은 난쟁이를 죽였습니다.                                                         ";
-  xx[ii++] =
-    "48      작은 난쟁이를 공격했지만 그가 피하고 도망갔습니다.                                ";
-  xx[ii++] =
-    "49      무엇으로요? 맨 손으로요?                                                        ";
-  xx[ii++] =
-    "50      좋은 시도였지만, 그건 낡아서 효과가 없는 마법 물건입니다.                           ";
-  xx[ii++] =
-    '51      장소, 동작 및 물건에 대해 알고 있습니다. 대부분의 어휘는 장소를 나타내는데 사용되며 거기로 이동하는 데 사용됩니다. 이동하려면 숲, 건물, 하류, 들어가기, 동쪽, 서쪽, 북쪽, 남쪽, 위로 또는 아래로와 같은 단어를 사용해보세요. 동굴에 숨겨진 블랙 로드와 같은 몇 가지 특별한 물건에 대해서도 알고 있습니다. 이러한 물건은 알고 있는 동작 단어 중 일부를 사용하여 조작할 수 있습니다. 일반적으로 객체와 동작 단어를 모두 제공해야하지만 때로는 동사만으로 객체를 유추할 수 있습니다. 일부 객체는 동사를 함께 함축시킵니다. 특히 "인벤토리"는 "인벤토리를 보여줘"를 의미하며, 소지품 목록을 제공하도록합니다. 물건은 부작용이 있습니다. 예를 들어, 로드는 새를 놀라게 합니다. 이동에 문제가있는 사람들은 몇 가지 단어를 더 시도하면 됩니다. 물건을 제대로 조작하려고하지만 능력을 초과한 것입니다. 전혀 다른 접근 방식을 시도해야합니다. 게임을 빠르게 진행하기 위해 하나의 단어로 장거리 이동을 할 수도 있습니다. 예를 들어, "건물"은 숲에 빠져있지 않은 한 지상 어디에서든 건물로 이동하는 데 사용됩니다. 또한 동굴 통로는 많이 꺾이기 때문에 북쪽에서 방을 떠나더라도 다음 방에 남쪽에서 들어갈 수 있는 것을 보장하지는 않습니다. 행운을 빕니다!';
-  xx[ii++] =
-    "52      빗나갑니다!                                                                   ";
-  xx[ii++] =
-    "53      당신에게 닿았습니다!                                                             ";
-  xx[ii++] =
-    "54      좋아요.                                                                        ";
-  xx[ii++] =
-    "55      열쇠를 잠금 해제할 수 없습니다.                                                 ";
-  xx[ii++] =
-    "56      몇 개의 작은 구멍에 기어 다니다가 주요 통로로 다시 도착했습니다.                              ";
-  xx[ii++] =
-    "57      동굴이 어디에 있는지는 모르지만, 이 근처에서는 오래 강이 흐를 수 없습니다. 강을 따라 가보세요. ";
-  xx[ii++] =
-    "58      그것을 하려면 더 자세한 지침이 필요합니다.                                       ";
-  xx[ii++] =
-    "59      이동하고 물건을 조작하는 동안 볼 수있는 것만 알려 드릴 수 있습니다. 먼 곳에있는 것을 알려 드릴 수는 없습니다. ";
-  xx[ii++] =
-    "60      그 단어를 알지 못합니다.                                                         ";
-  xx[ii++] =
-    "61      뭐라고요?                                                                      ";
-  xx[ii++] =
-    "62      동굴에 들어가려고 하는 건가요?                                                   ";
-  xx[ii++] =
-    "63      그레이트는 매우 단단하고 강철 자물쇠가 있습니다. 키 없이는 들어갈 수 없으며 주변에 키가 없습니다. 다른 곳에서 키를 찾는 것을 추천합니다. ";
-  xx[ii++] =
-    "64      숲의 나무는 큰 오크와 메이플로 이루어져 있으며 가끔 소나무 또는 가문비나무 그루가 있습니다. 상당량의 자라가 있으며 주로 자작나무와 장박나무의 미명이있는 덤불도 있습니다. 이 계절에는 모든 잎 때문에 시야가 제한되지만, 가는 것은 꽤 쉽습니다. 참나무와 열매나무를 빼고 돌아가면 가는 것이 쉽습니다. ";
-  xx[ii++] =
-    "65      어드벤처 570에 오신 것을 환영합니다!                                                           ";
-  xx[ii++] =
-    "65                                                                                      ";
-  xx[ii++] =
-    "65      지침을 보려면 'instr'를 입력하세요.                                                   ";
-  xx[ii++] =
-    "66      삽 없이 팔다리로 파는 것은 상당히 비실용적입니다. 삽이 있어도 진전은 불가능합니다.        ";
-  xx[ii++] =
-    "67      폭발을 위해서는 다이너마이트가 필요합니다.                                         ";
-  xx[ii++] =
-    "68      저도 당신만큼 헷갈려요.                                                          ";
-  xx[ii++] =
-    "69      안개는 주로 물로 이루어진 하얀 증기로 동굴에서 때때로 볼 수 있습니다. 어디에서나 발견될 수 있지만 종종 물로 이어지는 깊은 구덩이의 표시입니다. ";
-  xx[ii++] =
-    "70      당신의 발은 지금 젖었습니다.                                                      ";
-  xx[ii++] =
-    "71      저는 방금 식욕을 잃은 것 같습니다.                                                ";
-  xx[ii++] =
-    "72      감사합니다. 맛있었습니다!                                                       ";
-  xx[ii++] =
-    "73      스트림에서 마십니다. 물은 미네랄 맛이 강하나 그리 불쾌하지는 않습니다. 매우 차갑습니다.     ";
-  xx[ii++] =
-    "74      물병이 이제 비어 있습니다.                                                       ";
-  xx[ii++] =
-    "75      전기 램프를 문지르는 것은 특별히 보람이 없습니다. 어쨌든 아무런 흥미로운 일도 일어나지 않습니다. ";
-  xx[ii++] =
-    "76      이상합니다. 예상치 못한 일은 없습니다.                                             ";
-  xx[ii++] =
-    "77      당신의 병은 비어 있고 땅은 젖었습니다.                                             ";
-  xx[ii++] =
-    "78      그걸 부을 수 없습니다.                                                           ";
-  xx[ii++] =
-    "79      조심하세요!                                                                     ";
-  xx[ii++] =
-    "80      어느 방향으로 가시겠습니까?                                                       ";
-  xx[ii++] =
-    "81      어머, 당신은 자신을 죽였습니다. 제가 도와줄 수 있을지도 모르지만, 사실 처음 해보는 일이에요. 부활을 시도해 볼까요? ";
-  xx[ii++] =
+    xx[ii++] =
     "82      좋아요. 하지만 뭔가 잘못되면 저를 탓하지 마세요......                               ";
   xx[ii++] =
     "82                          --- 퍼프!! ---                                              ";
   xx[ii++] =
     "82      주황색 연기 구름에 휩쓸려 당신은 기침과 숨을 헐떡이며 연기에서 나와 무언가를 발견합니다. ";
   xx[ii++] =
+    "83      You clumsy oaf, you've done it again!  I don't know how long I can              ";
+  xx[ii++] =
+    "83      keep this up.  Do you want me to try reincarnating you again?                   ";
+    xx[ii++] =
     "83      어설픈 뚱뚱이, 또한 이것을 몇 번 할 수 있을지 모르겠어요. 다시 부활을 시도할까요?         ";
   xx[ii++] =
+    "84      Okay, now where did I put my orange smoke?....  >POOF!<                         ";
+  xx[ii++] =
+    "84      Everything disappears in a dense cloud of orange smoke.                         ";
+    xx[ii++] =
     "84      알겠어요. 그런데 주황색 연기는 어디에 넣었더라?... >퍼프!<                           ";
   xx[ii++] =
     "84      모든 것이 주황색 연기의 짙은 구름 속으로 사라집니다.                               ";
   xx[ii++] =
+    "85      Now you've really done it!  I'm out of orange smoke!  You don't expect          ";
+  xx[ii++] =
+    "85      me to do a decent reincarnation without any orange smoke, do you?               ";
+    xx[ii++] =
     "85      이제 제대로 날려버렸습니다! 주황색 연기가 없습니다! 제대로 된 부활을 기대하지 않으시겠지요? ";
   xx[ii++] =
+    "86      okay, if you're so smart, do it yourself!  I'm leaving!                         ";
+    xx[ii++] =
     "86      좋아요, 그렇게 똑똑하면 스스로 해보세요! 저는 떠나요!                               ";
   xx[ii++] =
+    '90      >>> messages 81 thru 90 are reserved for "obituaries". <<<                      ';
+    xx[ii++] =
     '90      >>> 메시지 81부터 90까지는 "사망 소식"을 위해 예약되어 있습니다. <<<                     ';
   xx[ii++] =
+    "91      Sorry, but I no longer seem to remember how it was you got here.                ";
+    xx[ii++] =
     "91      미안하지만, 어떻게 여기에 오게 된 것인지 기억하지 못하네요.                           ";
   xx[ii++] =
+    "92      You can't carry anything more.  You'll have to drop something first.            ";
+    xx[ii++] =
     "92      더 이상 아무것도 들고 다닐 수 없습니다. 먼저 무언가를 내려놓으세요.                     ";
   xx[ii++] =
+    "93      You can't go through a locked steel grate!                                      ";
+    xx[ii++] =
     "93      잠긴 강철 그레이트를 통과 할 수 없습니다!                                       ";
   xx[ii++] =
+    "94      I believe what you want is right here with you.                                 ";
+    xx[ii++] =
     "94      원하는 것은 바로 당신과 함께 있는 것 같습니다.                                   ";
   xx[ii++] =
+    "95      You don't fit through a two-inch slit!                                          ";
+    xx[ii++] =
     "95      당신은 2인치의 틈을 통과 할 수 없습니다!                                         ";
   xx[ii++] =
+    "96      I respectfully suggest you go across the bridge instead of jumping.             ";
+    xx[ii++] =
     "96      점프하는 대신 다리 위로 건너가는 것을 존경스럽게 제안드립니다.                           ";
   xx[ii++] =
+    "97      There is no way across the fissure.                                             ";
+    xx[ii++] =
     "97      갈라진 틈을 통과할 방법이 없습니다.                                             ";
   xx[ii++] =
+    "98      You're not carrying anything.                                                   ";
+    xx[ii++] =
     "98      당신은 아무것도 가지고 있지 않습니다.                                             ";
   xx[ii++] =
+    "99      You are currently holding the following:                                        ";
+    xx[ii++] =
     "99      현재 다음과 같은 물건을 들고 있습니다:                                            ";
   xx[ii++] =
-    "100     배고프지 않습니다 (그냥 피요르드를 위해 울고 있을 뿐입니다). 게다가 당신은 새 씨앗이 없습니다.  ";
+    "100     It's not hungry (it's merely pinin' for the fjords).  Besides, you              ";
   xx[ii++] =
+    "100     have no bird seed.                                                              ";
+  xx[ii++] =
+    "100     배고프지 않습니다 (그냥 피요르드를 위해 울고 있을 뿐입니다). 게다가 당신은 새 씨앗이 없습니다.  ";
+    xx[ii++] =
     "101     The snake has now devoured your bird.                                           ";
   xx[ii++] =
-    "102     There's nothing here it wants to eat (except perhaps you).                      ";
+      "101     뱀이 이제 당신의 새를 삼켰습니다.                                                    ";
   xx[ii++] =
-    "103     You fool, dwarves eat only coal!  Now you've made him *really* mad!!            ";
+      "102     There's nothing here it wants to eat (except perhaps you).                      ";
   xx[ii++] =
-    "104     You have nothing in which to carry it.                                          ";
+      "102     여기에는 (아마도 당신 말고는) 먹을 게 없습니다.                                        ";
   xx[ii++] =
-    "105     Your bottle is already full.                                                    ";
+      "103     You fool, dwarves eat only coal!  Now you've made him *really* mad!!            ";
   xx[ii++] =
-    "106     There is nothing here with which to fill the bottle.                            ";
+      "103     어리석은 자, 드워프는 석탄만 먹어요! 이제 그를 *정말* 화나게 만들었군요!!                   ";
   xx[ii++] =
-    "107     Your bottle is now full of water.                                               ";
+      "104     You have nothing in which to carry it.                                          ";
   xx[ii++] =
-    "108     Your bottle is now full of oil.                                                 ";
+      "104     담을 담을 무언가가 없습니다.                                                       ";
   xx[ii++] =
-    "109     You can't fill that.                                                            ";
+      "105     Your bottle is already full.                                                    ";
   xx[ii++] =
-    "110     Don't be ridiculous!                                                            ";
+      "105     이미 병이 가득 찼습니다.                                                            ";
+  xx[ii++] =
+      "106     There is nothing here with which to fill the bottle.                            ";
+  xx[ii++] =
+      "106     병을 채울만한 물건이 여기에는 없습니다.                                              ";
+  xx[ii++] =
+      "107     Your bottle is now full of water.                                               ";
+  xx[ii++] =
+      "107     병이 이제 물로 가득 찼습니다.                                                       ";
+  xx[ii++] =
+      "108     Your bottle is now full of oil.                                                 ";
+  xx[ii++] =
+      "108     병이 이제 기름으로 가득 찼습니다.                                                    ";
+  xx[ii++] =
+      "109     You can't fill that.                                                            ";
+  xx[ii++] =
+      "109     그걸로는 채울 수 없습니다.                                                          ";
+  xx[ii++] =
+      "110     Don't be ridiculous!                                                            ";
+  xx[ii++] =
+      "110     어리석은 소리 하지 마세요!                                                          ";
   xx[ii++] =
     "111     The door is extremely rusty and refuses to open.                                ";
   xx[ii++] =
+    "111     문은 극도로 녹이 범벅이 되어 열리지 않습니다.                                       ";
+  xx[ii++] =
     '112     The plant indignantly shakes the oil off its leaves and asks, "Water?"          ';
   xx[ii++] =
+    '112     식물은 기름을 잎에서 흔들어 내리며 "물?"이라고 물어봅니다.                            ';
+  xx[ii++] =
     "113     The hinges are quite thoroughly rusted now and won't budge.                     ";
+  xx[ii++] =
+    "113     문의 장치는 이제 완전히 녹아서 움직이지 않습니다.                                   ";
   xx[ii++] =
     "114     The oil has freed up the hinges so that the door will now move,                 ";
   xx[ii++] =
     "114     although it requires some effort.                                               ";
   xx[ii++] =
+    "114     기름더미가 문의 장치를 풀어서 이제 문이 움직일 수 있게 되었습니다.                    ";
+  xx[ii++] =
+    "114     하지만 조금의 노력이 필요합니다.                                                    ";
+  xx[ii++] =
     "115     The plant has exceptionally deep roots and cannot be pulled free.               ";
+  xx[ii++] =
+    "115     식물은 깊이 파뿌리가 박혀 있어 끌어낼 수 없습니다.                                  ";
   xx[ii++] =
     "116     The dwarves' knives vanish as they strike the walls of the cave.                ";
   xx[ii++] =
+    "116     드워프들의 나이프는 동굴의 벽에 닿자마자 사라집니다.                                 ";
+  xx[ii++] =
     "117     Something you're carrying won't fit through the tunnel with you.                ";
+  xx[ii++] =
+    "117     당신이 들고 다니는 것 중 어떤 것은 통과할 수 없습니다.                               ";
   xx[ii++] =
     "117     You'd best take inventory and drop something.                                   ";
   xx[ii++] =
+    "117     인벤토리를 확인하고 무언가를 내려놓으세요.                                          ";
+  xx[ii++] =
     "118     You can't fit this five-foot clam through that little passage!                  ";
+  xx[ii++] =
+    "118     작은 통나무를 그 작은 통과구로 통과시킬 수 없습니다!                               ";
   xx[ii++] =
     "119     you can't fit this five-foot oyster through that little passage!                ";
   xx[ii++] =
+    "119     작은 조개를 그 작은 통과구로 통과시킬 수 없습니다!                                 ";
+  xx[ii++] =
     "120     I advise you to put down the clam before opening it.  >STRAIN!<                 ";
+  xx[ii++] =
+    "120     조개를 열기 전에 내려놓는 것이 좋을겁니다. >스트레인!<                            ";
   xx[ii++] =
     "121     I advise you to put down the oyster before opening it.  >WRENCH!<               ";
   xx[ii++] =
+    "121     굴을 열기 전에 조개를 내려놓는 것이 좋을 겁니다. >렌치!<                          ";
+  xx[ii++] =
     "122     You don't have anything strong enough to open the clam.                         ";
   xx[ii++] =
+    "122     조개를 열 수 있는 충분히 강한 것을 가지고 있지 않습니다.                           ";
+  xx[ii++] =
     "123     You don't have anything strong enough to open the oyster.                       ";
+  xx[ii++] =
+    "123     굴을 열 수 있는 충분히 강한 것을 가지고 있지 않습니다.                            ";
   xx[ii++] =
     "124     A glistening pearl falls out of the clam and rolls away.  Goodness,             ";
   xx[ii++] =
@@ -4802,17 +5366,29 @@ function readData() {
   xx[ii++] =
     "124     bivalves.)  Whatever it is, it has now snapped shut again.                      ";
   xx[ii++] =
+    "124     반짝이는 진주가 조개에서 떨어져 굴러갑니다. 이건 정말로 조개입니다. (저는 이중연체를 잘 모릅니다.) 무엇이든지, 이제 다시 굳어집니다.  ";
+  xx[ii++] =
     "125     The oyster creaks open, revealing nothing but oyster inside.  It                ";
   xx[ii++] =
     "125     promptly snaps shut again.                                                      ";
+  xx[ii++] =
+    "125     조개가 열리자마자 안에는 조개만 들어있습니다.                                     ";
+  xx[ii++] =
+    "125     곧 다시 닫힙니다.                                                                ";
   xx[ii++] =
     "126     You have crawled around in some little holes and found your way                 ";
   xx[ii++] =
     "126     blocked by a recent cave-in.  You are now back in the main passage.             ";
   xx[ii++] =
+    "126     당신은 작은 구멍 사이를 기어다니다가 최근에 사태에 막혀 돌아왔습니다. 이제 다시 주요 통로에 있습니다.  ";
+  xx[ii++] =
     "127     There are faint rustling noises from the darkness behind you.                   ";
   xx[ii++] =
+    "127     어두운 곳에서 허스키운 소리가 들립니다.                                            ";
+  xx[ii++] =
     '128     Out from the shadows behind you pounces a bearded pirate!  "Har, har,"          ';
+  xx[ii++] =
+    '128     뒤에서 어둠 속에서 수염 난 해적이 덤벼듭니다! "하, 하," 그가 웃습니다.              ';
   xx[ii++] =
     "128     he chortles, \"I'll just take all this booty and hide it away with me           ";
   xx[ii++] =
@@ -4820,23 +5396,34 @@ function readData() {
   xx[ii++] =
     "128     the gloom.                                                                      ";
   xx[ii++] =
+    '128     "이 보물들을 다 가져가서 미궁에 몸을 숨기지!" 그는 당신의 보물을 잡고 어둠 속으로 사라집니다.  ';
+  xx[ii++] =
     '129     A sepulchral voice reverberating through the cave, says, "Cave closing          ';
   xx[ii++] =
     '129     soon.  All adventurers exit immediately through main office."                   ';
   xx[ii++] =
-    "130     A mysterious recorded voice groans into life and announces:                     ";
+    '129     무덤 같은 목소리가 동굴을 통해 울립니다. "동굴이 곧 닫힙니다. 모험가들은 즉시 주요 사무실로 이동하십시오." ';
+  xx[ii++] = "130     A mysterious recorded voice groans into life and announces:                     ";
+  xx[ii++] =
+    "130     수수께끼 같은 녹음된 목소리가 소리를 내며 알립니다: ";
   xx[ii++] =
     '130        "This exit is closed. Please leave via main office."                         ';
+  xx[ii++] =
+    '130        "이 출구는 닫혔습니다. 주요 사무실을 통해 나가십시오." ';
   xx[ii++] =
     "131     It looks as though you're dead.  Well, seeing as how it's so close to           ";
   xx[ii++] =
     "131     closing time anyway, I think we'll just call it a day.                          ";
+  xx[ii++] =
+    "131     당신은 이미 죽어있는 것 같습니다. 그런데 어차피 문 닫는 시간도 가까워졌으니까 이제 그냥 마무리하죠.  ";
   xx[ii++] =
     '132     The sepulchral voice entones, "The cave is now closed." as the echoes           ';
   xx[ii++] =
     "132     fade, there is a blinding flash of light (and a small puff of orange            ";
   xx[ii++] =
     "132     smoke). . . .    as your eyes refocus, you look around and find...              ";
+  xx[ii++] =
+    "132     무덤 같은 목소리가 울려 퍼집니다. \"동굴이 이제 닫혔습니다.\"이렇게 말하고 반향이 사라지자, 눈이 다시 초점을 잡으면 주변을 둘러보니...  ";
   xx[ii++] =
     "133     There is a loud explosion, and a twenty-foot hole appears in the far            ";
   xx[ii++] =
@@ -4846,15 +5433,21 @@ function readData() {
   xx[ii++] =
     "133     friendly elves carry the conquering adventurer off into the sunset.             ";
   xx[ii++] =
+    "133     큰 폭발 소리가 나며 벽에 이십 피트 정도의 구멍이 나타나 드워프들이 돌무더기에 파묻히게 됩니다. 그 구멍을 통해 행군하면, 당신은 일몰로 떠나는 친절한 요정들에게 데려가져 축하받게 됩니다.  ";
+  xx[ii++] =
     "134     There is a loud explosion, and a twenty-foot hole appears in the far            ";
   xx[ii++] =
     "134     wall, burying the snakes in the rubble.  A river of molten lava pours           ";
   xx[ii++] =
     "134     in through the hole, destroying everything in its path, including you!          ";
   xx[ii++] =
+    "134     큰 폭발 소리가 나며 벽에 이십 피트 정도의 구멍이 나타나 드래곤들이 돌무더기에 파묻히게 됩니다. 그 구멍을 통해 화산 용암의 강이 흘러 들어와 당신을 포함한 모든 것을 파괴합니다!  ";
+  xx[ii++] =
     "135     There is a loud explosion, and you are suddenly splashed across the             ";
   xx[ii++] =
     "135     walls of the room.                                                              ";
+  xx[ii++] =
+    "135     큰 폭발 소리가 나며 갑자기 당신은 방 안 벽면에 튀어 퍼집니다.  ";
   xx[ii++] =
     "136     The resulting ruckus has awakened the dwarves.  There are now several           ";
   xx[ii++] =
@@ -4862,15 +5455,27 @@ function readData() {
   xx[ii++] =
     "136     knives at you!  All of them get you!                                            ";
   xx[ii++] =
+    "136     결과적으로 소동이 일어났고 드워프들을 깨웠습니다. 이제 당신과 함께 방 안에는 몇몇 위협적인 작은 드워프들이 있습니다! 그들 대부분이 당신을 향해 칼을 던집니다! 그리고 모두 당신을 맞습니다!  ";
+  xx[ii++] =
     "137     Oh, leave the poor unhappy bird alone.                                          ";
+  xx[ii++] =
+    "137     이불씀 하늘날아 가셔요!                                                     ";
   xx[ii++] =
     "138     I daresay whatever you want is around here somewhere.                           ";
   xx[ii++] =
+    "138     아마도 당신이 찾고 있는 것이 여기 어딘가에 있을 겁니다.                             ";
+  xx[ii++] =
     '139     I don\'t know the word "stop". Use "quit" if you want to give up.               ';
+  xx[ii++] =
+    '139     "그만"이라는 단어는 알지 못합니다. 그만두고 싶으시면 "그만"이라고 하세요.                      ';
   xx[ii++] =
     "140     You can't get there from here.                                                  ";
   xx[ii++] =
+    "140     여기서는 거기로 갈 수 없습니다.                                                  ";
+  xx[ii++] =
     "141     You are being followed by a very large, tame bear.                              ";
+  xx[ii++] =
+    "141     아주 큰 길들여진 곰이 당신을 따라오고 있습니다.                                   ";
   xx[ii++] =
     '142     If you want to end your adventure early, say "quit". To suspend your            ';
   xx[ii++] =
@@ -4878,9 +5483,11 @@ function readData() {
   xx[ii++] =
     '142     or "save"). To see what hours the cave is normally open, say "hours".           ';
   xx[ii++] =
+    '142     자기 진행 상황을 알고 싶다면 "점수"라고 말하세요. 보물을 완전히 안전하게 건물에 둬야만 만점을 받을 수 있지만, 발견만 해도 일부 점수를 받습니다. 사망하거나 그만두면 점수가 감점됩니다. 그러나 초심자와 다른 사람들을 구별하기 위해 초입에 들어간 것에 대한 큰 보너스 점수가 있으며, 더 어려운 구간을 통과했는지 여부를 확인하는 다른 방법도 있습니다. 모든 보물을 찾았다고 생각하면 일정 시간 동안 탐험을 계속하세요. 아무런 흥미로운 일이 없다면 아직 모두 찾지 않은 것입니다. 어려움을 겪는 것 같으면 가끔 힌트를 제공할 수 있습니다. 그렇게 하면 점수에 어떤 영향을 미칠지 미리 알려드립니다.  ';
+  xx[ii++] =
     '142     To see how well you\'re doing, say "score". To get full credit for a            ';
   xx[ii++] =
-    "142     treasure, you must have left it safely in the building, though you get          ";
+    '142     treasure, you must have left it safely in the building, though you get          ';
   xx[ii++] =
     "142     partial credit just for locating it.  You lose points for getting               ";
   xx[ii++] =
@@ -4912,53 +5519,95 @@ function readData() {
   xx[ii++] =
     "142     the full description of a place unless you explicitly ask me to.                ";
   xx[ii++] =
+    '142     모험을 일찍 끝내려면 "그만"이라고 말하세요. 잠시 중단해서 나중에 계속할 수 있게 하려면 "일시정지"(또는 "저장")라고 말하세요. 동굴이 보통 어느 시간에 열려 있는지 알고 싶다면 "시간"이라고 말하세요.  ';
+  xx[ii++] =
+    '142     자기 진행 상황을 알고 싶다면 "점수"라고 말하세요. 보물을 완전히 안전하게 건물에 둬야만 만점을 받을 수 있지만, 발견만 해도 일부 점수를 받습니다. 사망하거나 그만두면 점수가 감점됩니다. 그러나 초심자와 다른 사람들을 구별하기 위해 초입에 들어간 것에 대한 큰 보너스 점수가 있으며, 더 어려운 구간을 통과했는지 여부를 확인하는 다른 방법도 있습니다. 모든 보물을 찾았다고 생각하면 일정 시간 동안 탐험을 계속하세요. 아무런 흥미로운 일이 없다면 아직 모두 찾지 않은 것입니다. 어려움을 겪는 것 같으면 가끔 힌트를 제공할 수 있습니다. 그렇게 하면 점수에 어떤 영향을 미칠지 미리 알려드립니다.  ';
+  xx[ii++] =
     "143     Do you indeed wish to quit now?                                                 ";
+  xx[ii++] =
+    "143     정말로 이제 그만두시겠습니까?                                                   ";
   xx[ii++] =
     "144     There is nothing here with which to fill the vase.                              ";
   xx[ii++] =
+    "144     여기에는 병을 채울만한 물건이 없습니다.                                             ";
+  xx[ii++] =
     "145     The sudden change in temperature has delicately shattered the vase.             ";
+  xx[ii++] =
+    "145     갑자기 온도가 변화하면서 섬세하게 깨져버립니다.                                   ";
   xx[ii++] =
     "146     It is beyond your power to do that.                                             ";
   xx[ii++] =
+    "146     그건 당신의 능력 밖입니다.                                                       ";
+  xx[ii++] =
     "147     I don't know how.                                                               ";
   xx[ii++] =
+    "147     그건 제가 모르는 방법입니다.                                                      ";
+  xx[ii++] =
     "148     It is too far up for you to reach.                                              ";
+  xx[ii++] =
+    "148     당신은 너무 높이 있어서 닿을 수 없습니다.                                          ";
   xx[ii++] =
     "149     You killed a little dwarf.  The body vanishes in a cloud of greasy              ";
   xx[ii++] =
     "149     black smoke.                                                                    ";
   xx[ii++] =
+    "149     당신은 작은 드워프 한 명을 죽였습니다. 그의 시체는 기름진 검은 연기에 사라집니다.           ";
+  xx[ii++] =
     "150     The shell is very strong and is impervious to attack.                           ";
+  xx[ii++] =
+    "150     껍질은 매우 단단하며 공격을 받지 않습니다.                                        ";
   xx[ii++] =
     "151     What's the matter, can't you read?  Now you'd best start over.                  ";
   xx[ii++] =
+    "151     무슨 일인지, 읽을 수 없습니다.                                                     ";
+  xx[ii++] =
     "152     The axe bounces harmlessly off the dragon's thick scales.                       ";
   xx[ii++] =
+    "152     도끼가 용의 두꺼운 비늘에 튕기며 피해를 주지 못합니다.                              ";
+  xx[ii++] =
     "153     The dragon looks rather nasty.  You'd best not try to get by.                   ";
+  xx[ii++] =
+    "153     용은 꽤 불쾌해 보입니다. 그쪽으로 가려고 하지 마세요.                              ";
   xx[ii++] =
     "154     The little bird attacks the green dragon, and in an astounding flurry           ";
   xx[ii++] =
     "154     gets burnt to a cinder.  The ashes blow away.                                   ";
   xx[ii++] =
+    "154     작은 새가 푸른 용을 공격해서 놀랍도록 날아가며 불에 타서 재가 되었습니다. 재가 날아가버립니다.  ";
+  xx[ii++] =
     "155     On what?                                                                        ";
+  xx[ii++] =
+    "155     무엇을 기준으로요?                                                               ";
   xx[ii++] =
     "156     Okay, from now on I'll only describe a place in full the first time             ";
   xx[ii++] =
     '156     you come to it.  To get the full description, say "look".                       ';
   xx[ii++] =
+    "156     앞으로는 한 번만 장소를 자세히 설명하겠습니다. 자세한 설명을 원하면 '보기'라고 말하세요.     ";
+  xx[ii++] =
     "157     Trolls are close relatives with the rocks and have skin as tough as             ";
   xx[ii++] =
     "157     that of a rhinoceros.  The troll fends off your blows effortlessly.             ";
+  xx[ii++] =
+    "157     트롤은 돌과 가족 관계이며 뿔소의 피부와 같이 단단합니다. 트롤은 손쉽게 당신의 공격을 무시합니다. ";
   xx[ii++] =
     "158     The troll deftly catches the axe, examines it carefully, and tosses it          ";
   xx[ii++] =
     '158     back, declaring, "Good workmanship, but it\'s not valuable enough."             ';
   xx[ii++] =
+    "158     트롤은 도끼를 민감하게 잡아다가 주의 깊게 살펴보고 다시 던집니다. '제작이 잘 되어 있지만 충분히 값비싼 것은 아니네요.'라고 말합니다. ";
+  xx[ii++] =
     "159     The troll catches your treasure and scurries away out of sight.                 ";
+  xx[ii++] =
+    "159     트롤은 당신의 보물을 잡아가고 그 자리에서 사라집니다.                              ";
   xx[ii++] =
     "160     The troll refuses to let you cross.                                             ";
   xx[ii++] =
+    "160     트롤은 당신이 건너지 못하게 거부합니다.                                             ";
+    xx[ii++] =
     "161     There is no longer any way across the chasm.                                    ";
+  xx[ii++] =
+    "161     이제 구덩이를 건널 수 있는 방법이 없습니다.                                         ";
   xx[ii++] =
     "162     Just as you reach the other side, the bridge buckles beneath the                ";
   xx[ii++] =
@@ -4968,41 +5617,75 @@ function readData() {
   xx[ii++] =
     "162     stumble back and fall into the chasm.                                           ";
   xx[ii++] =
+    "162     당신이 반대편에 도달하는 순간, 다리가 곰이 여전히 따라오고 있다는 사실을 깨닫고 다리가 버티지 못하고 무너져 버립니다. 당신은 지지대를 찾기 위해 필사적으로 노력하지만 다리가 무너져버리면서 넘어져 구덩이로 떨어집니다.  ";
+  xx[ii++] =
     "163     The bear lumbers toward the troll, who lets out a startled shriek and           ";
   xx[ii++] =
     "163     scurries away.  The bear soon gives up the pursuit and wanders back.            ";
   xx[ii++] =
+    "163     곰은 트롤을 향해 걸어갑니다. 트롤은 경악한 소리를 내며 놀라 도망갑니다. 곰은 곧 그만두고 돌아갑니다.  ";
+  xx[ii++] =
     "164     The axe misses and lands near the bear where you can't get at it.               ";
+  xx[ii++] =
+    "164     도끼가 범과 놓친 곳에 착지합니다. 당신이 가져갈 수 없는 곳에 떨어져 있습니다.             ";
   xx[ii++] =
     "165     With what?  your bare hands?  Against *his* bear hands??                        ";
   xx[ii++] =
+    "165     빈 손으로 하시겠습니까? 그 놈의 곰 손과 맞서기 위해서는?                             ";
+  xx[ii++] =
     "166     The bear is confused; he only wants to be your friend.                          ";
   xx[ii++] =
+    "166     곰은 혼란스러워합니다. 그는 단지 당신의 친구가 되기를 원할 뿐입니다.                   ";
+  xx[ii++] =
     "167     For crying out loud, the poor thing is already dead!                            ";
+  xx[ii++] =
+    "167     소리를 내지 마세요. 그냥 이미 죽은 것입니다!                                        ";
   xx[ii++] =
     "168     The bear eagerly wolfs down your food, after which he seems to calm             ";
   xx[ii++] =
     "168     down considerably and even becomes rather friendly.                             ";
   xx[ii++] =
+    "168     곰은 당신의 음식을 간절히 먹고 난후에는 상당히 진정되고 친근해집니다.                     ";
+  xx[ii++] =
     "169     The bear is still chained to the wall.                                          ";
+  xx[ii++] =
+    "169     곰은 여전히 벽에 사슬로 묶여 있습니다.                                              ";
   xx[ii++] =
     "170     The chain is still locked.                                                      ";
   xx[ii++] =
+    "170     사슬은 여전히 잠겨 있습니다.                                                      ";
+  xx[ii++] =
     "171     The chain is now unlocked.                                                      ";
+  xx[ii++] =
+    "171     사슬은 이제 열렸습니다.                                                           ";
   xx[ii++] =
     "172     The chain is now locked.                                                        ";
   xx[ii++] =
+    "172     사슬은 이제 잠겼습니다.                                                            ";
+  xx[ii++] =
     "173     There is nothing here to which the chain can be locked.                         ";
+  xx[ii++] =
+    "173     여기에 사슬을 고정시킬 물건이 없습니다.                                            ";
   xx[ii++] =
     "174     There is nothing here to eat.                                                   ";
   xx[ii++] =
+    "174     먹을 것이 없습니다.                                                               ";
+  xx[ii++] =
     "175     Do you want the hint?                                                           ";
+  xx[ii++] =
+    "175     힌트가 필요하십니까?                                                               ";
   xx[ii++] =
     "176     Do you need help getting out of the maze?                                       ";
   xx[ii++] =
+    "176     미로에서 나가는 방법을 도와드릴까요?                                                 ";
+  xx[ii++] =
     "177     You can make the passages look less alike by dropping things.                   ";
   xx[ii++] =
+    "177     물건을 내려놓으면 통로가 덜 비슷해집니다.                                            ";
+  xx[ii++] =
     "178     Are you trying to explore beyond the plover room?                               ";
+  xx[ii++] =
+    "178     플로버 방을 넘어서 탐험하려고 하나요?                                                 ";
   xx[ii++] =
     "179     There is a way to explore that region without having to worry about             ";
   xx[ii++] =
@@ -5010,11 +5693,19 @@ function readData() {
   xx[ii++] =
     "179     useful in discovering the secret.                                               ";
   xx[ii++] =
+    "179     구덩이에 빠질 걱정 없이 그 지역을 탐험할 수 있는 방법이 있습니다. 사용 가능한 물건 중에서는 즉시 사용할 수 있는 것은 없습니다. ";
+  xx[ii++] =
     "180     Do you need help getting out of here?                                           ";
+  xx[ii++] =
+    "180     여기서 나가는 방법을 도와드릴까요?                                                 ";
   xx[ii++] =
     "181     Don't go west.                                                                  ";
   xx[ii++] =
+    "181     서쪽으로 가지 마세요.                                                              ";
+  xx[ii++] =
     "182     Gluttony is not one of the troll's vices.  Avarice, however, is.                ";
+  xx[ii++] =
+    "182     트롤은 탐식이 아니라 탐욕 중 하나입니다.                                              ";
   xx[ii++] =
     "183     Your lamp is getting dim.  You'd best start wrapping this up, unless            ";
   xx[ii++] =
@@ -5022,11 +5713,19 @@ function readData() {
   xx[ii++] =
     "183     machine in the maze.  Bring some coins with you.                                ";
   xx[ii++] =
+    "183     등불이 점점 어두워집니다. 마무리하려는 게 좋습니다.                                ";
+  xx[ii++] =
+    "183     신선한 배터리를 구할 수 있다면 가져오세요. 미로에 자판기가 있는 것 같습니다. 동전을 가져와 주세요. ";
+  xx[ii++] =
     "184     Your lamp has gone out. Give it a whack; that usually works.                    ";
+  xx[ii++] =
+    "184     등불이 꺼졌습니다. 한 번 쿵 하면 대부분 작동합니다.                                 ";
   xx[ii++] =
     "185     There's not much point in wandering around out here, and you can't              ";
   xx[ii++] =
     "185     explore the cave without a lamp.  So let's just call it a day.                  ";
+  xx[ii++] =
+    "185     여기에서 헤매는 것에 큰 의미가 없고 등불 없이는 동굴을 탐험할 수 없습니다. 그러니 오늘은 그만두는 게 좋겠습니다. ";
   xx[ii++] =
     "186     There are faint rustling noises from the darkness behind you.  As you           ";
   xx[ii++] =
@@ -5038,319 +5737,197 @@ function readData() {
   xx[ii++] =
     "186     with that, he vanishes into the gloom.                                          ";
   xx[ii++] =
+    "186     어둠 속에서 희미한 바람소리가 들립니다. 당신이 그 소리를 향해 돌아서면 등불의 빛이 수염 난 해적에게 비칩니다. ";
+  xx[ii++] =
+    '186     그는 큰 상자를 들고 있습니다. "벌떡!" 그가 외칩니다. "발견됐다! 내 상자를 숨기려고 미로로 피해야겠어!" 그와 함께 그는 어둠에 사라집니다. ';
+  xx[ii++] =
     "187     Your lamp is getting dim.  You'd best go back for those batteries.              ";
+  xx[ii++] =
+    "187     등불이 점점 어두워집니다. 배터리를 가져오려면 돌아가는 게 좋겠습니다.                    ";
   xx[ii++] =
     "188     Your lamp is getting dim.  I'm taking the liberty of replacing the              ";
   xx[ii++] =
     "188     batteries.                                                                      ";
   xx[ii++] =
+    "188     등불이 점점 어두워집니다. 제가 배터리를 대신 교체하도록 하겠습니다.                        ";
+  xx[ii++] =
     "189     Your lamp is getting dim, and you're out of spare batteries.  You'd             ";
   xx[ii++] =
     "189     best start wrapping this up.                                                    ";
   xx[ii++] =
+    "189     등불이 점점 어두워집니다. 여분의 배터리가 없습니다. 마무리하는 게 좋겠습니다.             ";
+  xx[ii++] =
     "190     I'm afraid the magazine is written in dwarvish.                                 ";
   xx[ii++] =
+    "190     죄송하지만 그 잡지는 도워쉬어로 되어 있습니다.                                     ";    
+  xx[ii++] =
     '191     "This is not the maze where the pirate leaves his treasure chest."              ';
+  xx[ii++] =
+    '191     "이곳은 해적이 보물 상자를 숨기는 미로가 아닙니다."                                 ';
   xx[ii++] =
     "192     Hmmm, this looks like a clue, which means it'll cost you 10 points to           ";
   xx[ii++] =
     "192     read it.  Should I go ahead and read it anyway?                                 ";
   xx[ii++] =
+    "192     흠, 이건 단서 같은데, 읽기 위해서는 10 포인트가 소모됩니다. 그래도 읽어드릴까요?        ";
+  xx[ii++] =
     '193     It says, "there is something strange about this place, such that one            ';
   xx[ii++] =
     "193     of the words I've always known now has a new effect.\"                          ";
   xx[ii++] =
+    '193     "이곳에는 이상한 점이 있습니다. 예전에 알던 단어 중 하나가 이제 새로운 효과를 가지고 있습니다." ';
+  xx[ii++] =
     "194     It says the same thing it did before.                                           ";
+  xx[ii++] =
+    "194     이전과 같은 내용입니다.                                                           ";
   xx[ii++] =
     "195     I'm afraid I don't understand.                                                  ";
   xx[ii++] =
+    "195     죄송하지만 이해하지 못합니다.                                                     ";
+  xx[ii++] =
     '196     "Congratulations on bringing light into the dark-room!"                         ';
+  xx[ii++] =
+    '196     "어두운 방에 빛을 가져와 축하합니다!"                                               ';
   xx[ii++] =
     "197     You strike the mirror a resounding blow, whereupon it shatters into a           ";
   xx[ii++] =
     "197     myriad tiny fragments.                                                          ";
   xx[ii++] =
+    "197     거울을 세게 때리면 큰 소리와 함께 파편이 흩어집니다.                                 ";
+  xx[ii++] =
     "198     You have taken the vase and hurled it delicately to the ground.                 ";
+  xx[ii++] =
+    "198     당신은 꽃병을 가져다가 매끄럽게 바닥에 던져버립니다.                                 ";
   xx[ii++] =
     "199     You prod the nearest dwarf, who wakes up grumpily, takes one look at            ";
   xx[ii++] =
     "199     you, curses, and grabs for his axe.                                             ";
   xx[ii++] =
+    "199     가장 가까운 드워프를 찌르니 그는 투덜거리며 깨어나 당신을 한 번 보고 저주를 외치며 도끼를 잡으려 합니다. ";
+  xx[ii++] =
     "200     Is this acceptable?                                                             ";
   xx[ii++] =
-    "101     뱀이 이제 당신의 새를 삼켰습니다.                                                    ";
-  xx[ii++] =
-    "102     여기에는 (아마도 당신 말고는) 먹을 게 없습니다.                                        ";
-  xx[ii++] =
-    "103     어리석은 자, 드워프는 석탄만 먹어요! 이제 그를 *정말* 화나게 만들었군요!!                   ";
-  xx[ii++] =
-    "104     담을 담을 무언가가 없습니다.                                                       ";
-  xx[ii++] =
-    "105     이미 병이 가득 찼습니다.                                                            ";
-  xx[ii++] =
-    "106     병을 채울만한 물건이 여기에는 없습니다.                                              ";
-  xx[ii++] =
-    "107     병이 이제 물로 가득 찼습니다.                                                       ";
-  xx[ii++] =
-    "108     병이 이제 기름으로 가득 찼습니다.                                                    ";
-  xx[ii++] =
-    "109     그걸로는 채울 수 없습니다.                                                          ";
-  xx[ii++] =
-    "110     어리석은 소리 하지 마세요!                                                          ";
-  xx[ii++] =
-    "111     문은 극도로 녹이 범벅이 되어 열리지 않습니다.                                       ";
-  xx[ii++] =
-    '112     식물은 기름을 잎에서 흔들어 내리며 "물?"이라고 물어봅니다.                            ';
-  xx[ii++] =
-    "113     문의 장치는 이제 완전히 녹아서 움직이지 않습니다.                                   ";
-  xx[ii++] =
-    "114     기름더미가 문의 장치를 풀어서 이제 문이 움직일 수 있게 되었습니다.                    ";
-  xx[ii++] =
-    "114     하지만 조금의 노력이 필요합니다.                                                    ";
-  xx[ii++] =
-    "115     식물은 깊이 파뿌리가 박혀 있어 끌어낼 수 없습니다.                                  ";
-  xx[ii++] =
-    "116     드워프들의 나이프는 동굴의 벽에 닿자마자 사라집니다.                                 ";
-  xx[ii++] =
-    "117     당신이 들고 다니는 것 중 어떤 것은 통과할 수 없습니다.                               ";
-  xx[ii++] =
-    "117     인벤토리를 확인하고 무언가를 내려놓으세요.                                          ";
-  xx[ii++] =
-    "118     작은 통나무를 그 작은 통과구로 통과시킬 수 없습니다!                               ";
-  xx[ii++] =
-    "119     작은 조개를 그 작은 통과구로 통과시킬 수 없습니다!                                 ";
-  xx[ii++] =
-    "120     조개를 열기 전에 내려놓는 것이 좋을겁니다. >스트레인!<                            ";
-  xx[ii++] =
-    "121     굴을 열기 전에 조개를 내려놓는 것이 좋을 겁니다. >렌치!<                          ";
-  xx[ii++] =
-    "122     조개를 열 수 있는 충분히 강한 것을 가지고 있지 않습니다.                           ";
-  xx[ii++] =
-    "123     굴을 열 수 있는 충분히 강한 것을 가지고 있지 않습니다.                            ";
-  xx[ii++] =
-    "124     반짝이는 진주가 조개에서 떨어져 굴러갑니다. 이건 정말로 조개입니다. (저는 이중연체를 잘 모릅니다.) 무엇이든지, 이제 다시 굳어집니다.  ";
-  xx[ii++] =
-    "125     조개가 열리자마자 안에는 조개만 들어있습니다.                                     ";
-  xx[ii++] =
-    "125     곧 다시 닫힙니다.                                                                ";
-  xx[ii++] =
-    "126     당신은 작은 구멍 사이를 기어다니다가 최근에 사태에 막혀 돌아왔습니다. 이제 다시 주요 통로에 있습니다.  ";
-  xx[ii++] =
-    "127     어두운 곳에서 허스키운 소리가 들립니다.                                            ";
-  xx[ii++] =
-    '128     뒤에서 어둠 속에서 수염 난 해적이 덤벼듭니다! "하, 하," 그가 웃습니다. "이 보물들을 다 가져가서 미궁에 몸을 숨기지!" 그는 당신의 보물을 잡고 어둠 속으로 사라집니다.  ';
-  xx[ii++] =
-    '129     무덤 같은 목소리가 동굴을 통해 울립니다. "동굴이 곧 닫힙니다. 모험가들은 즉시 주요 사무실로 이동하십시오." ';
-  xx[ii++] = "130     수수께끼 같은 녹음된 목소리가 소리를 내며 알립니다: ";
-  xx[ii++] =
-    '130        "이 출구는 닫혔습니다. 주요 사무실을 통해 나가십시오." ';
-  xx[ii++] =
-    "131     당신은 이미 죽어있는 것 같습니다. 그런데 어차피 문 닫는 시간도 가까워졌으니까 이제 그냥 마무리하죠.  ";
-  xx[ii++] =
-    '132     무덤 같은 목소리가 울려 퍼집니다. "동굴이 이제 닫혔습니다."이렇게 말하고 반향이 사라지자, 눈이 다시 초점을 잡으면 주변을 둘러보니...  ';
-  xx[ii++] =
-    "133     큰 폭발 소리가 나며 벽에 이십 피트 정도의 구멍이 나타나 드워프들이 돌무더기에 파묻히게 됩니다. 그 구멍을 통해 행군하면, 당신은 일몰로 떠나는 친절한 요정들에게 데려가져 축하받게 됩니다.  ";
-  xx[ii++] =
-    "134     큰 폭발 소리가 나며 벽에 이십 피트 정도의 구멍이 나타나 드래곤들이 돌무더기에 파묻히게 됩니다. 그 구멍을 통해 화산 용암의 강이 흘러 들어와 당신을 포함한 모든 것을 파괴합니다!  ";
-  xx[ii++] =
-    "135     큰 폭발 소리가 나며 갑자기 당신은 방 안 벽면에 튀어 퍼집니다.  ";
-  xx[ii++] =
-    "136     결과적으로 소동이 일어났고 드워프들을 깨웠습니다. 이제 당신과 함께 방 안에는 몇몇 위협적인 작은 드워프들이 있습니다! 그들 대부분이 당신을 향해 칼을 던집니다! 그리고 모두 당신을 맞습니다!  ";
-  xx[ii++] =
-    "137     이불씀 하늘날아 가셔요!                                                     ";
-  xx[ii++] =
-    "138     아마도 당신이 찾고 있는 것이 여기 어딘가에 있을 겁니다.                             ";
-  xx[ii++] =
-    '139     "그만"이라는 단어는 알지 못합니다. 그만두고 싶으시면 "그만"이라고 하세요.                      ';
-  xx[ii++] =
-    "140     여기서는 거기로 갈 수 없습니다.                                                  ";
-  xx[ii++] =
-    "141     아주 큰 길들여진 곰이 당신을 따라오고 있습니다.                                   ";
-  xx[ii++] =
-    '142     모험을 일찍 끝내려면 "그만"이라고 말하세요. 잠시 중단해서 나중에 계속할 수 있게 하려면 "일시정지"(또는 "저장")라고 말하세요. 동굴이 보통 어느 시간에 열려 있는지 알고 싶다면 "시간"이라고 말하세요.  ';
-  xx[ii++] =
-    '142     자기 진행 상황을 알고 싶다면 "점수"라고 말하세요. 보물을 완전히 안전하게 건물에 둬야만 만점을 받을 수 있지만, 발견만 해도 일부 점수를 받습니다. 사망하거나 그만두면 점수가 감점됩니다. 그러나 초심자와 다른 사람들을 구별하기 위해 초입에 들어간 것에 대한 큰 보너스 점수가 있으며, 더 어려운 구간을 통과했는지 여부를 확인하는 다른 방법도 있습니다. 모든 보물을 찾았다고 생각하면 일정 시간 동안 탐험을 계속하세요. 아무런 흥미로운 일이 없다면 아직 모두 찾지 않은 것입니다. 어려움을 겪는 것 같으면 가끔 힌트를 제공할 수 있습니다. 그렇게 하면 점수에 어떤 영향을 미칠지 미리 알려드립니다. 종이를 절약하기 위해 "간단히"라고 지정할 수 있습니다. 이렇게 하면 명시적으로 요청하지 않는 한 장소의 전체 설명을 반복하지 않습니다.  ';
-  xx[ii++] =
-    "143     정말로 이제 그만두시겠습니까?                                                   ";
-  xx[ii++] =
-    "144     여기에는 병을 채울만한 물건이 없습니다.                                             ";
-  xx[ii++] =
-    "145     갑자기 온도가 변화하면서 섬세하게 깨져버립니다.                                   ";
-  xx[ii++] =
-    "146     그건 당신의 능력 밖입니다.                                                       ";
-  xx[ii++] =
-    "147     그건 제가 모르는 방법입니다.                                                      ";
-  xx[ii++] =
-    "148     당신은 너무 높이 있어서 닿을 수 없습니다.                                          ";
-  xx[ii++] =
-    "149     당신은 작은 드워프 한 명을 죽였습니다. 그의 시체는 기름진 검은 연기에 사라집니다.           ";
-  xx[ii++] =
-    "150     껍질은 매우 단단하며 공격을 받지 않습니다.                                        ";
-  xx[ii++] =
-    "151     무슨 일인지, 읽을 수 없습니다.                                                     ";
-  xx[ii++] =
-    "152     도끼가 용의 두꺼운 비늘에 튕기며 피해를 주지 못합니다.                              ";
-  xx[ii++] =
-    "153     용은 꽤 불쾌해 보입니다. 그쪽으로 가려고 하지 마세요.                              ";
-  xx[ii++] =
-    "154     작은 새가 푸른 용을 공격해서 놀랍도록 날아가며 불에 타서 재가 되었습니다. 재가 날아가버립니다.  ";
-  xx[ii++] =
-    "155     무엇을 기준으로요?                                                               ";
-  xx[ii++] =
-    "156     앞으로는 한 번만 장소를 자세히 설명하겠습니다. 자세한 설명을 원하면 '보기'라고 말하세요.     ";
-  xx[ii++] =
-    "157     트롤은 돌과 가족 관계이며 뿔소의 피부와 같이 단단합니다. 트롤은 손쉽게 당신의 공격을 무시합니다. ";
-  xx[ii++] =
-    "158     트롤은 도끼를 민감하게 잡아다가 주의 깊게 살펴보고 다시 던집니다. '제작이 잘 되어 있지만 충분히 값비싼 것은 아니네요.'라고 말합니다. ";
-  xx[ii++] =
-    "159     트롤은 당신의 보물을 잡아가고 그 자리에서 사라집니다.                              ";
-  xx[ii++] =
-    "160     트롤은 당신이 건너지 못하게 거부합니다.                                             ";
-  xx[ii++] =
-    "161     이제 구덩이를 건널 수 있는 방법이 없습니다.                                         ";
-  xx[ii++] =
-    "162     당신이 반대편에 도달하는 순간, 다리가 곰이 여전히 따라오고 있다는 사실을 깨닫고 다리가 버티지 못하고 무너져 버립니다. 당신은 지지대를 찾기 위해 필사적으로 노력하지만 다리가 무너져버리면서 넘어져 구덩이로 떨어집니다.  ";
-  xx[ii++] =
-    "163     곰은 트롤을 향해 걸어갑니다. 트롤은 경악한 소리를 내며 놀라 도망갑니다. 곰은 곧 그만두고 돌아갑니다.  ";
-  xx[ii++] =
-    "164     도끼가 범과 놓친 곳에 착지합니다. 당신이 가져갈 수 없는 곳에 떨어져 있습니다.             ";
-  xx[ii++] =
-    "165     빈 손으로 하시겠습니까? 그 놈의 곰 손과 맞서기 위해서는?                             ";
-  xx[ii++] =
-    "166     곰은 혼란스러워합니다. 그는 단지 당신의 친구가 되기를 원할 뿐입니다.                   ";
-  xx[ii++] =
-    "167     소리를 내지 마세요. 그냥 이미 죽은 것입니다!                                        ";
-  xx[ii++] =
-    "168     곰은 당신의 음식을 간절히 먹고 난 후에는 상당히 진정되고 친근해집니다.                     ";
-  xx[ii++] =
-    "169     곰은 여전히 벽에 사슬로 묶여 있습니다.                                              ";
-  xx[ii++] =
-    "170     사슬은 여전히 잠겨 있습니다.                                                      ";
-  xx[ii++] =
-    "171     사슬은 이제 열렸습니다.                                                           ";
-  xx[ii++] =
-    "172     사슬은 이제 잠겼습니다.                                                            ";
-  xx[ii++] =
-    "173     여기에 사슬을 고정시킬 물건이 없습니다.                                            ";
-  xx[ii++] =
-    "174     먹을 것이 없습니다.                                                               ";
-  xx[ii++] =
-    "175     힌트가 필요하십니까?                                                               ";
-  xx[ii++] =
-    "176     미로에서 나가는 방법을 도와드릴까요?                                                 ";
-  xx[ii++] =
-    "177     물건을 내려놓으면 통로가 덜 비슷해집니다.                                            ";
-  xx[ii++] =
-    "178     플로버 방을 넘어서 탐험하려고 하나요?                                                 ";
-  xx[ii++] =
-    "179     구덩이에 빠질 걱정 없이 그 지역을 탐험할 수 있는 방법이 있습니다. 사용 가능한 물건 중에서는 즉시 사용할 수 있는 것은 없습니다. ";
-  xx[ii++] =
-    "180     여기서 나가는 방법을 도와드릴까요?                                                 ";
-  xx[ii++] =
-    "181     서쪽으로 가지 마세요.                                                              ";
-  xx[ii++] =
-    "182     트롤의 탐욕은 아니지만 토끼뿐만이 아닙니다.                                             ";
-  xx[ii++] =
-    "183     등불이 점점 어두워집니다. 신선한 배터리를 구해야 할 때입니다. 미로에 자판기가 있는 것 같은데 동전을 가져가세요. ";
-  xx[ii++] =
-    "184     등불이 꺼졌습니다. 주먹으로 한 번 치면 대부분 고쳐집니다.                             ";
-  xx[ii++] =
-    "185     여기에서는 헤매는 것에 큰 의미가 없고 등불이 없으면 동굴을 탐험할 수 없습니다. 그러니 오늘은 그냥 마무리합시다.  ";
-  xx[ii++] =
-    "186     어두운 곳에서 허스키운 소리가 들립니다. 당신이 그 소리를 향해 돌아서자 등불의 빛이 수염 난 해적에게 떨어집니다.  ";
-  xx[ii++] =
-    '186     그는 큰 상자를 들고 있습니다. "흥!" 그가 외치며 말합니다. "내가 이 진실을 그 미로에 감추러 들어가야 한다는 걸 알아버렸군!" 그가 그대로 사라집니다. ';
-  xx[ii++] =
-    "187     등불이 점점 어두워집니다. 배터리를 가져가려고 다시 돌아가세요.                          ";
-  xx[ii++] =
-    "188     등불이 점점 어두워집니다. 배터리를 대신해서 제가 새로 교체하도록 하겠습니다.                  ";
-  xx[ii++] =
-    "189     등불이 점점 어두워집니다. 예비 배터리가 없습니다. 이제 마무리하기 시작해야 할 때입니다.   ";
-  xx[ii++] =
-    "190     미안하지만 그 잡지는 도워쉬어로 되어 있습니다.                                      ";
-  xx[ii++] =
-    '191     "해적이 보물 상자를 숨기는 미로는 아닙니다."라고 씌여 있습니다.                        ';
-  xx[ii++] =
-    "192     힌트를 읽기 위해서는 10점이 감점됩니다. 그래도 읽어드릴까요?                           ";
-  xx[ii++] =
-    '193     "이곳은 뭔가 이상한데요. 예전에 알던 단어 중 하나가 이제 새로운 효과가 있는 것 같아요."     ';
-  xx[ii++] =
-    "194     이전과 같은 내용입니다.                                                           ";
-  xx[ii++] =
-    "195     제가 이해하지 못합니다.                                                           ";
-  xx[ii++] =
-    '196     "어두운 방에 불을 밝혀 넣어 축하합니다!"                                             ';
-  xx[ii++] =
-    "197     당신이 거울을 세게 때리자 유리가 파편으로 깨집니다.                                  ";
-  xx[ii++] =
-    "198     당신은 꽃병을 가져다가 매끄럽게 바닥에 던져버립니다.                                 ";
-  xx[ii++] =
-    "199     가장 가까운 드워프를 찔러깨우자마자 그는 시무룩하게 깨어나 당신을 한 번 보고 저주하며 도끼를 던지려 합니다. ";
-  xx[ii++] =
-    "200     이것으로 충분한가요?                                                               ";
-
-  xx[ii++] =
+    "200     이것으로 충분한가요?                                                               ";    
+    xx[ii++] =
     "201     There's no point in suspending a demonstration game.                            ";
+  xx[ii++] =
+    "201     시연 게임을 중단하는 것은 의미가 없습니다.                                              ";
   xx[ii++] =
     "202     The well is full of water!                                                      ";
   xx[ii++] =
+    "202     우물은 물로 가득 차 있습니다!                                                        ";
+  xx[ii++] =
     "203     The plug is firmly set into the floor and cannot be removed with your hands.    ";
   xx[ii++] =
+    "203     플러그는 바닥에 단단히 고정되어 손으로 제거할 수 없습니다.                              ";
+  xx[ii++] =
     "204     The rubber duck is well out of reach.                                           ";
+  xx[ii++] =
+    "204     고무 오리는 손이 닿지 않는 곳에 있습니다.                                                 ";
   xx[ii++] =
     '205     Etched in a strong clear Dwarven script are the words "R.I.P. Stabby,           ';
   xx[ii++] =
     '205     inaccurately transported during The Great Initialization".                      ';
   xx[ii++] =
+    '205     드워프 언어로 강하고 명확하게 새겨진 글자에는 "R.I.P. Stabby, Great Initialization 중에 부정확하게 이동되었습니다."라고 적혀 있습니다.';
+  xx[ii++] =
     "206     The floor and walls rumble slightly.                                            ";
+  xx[ii++] =
+    "206     바닥과 벽이 약간 진동합니다.                                                        ";
   xx[ii++] =
     "207     That doesn't sound right. You'd best start over.                                ";
   xx[ii++] =
+    "207     그건 이상한 소리가 들립니다. 다시 시작하는 것이 좋겠군요.                                  ";
+  xx[ii++] =
     '208     What part of "death by a thousand cuts" do you not understand?                  ';
+  xx[ii++] =
+    '208     "천 번의 절개로 죽는다"라는 말 중 어느 부분을 이해하지 못하셨나요?                         ';
   xx[ii++] =
     "209     Yech! No thanks.                                                                ";
   xx[ii++] =
+    "209     역겨울 거에요. 고맙지만 괜찮아요.                                                      ";
+  xx[ii++] =
     "210     The stand is securely bolted to the ground to foil vandals (like you).          ";
+  xx[ii++] =
+    "210     그 대책으로 땅에 단단히 고정되어 있습니다. 깨끗한 애들(당신 같은)이 접근할 수 없게 말이죠. ";
   xx[ii++] =
     "211     You inadvertently dislodge a leaf as you grip the stalk.                        ";
   xx[ii++] =
+    "211     줄기를 잡으면서 실수로 한 잎을 떨어뜨립니다.                                             ";
+  xx[ii++] =
     '212     The harp struggles in your hands and cries "MASTER! MASTER!".                   ';
   xx[ii++] =
+    '212     하프가 당신의 손에서 힘들게 허우적거리며 "주인님! 주인님!"이라고 울부짖습니다.                   ';
+  xx[ii++] =
     "213     There is some kind of disturbance, wait a second....  >POOF!<                   ";
+  xx[ii++] =
+    "213     어떤 변동이 있습니다. 잠시 기다려보세요...  >퍼프!<                                   ";
   xx[ii++] =
     "213     A huge cloud of green smoke fills the room. Gradually it clears to reveal an    ";
   xx[ii++] =
     '213     enraged giant waving his arms and bellowing "THIEF!".                        ';
   xx[ii++] =
+    "213     초록색 연기 구름이 방을 가득 채웁니다. 점차 구름이 사라지면서 한 명의 화가 난 거인이 팔을 휘둘러  ";
+  xx[ii++] =
+    '213     "도둑!"이라고 소리지르며 팔을 휘둘러 보냅니다.                                   ';
+  xx[ii++] =
     "214     There is a disturbance in the adjoining room. Trails of thick green smoke emerge";
   xx[ii++] =
+    "214     인접한 방에서 불안정한 연기가 흘러 나옵니다. 굵은 초록색 연기가 일그러져서                            ";
+  xx[ii++] =
     '214     and a disconnected voice bellows "THIEF!".                                      ';
+  xx[ii++] =
+    '214     "도둑!"이라는 목소리가 끊어져서 소리칩니다.                                         ';
   xx[ii++] =
     "215     The giant grabs you with both hands and effortlessly separates the top half of  ";
   xx[ii++] =
     "215     your body from the lower half. Giants are very territorial.                     ";
   xx[ii++] =
+    "215     거인은 양손으로 당신을 붙잡고 쉽게 상체를 하체에서 분리합니다. 거인은 매우 영토에 연약합니다. ";
+  xx[ii++] =
     '216     There is an enraged giant bearing down on you bellowing "FEE!".                 ';
+  xx[ii++] =
+    '216     "도둑!"이라고 소리지르며 다가오는 화가 난 거인이 있습니다.                           ';
   xx[ii++] =
     '217     There is an enraged giant bearing down on you bellowing "FIE!".                 ';
   xx[ii++] =
+    '217     "도둑!"이라고 소리지르며 다가오는 화가 난 거인이 있습니다.                           ';
+  xx[ii++] =
     '218     There is an enraged giant bearing down on you bellowing "FOE!".                 ';
+  xx[ii++] =
+    '218     "도둑!"이라고 소리지르며 다가오는 화가 난 거인이 있습니다.                           ';
   xx[ii++] =
     '219     There is an enraged giant bearing down on you bellowing "FOO... err ...FUM!".   ';
   xx[ii++] =
+    '219     "도둑!"이라고 소리지르며 다가오는 화가 난 거인이 있습니다.                           ';
+  xx[ii++] =
     '220     There is an enraged giant here bellowing "FEE!".                                ';
   xx[ii++] =
+    '220     여기에 화가 난 거인이 있습니다. "도둑!"이라고 소리지르고 있습니다.                       ';
+    xx[ii++] =
     '221     There is an enraged giant here bellowing "FIE!".                                ';
+  xx[ii++] =
+    '221     여기에 화가 난 거인이 있습니다. "도둑!"이라고 소리지르고 있습니다.                       ';
   xx[ii++] =
     '222     There is an enraged giant here bellowing "FOE!".                                ';
   xx[ii++] =
+    '222     여기에 화가 난 거인이 있습니다. "도둑!"이라고 소리지르고 있습니다.                       ';
+  xx[ii++] =
     '223     There is an enraged giant here bellowing "FOO... err ...FUM!".                  ';
+  xx[ii++] =
+    '223     여기에 화가 난 거인이 있습니다. "도둑!"이라고 소리지르고 있습니다.                       ';
   xx[ii++] =
     '224     The giant grabs the harp and heads back into the gloom muttering "Bloody tourists".';
   xx[ii++] =
+    '224     거인은 하프를 움켜잡고 어둠 속으로 돌아가며 "Bloody tourists(귀찮은 관광객들)"라고 중얼거립니다.   ';
+  xx[ii++] =
     "225     The giant loses interest and disappears back into the gloom.                    ";
   xx[ii++] =
+    "225     거인은 흥미를 잃고 어둠 속으로 사라집니다.                                          ";
+  xx[ii++] =
     "226     The giant blocks your path.                                                     ";
+  xx[ii++] =
+    "226     거인은 당신의 길을 막고 있습니다.                                                    ";
   xx[ii++] =
     "227     As the archway fills with rock the giant is sliced neatly in half. His upper torso";
   xx[ii++] =
@@ -5358,119 +5935,223 @@ function readData() {
   xx[ii++] =
     "227     He then disappears in thick green smoke. Something remains where his left hand lay.";
   xx[ii++] =
+    "227     아치로 가득 차는 동안 거인은 정확하게 반으로 잘립니다. 상체는 잠깐 보이다가                     ";
+  xx[ii++] =
+    "227     죽음조차도 당신을 잡으려는 듯이 팔을 벌려 높이 유지합니다.                        ";
+  xx[ii++] =
+    "227     그런 다음 진한 초록색 연기 속으로 사라집니다. 그의 왼손이 있던 자리에는 무언가 남아 있습니다.   ";
+  xx[ii++] =
     "228     The giant falls face first with a huge crash! Just kidding, he barely notices.  ";
+  xx[ii++] =
+    "228     거인은 천천히 앞으로 눕혔을 뿐입니다! 농담이에요, 거의 알아채지 못합니다.                     ";
   xx[ii++] =
     "229     The axe hits the giant right between the eyes! And nothing happens.             ";
   xx[ii++] =
+    "229     도끼는 거인의 눈 사이에 맞았지만, 아무 일도 일어나지 않습니다.                             ";
+  xx[ii++] =
     "230     The beanstalk has grown so hardy that it's impossible to damage.                ";
+  xx[ii++] =
+    "230     콩나무는 너무 튼튼해서 손상시킬 수 없습니다.                                           ";
   xx[ii++] =
     "231     Your feeble blows glance harmlessly off the fibrous trunk.                      ";
   xx[ii++] =
     "231     Who gave you that axe? Your mom?                                                ";
   xx[ii++] =
+    '231     연한 줄기에 힘들게 쳐도 효과가 없습니다.                                                 ';
+  xx[ii++] =
+    '231     누가 그 도끼를 주었을까요? 당신 어머니요?                                               ';
+  xx[ii++] =
     '232     What\'s next? "Shoot foot"?                                                     ';
+  xx[ii++] =
+    '232     다음은 "Shoot foot"인가요?                                                        ';
   xx[ii++] =
     "233     Your fingers push past the worms and web and close around a smooth star-shaped rock.";
   xx[ii++] =
+    "233     손가락이 벌레와 거미줄을 지나서 매끈한 별모양의 돌에 닿습니다.                              ";
+  xx[ii++] =
     "234     The rabbit is beyond reach behind a forest of sharp spikes.                     ";
+  xx[ii++] =
+    "234     톱니 모양 가시들의 숲 뒤로 토끼는 닿을 수 없는 곳에 있습니다.                               ";
   xx[ii++] =
     "235     You deftly snatch the necklace from the distracted rabbit.                      ";
   xx[ii++] =
+    "235     당신은 주의를 분산시킨 토끼에서 목걸이를 손쉽게 잡아냅니다.                                ";
+  xx[ii++] =
     "235     Startled, the rabbit darts back into the spikes and disappears.                 ";
+  xx[ii++] =
+    "235     놀란 토끼가 가시들 사이로 다시 뛰어들어 사라집니다.                                      ";
   xx[ii++] =
     "236     The rabbit hops forward, sniffs approvingly at the plant leaf and starts to     ";
   xx[ii++] =
     "236     nibble at it.                                                                   ";
   xx[ii++] =
+    "236     토끼가 앞으로 뛰어가서 식물 잎을 흥미롭게 맡아보고 뜯어먹기 시작합니다.                          ";
+  xx[ii++] =
     "237     The rabbit (and hence the necklace) is beyond reach behind a forest of sharp spikes.";
+  xx[ii++] =
+    "237     토끼(따라서 목걸이도)는 닿을 수 없는 가시들의 숲 뒤로 이동합니다.                                    ";
   xx[ii++] =
     "238     The rabbit hops disappointedly back into the forest of spikes.                  ";
   xx[ii++] =
+    "238     토끼가 실망스러워하며 가시들의 숲 속으로 다시 뛰어들어갑니다.                              ";
+  xx[ii++] =
     "240     You drop the magazines into an empty slot in the magazine rack.                 ";
+  xx[ii++] =
+    "240     잡지를 빈 자리에 넣습니다.                                                             ";
   xx[ii++] =
     "240     The world seems a tidier place.                                                 ";
   xx[ii++] =
+    "240     세상이 조금 더 깔끔해 보입니다.                                                          ";
+    xx[ii++] =
     "241     The world hates a litterbug.                                                    ";
+  xx[ii++] =
+    "241     세상은 쓰레기 버리기를 싫어합니다.                                                        ";
   xx[ii++] =
     "242     The rabbit is much too quick. It darts back into a particularly dense cluster   ";
   xx[ii++] =
     "242     of spikes and eyes you warily.                                                  ";
   xx[ii++] =
+    "242     토끼는 너무 빨라서 갑자기 가시들의 무리 속으로 다시 들어갑니다.                             ";
+  xx[ii++] =
+    "242     조심스럽게 쳐다보며 당신을 바라보고 있습니다.                                              ";
+  xx[ii++] =
     "243     You swiftly slaughter the poor defenseless animal. The bloodied corpse disappears";
   xx[ii++] =
     "243     in a cloud of fine white smoke. The smoke clears revealing a fine necklace!     ";
   xx[ii++] =
+    "243     당신은 가차없이 무방비한 동물을 잡아 죽입니다. 피로 덮인 시체가 사라져서                     ";
+  xx[ii++] =
+    "243     고운 하얀 연기 구름 속에 있는 멋진 목걸이가 드러납니다.                                    ";
+  xx[ii++] =
     "244     I'd take points off for that but I see how you like using that axe.             ";
+  xx[ii++] =
+    "244     그걸로 인해 점수를 깎아야 할 것 같지만, 도끼를 사용하는 것을 좋아하는 모습을 보니까요.            ";
   xx[ii++] =
     "245     There goes our PG rating. Shouldn't you be playing Space Invaders?             ";
   xx[ii++] =
+    "245     우리 PG 등급이 망가졌어요. Space Invaders를 하는 게 좋을 거예요.                        ";
+  xx[ii++] =
     "246     Ewww! No thanks.                                                                ";
   xx[ii++] =
+    "246     으웩! 괜찮아요, 그만 둘게요.                                                            ";
+  xx[ii++] =
     "247     ... >nnGGG!< ... >NNGGG!!!< ... nope too heavy.                                 ";
+  xx[ii++] =
+    "247     ... >nnGGG!< ... >NNGGG!!!< ... 아니, 너무 무거워요.                                    ";
   xx[ii++] =
     "248     The rod drops snugly into the floor channel. It immediately starts to expand    ";
   xx[ii++] =
     "248     until it fully extends over the rift.                                           ";
   xx[ii++] =
+    "248     막대기가 바닥에 딱 맞게 떨어지고, 금방이라도 확장되어 분화구 위를 완전히 커버합니다.               ";
+  xx[ii++] =
     "249     I respectfully suggest you go across the pole instead of jumping.               ";
+  xx[ii++] =
+    "249     점프하는 대신 막대기를 따라 가는 것을 권해드립니다.                                        ";
   xx[ii++] =
     "250     There is no way across the rift.                                                ";
   xx[ii++] =
+    "250     분화구를 건너갈 방법은 없습니다.                                                         ";
+  xx[ii++] =
     "251     Dig all day, you won't find anything here.                                     ";
+  xx[ii++] =
+    "251     하루 종일 파고들어도 여기에는 아무 것도 찾을 수 없습니다.                                ";
   xx[ii++] =
     "252     As you deepen the trench it quickly fills with water that starts to flow down   ";
   xx[ii++] =
     "252     the slope of the narrow path.                                                   ";
   xx[ii++] =
+    "252     도랑을 깊게 파면 빠르게 물이 차오르고 좁은 길의 경사로를 따라 흘러갑니다.                         ";
+  xx[ii++] =
     "253     You make the trench bigger.                                                     ";
   xx[ii++] =
+    "253     도랑을 더 크게 만듭니다.                                                                ";
+  xx[ii++] =
     "254     Pity you don't have a shovel.                                                  ";
+  xx[ii++] =
+    "254     유감스럽게도 삽이 없으니까요.                                                           ";
   xx[ii++] =
     "255     You feel a sharp sting, drop the pebble and examine your bloodied hand.         ";
   xx[ii++] =
     "255     Perhaps it's better to leave the pebbles alone.                                ";
   xx[ii++] =
+    "255     예쁜 조약돌을 들고 손가락에 예리한 찔림을 느낍니다.                                       ";
+  xx[ii++] =
+    "255     아마 조약돌은 그냥 두는 게 좋을 것 같습니다.                                              ";
+  xx[ii++] =
     "256     As soon as you enter the pit you are swarmed by hundreds of flesh-eating beetles. ";
   xx[ii++] =
     "256     Within minutes your flesh is consumed and your bones picked clean.              ";
   xx[ii++] =
+    "256     구더기와 거미줄을 지나 피부를 먹어치우는 수백 마리의 육식 곤충에게 스웨어밀링합니다.                   ";
+  xx[ii++] =
+    "256     당신의 살은 분리되고 뼈만 깔끔하게 남습니다.                                                 ";
+  xx[ii++] =
     "257     I don't see any beetles here.                                                  ";
+  xx[ii++] =
+    "257     여기에는 벌레가 보이지 않습니다.                                                          ";
   xx[ii++] =
     "258     I don't see any pebbles here.                                                  ";
   xx[ii++] =
+    "258     여기에는 조약돌이 보이지 않습니다.                                                          ";
+  xx[ii++] =
     "259     The pole is too heavy to lift over the rift.                                    ";
+  xx[ii++] =
+    "259     막대기가 너무 무거워서 분화구를 넘을 수 없습니다.                                           ";
   xx[ii++] =
     "260     You manage to move the pole out of the channel and it instantly shrinks back to ";
   xx[ii++] =
     "260     its original 3-foot form.                                                       ";
   xx[ii++] =
+    "260     막대기를 채널에서 빼내면 금방 원래의 3피트 형태로 줄어듭니다.                                 ";
+  xx[ii++] =
     "261     The pyramid settles snugly into the square recess on the pedestal face.         ";
+  xx[ii++] =
+    "261     피라미드가 베딸립니다.                                                                 ";
   xx[ii++] =
     "262     The pyramid appears to be screwed into the pedestal face. It can't be lifted.  ";
   xx[ii++] =
+    "262     피라미드가 받침대에 나사로 고정되어 있습니다. 들 수 없습니다.                             ";
+  xx[ii++] =
     "263     The pyramid rotates clockwise a third of a turn and settles with a sharp 'click'";
   xx[ii++] =
+    "263     피라미드가 시계 방향으로 1/3 회전하고 날카로운 '찰칵' 소리와 함께 고정됩니다.                       ";
+  xx[ii++] =
     "264     The pyramid rotates a final third of a turn and terminates with a slightly louder 'click'.";
+  xx[ii++] =
+    "264     피라미드가 마지막 1/3 회전을 하고 약간 더 큰 '찰칵' 소리로 종료됩니다.                           ";
   xx[ii++] =
     "264     After a moment it slowly lowers into the body of the pedestal and out of sight. ";
   xx[ii++] =
     "264     There is a low rumbling and a low doorway appears in the west wall.             ";
   xx[ii++] =
-    "265     The sign magically hovers and then slowly rises to display it's message a foot ";
+    "265     The sign magically hovers and then slowly rises to display its message a foot   ";
   xx[ii++] =
     "265     above your head.                                                                ";
   xx[ii++] =
     "265     Well done! You've saved other adventurers all those wasted moves!               ";
   xx[ii++] =
+    "265     표지판이 마법처럼 떠오르고 천천히 올라가서 머리 위 한 피트 위에 메시지를 표시합니다.                        ";
+  xx[ii++] =
+    "265     잘했어요! 여러 모험가들이 낭비되는 움직임을 하지 않게 되었습니다!                             ";
+  xx[ii++] =
     '266     "Cave under construction beyond this point. Proceed at own risk.                ';
   xx[ii++] =
     '266      Witt Construction Company."                                                    ';
+  xx[ii++] =
+    '266     "이 지점 이후로는 개발 중인 동굴입니다. 본인 책임 하에 진행하십시오.                    ';
+  xx[ii++] =
+    '266      Witt 건설회사."                                                                      ';
   xx[ii++] =
     "267     A sharp look from the nearest dwarf makes you think twice about messing up the  ";
   xx[ii++] =
     "267     message board.                                                                  ";
   xx[ii++] =
+    "267     가까운 난쟁이로부터 예리한 시선을 받아서 메시지판을 망치는 생각을 두 번 생각합니다.                  ";
+  xx[ii++] =
     "268     ... For Sale: commercial vending machine. Seen very little use. Contact mgmt.      ";
+  xx[ii++] =
+    "268     ... 판매: 상업용 자동 판매기. 거의 사용하지 않았습니다. 관리부에 문의하세요.                  ";
   xx[ii++] =
     "269     ... Notice: please discourage visitors from dropping their Spelunker magazines in  ";
   xx[ii++] =
@@ -5478,9 +6159,19 @@ function readData() {
   xx[ii++] =
     "269     ... the cave entrance for future visitors' use.                                    ";
   xx[ii++] =
+    "269     ... 알림: 방문자들이 나가면서 동굴에 Spelunker 잡지를 떨어뜨리지 말아주세요. 잡지는                 ";
+  xx[ii++] =
+    "269     ... 다음 방문객들을 위해 동굴 입구에 있는 잡지 선반에 반환되어야 합니다.                         ";
+  xx[ii++] =
     "270     ... Missing: large green snake. Afraid of birds. If found please contact mgmt.     ";
   xx[ii++] =
+    "270     ... 분실물: 큰 녹색 뱀. 새를 무서워합니다. 발견 시 관리부에 연락해주세요.                      ";
+  xx[ii++] =
     "271     ... Lost: many treasures. Too many to list. If you have one it's mine. Contact the ";
+  xx[ii++] =
+    "271     ... Captain in the maze of twisty little passages, all alike.                      ";
+  xx[ii++] =
+    "271     ... 분실물: 여러 보물들. 나열할 수 없을 정도로 많습니다. 하나라도 있다면 제 것입니다.             ";
   xx[ii++] =
     "271     ... Captain in the maze of twisty little passages, all alike.                      ";
   xx[ii++] =
@@ -5488,75 +6179,143 @@ function readData() {
   xx[ii++] =
     "272     ... to his widow in the well house.                                                ";
   xx[ii++] =
+    "272     ... 큰 밥의 추모제는 저녁 7시에 거인의 돌담에서 열립니다. 상황에 따라 웰 하우스에                       ";
+  xx[ii++] =
+    "272     ... 그의 아내에게 기부를 남겨주세요.                                                       ";
+  xx[ii++] =
     "273     ... Attn: the storage room code has been changed. Please use the new code from now on. ";
+  xx[ii++] =
+    "273     ... 주창고 코드가 변경되었습니다. 앞으로 새 코드를 사용하십시오.                                 ";
   xx[ii++] =
     '278     The break room is regarded as a "sanctuary". No violence please.                ';
   xx[ii++] =
+    '278     휴게실은 "안식처"로 간주됩니다. 폭력은 금지입니다.                                       ';
+  xx[ii++] =
     "279     The pyramid rests on the pedestal.                                              ";
+  xx[ii++] =
+    "279     피라미드가 받침대 위에 놓여 있습니다.                                                   ";
   xx[ii++] =
     "280     The pyramid spins freely on the smooth pedestal surface. Nothing interesting happens. ";
   xx[ii++] =
+    "280     피라미드가 부드러운 받침대 위에서 자유롭게 회전합니다. 흥미로운 일은 일어나지 않습니다.                  ";
+  xx[ii++] =
     "281     There is a low rumble and a low doorway appears in the east wall.               ";
+  xx[ii++] =
+    "281     낮은 덜컹거리는 소리와 함께 동쪽 벽에 낮은 문이 생깁니다.                                      ";
   xx[ii++] =
     "282     There is a low rumble and the eastern doorway disappears leaving a solid rock wall ";
   xx[ii++] =
     "282     adorned with a small bas-relief carving of a scarab.                            ";
   xx[ii++] =
+    "282     낮은 울림과 함께 동쪽의 문이 사라지고 작은 표면에 새빨간 흑상아리의 조각이 달린 견고한 바위 벽이 남습니다. ";
+  xx[ii++] =
     "283     The scarab shivers in your hands as a low doorway appears in the east wall allowing ";
   xx[ii++] =
     "283     you to pass through. The door disappears as you exit the chamber.               ";
   xx[ii++] =
+    "283     작은 문이 생기며 흥분한 상태의 흑상아리가 그림자 속으로 사라지도록 통과할 수 있게 됩니다.            ";
+  xx[ii++] =
+    "283     문이 사라지면서 챔버를 나갈 수 있습니다.                                               ";
+  xx[ii++] =
     "284     There doesn't seem to be anything else to dig up.                               ";
   xx[ii++] =
+    "284     더 파낼 것이 없어 보입니다.                                                             ";
+  xx[ii++] =
     "285     Your shovel immediately hits something hard and metallic ... a gold scarab!     ";
+  xx[ii++] =
+    "285     삽은 즉시 단단하고 금속적인 무언가에 닿습니다... 금빛 흑상아리입니다!                             ";
   xx[ii++] =
     "286     The sarcophagus lid slides effortlessly open to reveal a golden jewel-encrusted ";
   xx[ii++] =
     "286     death mask!                                                                     ";
   xx[ii++] =
+    "286     관이 쉽게 열리고 황금으로 장식된 사망 가면이 드러납니다!                                     ";
+  xx[ii++] =
     "287     The sarcophagus lid slides shut.                                                ";
+  xx[ii++] =
+    "287     관이 쉽게 닫힙니다.                                                                   ";
   xx[ii++] =
     "288     The sarcophagus lid slides effortlessly open.                                   ";
   xx[ii++] =
+    "288     관이 쉽게 열립니다.                                                                   ";
+  xx[ii++] =
     "289     Try as you might the heavy lid won't budge an inch.                             ";
+  xx[ii++] =
+    "289     무거운 관이 움직이지 않습니다.                                                           ";
   xx[ii++] =
     "290     The sarcophagus is already open!                                                ";
   xx[ii++] =
+    "290     관은 이미 열려 있습니다!                                                               ";
+  xx[ii++] =
     "291     The sarcophagus is already closed!                                              ";
+  xx[ii++] =
+    "291     관은 이미 닫혀 있습니다!                                                               ";
   xx[ii++] =
     "292     First dwarf: \"So then he said 'Now we can all get some sleep!'\"               ";
   xx[ii++] =
-    '292     Second dwarf: "HA HA HA HA HA HA HA! I don\'t get it."                          ';
+    "292     Second dwarf: \"HA HA HA HA HA HA HA! I don't get it.\"                          ";
   xx[ii++] =
-    '293     First dwarf: "Remember the old days when the lamp would run out?"               ';
+    "292     첫 번째 난쟁이: \"그래서 그가 '이제 우리는 잠을 잘 수 있어!'라고 말했어.\"                     ";
   xx[ii++] =
-    '293     Second dwarf: "Good times. Short working hours."                                ';
+    "292     두 번째 난쟁이: \"하하하하하하하하! 이해 못하겠다.\"                                         ";
   xx[ii++] =
-    '294     First dwarf: "Why can\'t dwarves use the magic words?"                          ';
+    "293     First dwarf: \"Remember the old days when the lamp would run out?\"               ";
   xx[ii++] =
-    '294     Second dwarf: "Discrimination."                                                 ';
+    "293     Second dwarf: \"Good times. Short working hours.\"                                ";
   xx[ii++] =
-    '295     First dwarf: "They say it was the randomizer. A plus one boundary condition."   ';
+    "293     첫 번째 난쟁이: \"옛날에 램프가 다 타버리는 걸 기억나?\"                                     ";
+  xx[ii++] =
+    "293     두 번째 난쟁이: \"좋았어. 작업 시간이 짧았지.\"                                           ";
+  xx[ii++] =
+    "294     First dwarf: \"Why can't dwarves use the magic words?\"                          ";
+  xx[ii++] =
+    "294     Second dwarf: \"Discrimination.\"                                                 ";
+  xx[ii++] =
+    "294     첫 번째 난쟁이: \"왜 드워프들은 마법의 단어를 쓸 수 없을까?\"                               ";
+  xx[ii++] =
+    "294     두 번째 난쟁이: \"차별이다.\"                                                             ";
+  xx[ii++] =
+    "295     First dwarf: \"They say it was the randomizer. A plus one boundary condition.\"   ";
   xx[ii++] =
     "295     Second dwarf: \"But how would that put him halfway in a wall? They'd have to    ";
   xx[ii++] =
-    '295     code that specially."                                                           ';
+    "295     code that specially.\"                                                           ";
+  xx[ii++] =
+    "295     첫 번째 난쟁이: \"그건 랜덤화기 때문이라고 하더라. +1 경계 조건이야.\"                         ";
+  xx[ii++] =
+    "295     두 번째 난쟁이: \"하지만 그렇게 하면 벽 안에 반만 들어가게 되는 거잖아. 그걸 따로 코드로 처리해야 해.\"   ";
   xx[ii++] =
     "296     First dwarf: \"I don't know why they're always changing the storage room code.\" ";
   xx[ii++] =
-    '296     Second dwarf: "All they ever do is reverse it. Why bother?"                     ';
+    "296     Second dwarf: \"All they ever do is reverse it. Why bother?\"                     ";
   xx[ii++] =
-    '297     First dwarf: "I sometimes wonder if a higher power created everything and our   ';
+    "296     첫 번째 난쟁이: \"저장소 코드를 계속 바꾸는 이유를 모르겠어.\"                              ";
   xx[ii++] =
-    '297     every move is pre-scripted."                                                    ';
+    "296     두 번째 난쟁이: \"그들이 할 일은 뒤집는 것 뿐이야. 왜 귀찮게 하냐?\"                           ";
   xx[ii++] =
-    '297     Second dwarf: "C\'mon, not possible in 48K."                                    ';
+    "297     First dwarf: \"I sometimes wonder if a higher power created everything and our   ";
+  xx[ii++] =
+    "297     every move is pre-scripted.\"                                                    ";
+  xx[ii++] =
+    "297     Second dwarf: \"C'mon, not possible in 48K.\"                                    ";
+  xx[ii++] =
+    "297     첫 번째 난쟁이: \"때로는 모든 것을 만든 더 높은 힘도 있고, 우리의 모든 움직임이 미리 스크립트된 것은   ";
+  xx[ii++] =
+    "297     아닐까 생각해.\"                                                                         ";
+  xx[ii++] =
+    "297     두 번째 난쟁이: \"와, 그럴 수는 없어. 48K에서는 불가능하지.\"                                ";
   xx[ii++] =
     "298     The lamp flickers briefly then shines with a bright steady glow.                ";
   xx[ii++] =
+    "298     램프가 잠시 깜빡거리고 밝은 안정적인 빛으로 비춥니다.                                      ";
+  xx[ii++] =
     "299     The door won't budge.                                                           ";
   xx[ii++] =
+    "299     문이 움직이지 않습니다.                                                                 ";
+  xx[ii++] =
     "300     <Click!>                                                                        ";
+  xx[ii++] =
+    "300     <찰칵!>                                                                                ";
   xx[ii++] =
     "301     <Clunk!>                                                                        ";
   xx[ii++] =
@@ -5568,7 +6327,7 @@ function readData() {
   xx[ii++] =
     "305     The wall is impassable.                                                         ";
   xx[ii++] =
-    "306     The wall trembles slightly and then part of it dissolves leaving a wide archway.";
+    "306     The wall trembles slightly and then part of it dissolves, leaving a wide archway.";
   xx[ii++] =
     "307     The can rattles as you pick it up.                                              ";
   xx[ii++] =
@@ -5580,257 +6339,11 @@ function readData() {
   xx[ii++] =
     "311     The soda can leaks like a sieve and is soon empty again.                        ";
   xx[ii++] =
-    "201     게임을 일시 중단하는 것에는 의미가 없습니다.                                             ";
-  xx[ii++] =
-    "202     우물은 물로 가득 차 있습니다!                                                        ";
-  xx[ii++] =
-    "203     플러그는 바닥에 단단히 고정되어 손으로 제거할 수 없습니다.                              ";
-  xx[ii++] =
-    "204     고무 오리는 손이 닿지 않는 곳에 있습니다.                                                 ";
-  xx[ii++] =
-    '205     강렬한 드워프 문자로 새겨진 글자가 있습니다. "R.I.P. Stabby,                     ';
-  xx[ii++] =
-    '205     Great Initialization 중에 잘못된 전달로 인해 정확하지 않게 이동되었습니다."                 ';
-  xx[ii++] =
-    "206     바닥과 벽이 약간 진동합니다.                                                        ";
-  xx[ii++] =
-    "207     그건 이상한 소리가 들립니다. 다시 시작하는 것이 좋겠군요.                                  ";
-  xx[ii++] =
-    '208     "천 번의 절개로 죽는다"라는 말 중 어느 부분을 이해하지 못하셨나요?                         ';
-  xx[ii++] =
-    "209     역겨울 거에요. 고맙지만 괜찮아요.                                                      ";
-  xx[ii++] =
-    "210     그 대책으로 땅에 단단히 고정되어 있습니다. 깨끗한 애들(당신 같은)이 접근할 수 없게 말이죠. ";
-  xx[ii++] =
-    "211     줄기를 잡으면서 실수로 한 잎을 떨어뜨립니다.                                             ";
-  xx[ii++] =
-    '212     하프는 당신의 손에서 힘들게 허우적거리며 "주인님! 주인님!"이라고 울부짖습니다.                   ';
-  xx[ii++] =
-    "213     어떤 변동이 있습니다. 잠시 기다려보세요...  >퍼프!<                                   ";
-  xx[ii++] =
-    "213     초록색 연기 구름이 방을 가득 채웁니다. 점차 구름이 사라지면서 한 명의 화가 난 거인이 팔을 휘둘러  ";
-  xx[ii++] =
-    '213     "도둑!"이라고 소리지르며 팔을 휘둘러 보냅니다.                                   ';
-  xx[ii++] =
-    "214     인접한 방에서 불안정한 연기가 흘러 나옵니다. 굵은 초록색 연기가 일그러져서                            ";
-  xx[ii++] =
-    '214     "도둑!"이라고 소리칩니다.                                                       ';
-  xx[ii++] =
-    "215     거인은 양손으로 당신을 붙잡고 쉽게 상체를 하체에서 분리합니다. 거인은 매우 영토에 연약합니다. ";
-  xx[ii++] =
-    '216     "도둑!"이라고 소리지르며 다가오는 화가 난 거인이 있습니다.                           ';
-  xx[ii++] =
-    '217     "도둑!"이라고 소리지르며 다가오는 화가 난 거인이 있습니다.                           ';
-  xx[ii++] =
-    '218     "도둑!"이라고 소리지르며 다가오는 화가 난 거인이 있습니다.                           ';
-  xx[ii++] =
-    '219     "도둑!"이라고 소리지르며 다가오는 화가 난 거인이 있습니다.                           ';
-  xx[ii++] =
-    '220     여기에 화가 난 거인이 있습니다. "도둑!"이라고 소리지르고 있습니다.                       ';
-  xx[ii++] =
-    '221     여기에 화가 난 거인이 있습니다. "도둑!"이라고 소리지르고 있습니다.                       ';
-  xx[ii++] =
-    '222     여기에 화가 난 거인이 있습니다. "도둑!"이라고 소리지르고 있습니다.                       ';
-  xx[ii++] =
-    '223     여기에 화가 난 거인이 있습니다. "도둑!"이라고 소리지르고 있습니다.                       ';
-  xx[ii++] =
-    '224     거인은 하프를 움켜잡고 어둠 속으로 돌아가며 "Bloody tourists(귀찮은 관광객들)"라고 중얼거립니다.   ';
-  xx[ii++] =
-    "225     거인은 흥미를 잃고 어둠 속으로 사라집니다.                                          ";
-  xx[ii++] =
-    "226     거인은 당신의 길을 막고 있습니다.                                                    ";
-  xx[ii++] =
-    "227     아치로 가득 차는 동안 거인은 정확하게 반으로 잘립니다. 상체는 잠깐 보이다가                     ";
-  xx[ii++] =
-    "227     죽음조차도 당신을 잡으려는 듯이 팔을 벌려 높이 유지합니다.                        ";
-  xx[ii++] =
-    "227     그런 다음 진한 초록색 연기 속으로 사라집니다. 그의 왼손이 있던 자리에는 무언가 남아 있습니다.   ";
-  xx[ii++] =
-    "228     거인은 천천히 앞으로 눕혔을 뿐입니다! 농담이에요, 거의 알아채지 못합니다.                     ";
-  xx[ii++] =
-    "229     도끼는 거인의 눈 사이에 맞았지만, 아무 일도 일어나지 않습니다.                             ";
-  xx[ii++] =
-    "230     콩나무는 너무 튼튼해서 손상시킬 수 없습니다.                                           ";
-  xx[ii++] =
-    "231     연한 줄기에 힘들게 쳐도 효과가 없습니다.                                                 ";
-  xx[ii++] =
-    "231     누가 그 도끼를 주었을까요? 당신 어머니요?                                               ";
-  xx[ii++] =
-    '232     다음은 "Shoot foot"인가요?                                                        ';
-  xx[ii++] =
-    "233     손가락이 벌레와 거미줄을 지나서 매끈한 별모양의 돌에 닿습니다.                              ";
-  xx[ii++] =
-    "234     톱니 모양 가시들의 숲 뒤로 토끼는 닿을 수 없는 곳에 있습니다.                               ";
-  xx[ii++] =
-    "235     당신은 주의를 분산시킨 토끼에서 목걸이를 손쉽게 잡아냅니다.                                ";
-  xx[ii++] =
-    "235     놀란 토끼가 가시들 사이로 다시 뛰어들어 사라집니다.                                      ";
-  xx[ii++] =
-    "236     토끼가 앞으로 뛰어가서 식물 잎을 흥미롭게 맡아보고 뜯어먹기 시작합니다.                          ";
-  xx[ii++] =
-    "236     토끼(따라서 목걸이도)는 가시들의 숲 뒤로 이동합니다.                                    ";
-  xx[ii++] =
-    "237     토끼(따라서 목걸이도)는 닿을 수 없는 가시들의 숲 뒤로 뒤로 절망적으로 뛰어들어 사라집니다.           ";
-  xx[ii++] =
-    "238     토끼가 실망스러워하며 가시들의 숲 속으로 다시 뛰어들어갑니다.                              ";
-  xx[ii++] =
-    "240     잡지를 빈 자리에 넣습니다.                                                             ";
-  xx[ii++] =
-    "240     세상이 조금 더 깔끔해 보입니다.                                                          ";
-  xx[ii++] =
-    "241     세상은 쓰레기 버리기를 싫어합니다.                                                        ";
-  xx[ii++] =
-    "242     토끼는 너무 빨라서 갑자기 가시들의 무리 속으로 다시 들어갑니다.                             ";
-  xx[ii++] =
-    "242     조심스럽게 쳐다보며 당신을 바라보고 있습니다.                                              ";
-  xx[ii++] =
-    "243     당신은 가차없이 무방비한 동물을 잡아 죽입니다. 피로 덮인 시체가 사라져서                     ";
-  xx[ii++] =
-    "243     고운 하얀 연기 구름 속에 있는 멋진 목걸이가 드러납니다.                                    ";
-  xx[ii++] =
-    "244     그걸로 인해 점수를 깎아야 할 것 같지만, 도끼를 사용하는 것을 좋아하는 모습을 보니까요.            ";
-  xx[ii++] =
-    "245     우리 PG 등급이 망가졌어요. Space Invaders를 하는 게 좋을 거예요.                        ";
-  xx[ii++] =
-    "246     으웩! 괜찮아요, 그만 둘게요.                                                            ";
-  xx[ii++] =
-    "247     ... >nnGGG!< ... >NNGGG!!!< ... 아니, 너무 무거워요.                                    ";
-  xx[ii++] =
-    "248     막대기가 바닥에 딱 맞게 떨어지고, 금방이라도 확장되어 분화구 위를 완전히 커버합니다.               ";
-  xx[ii++] =
-    "249     점프하는 대신 막대기를 따라 가는 것을 권해드립니다.                                        ";
-  xx[ii++] =
-    "250     분화구를 건너갈 방법은 없습니다.                                                         ";
-  xx[ii++] =
-    "251     하루 종일 파고들어도 여기에는 아무 것도 찾을 수 없습니다.                                ";
-  xx[ii++] =
-    "252     도랑을 깊게 파면 빠르게 물이 차오르고 좁은 길의 경사로를 따라 흘러갑니다.                         ";
-  xx[ii++] =
-    "253     도랑을 더 크게 만듭니다.                                                                ";
-  xx[ii++] =
-    "254     유감스럽게도 삽이 없으니까요.                                                           ";
-  xx[ii++] =
-    "255     예쁜 조약돌을 들고 손가락에 예리한 찔림을 느낍니다.                                       ";
-  xx[ii++] =
-    "255     아마 조약돌은 그냥 두는 게 좋을 것 같습니다.                                              ";
-  xx[ii++] =
-    "256     구더기와 거미줄을 지나 피부를 먹어치우는 수백 마리의 육식 곤충에게 스웨어밀링합니다.                   ";
-  xx[ii++] =
-    "256     당신의 살은 분리되고 뼈만 깔끔하게 남습니다.                                                 ";
-  xx[ii++] =
-    "257     여기에는 벌레가 보이지 않습니다.                                                          ";
-  xx[ii++] =
-    "258     여기에는 조약돌이 보이지 않습니다.                                                          ";
-  xx[ii++] =
-    "259     막대기가 너무 무거워서 분화구를 넘을 수 없습니다.                                           ";
-  xx[ii++] =
-    "260     막대기를 채널에서 빼내면 금방 원래의 3피트 형태로 줄어듭니다.                                 ";
-  xx[ii++] =
-    "261     피라미드가 베딸립니다.                                                                 ";
-  xx[ii++] =
-    "262     피라미드가 받침대에 나사로 고정되어 있습니다. 들 수 없습니다.                             ";
-  xx[ii++] =
-    "263     피라미드가 시계 방향으로 1/3 회전하고 날카로운 '찰칵' 소리와 함께 고정됩니다.                       ";
-  xx[ii++] =
-    "264     피라미드가 마지막 1/3 회전을 하고 약간 더 큰 '찰칵' 소리로 종료됩니다.                           ";
-  xx[ii++] =
-    "264     잠시 후, 천천히 기둥 속으로 내려가 사라집니다.                                             ";
-  xx[ii++] =
-    "264     낮은 울림이 들리며 서쪽 벽에 낮은 문이 생깁니다.                                             ";
-  xx[ii++] =
-    "265     표지판이 마법처럼 떠오르고 천천히 올라가서 머리 위 한 피트 위에 메시지를 표시합니다.                        ";
-  xx[ii++] =
-    "265     잘했어요! 여러 모험가들이 낭비되는 움직임을 하지 않게 되었습니다!                             ";
-  xx[ii++] =
-    '266     "이 지점 이후로는 개발 중인 동굴입니다. 본인 책임 하에 진행하십시오.                    ';
-  xx[ii++] =
-    '266      Witt 건설회사."                                                                      ';
-  xx[ii++] =
-    "267     가까운 난쟁이로부터 예리한 시선을 받아서 메시지판을 망치는 생각을 두 번 생각합니다.                  ";
-  xx[ii++] =
-    "268     ... 판매: 상업용 자동 판매기. 거의 사용하지 않았습니다. 관리부에 문의하세요.                  ";
-  xx[ii++] =
-    "269     ... 알림: 방문자들이 나가면서 동굴에 Spelunker 잡지를 떨어뜨리지 말아주세요. 잡지는                 ";
-  xx[ii++] =
-    "269     ... 다음 방문객들을 위해 동굴 입구에 있는 잡지 선반에 반환되어야 합니다.                         ";
-  xx[ii++] =
-    "270     ... 분실물: 큰 녹색 뱀. 새를 무서워합니다. 발견 시 관리부에 연락해주세요.                      ";
-  xx[ii++] =
-    "271     ... 분실물: 여러 보물들. 나열할 수 없을 정도로 많습니다. 하나라도 있다면 제 것입니다.             ";
-  xx[ii++] =
-    "271     ... Captain in the maze of twisty little passages, all alike.                      ";
-  xx[ii++] =
-    "272     ... 큰 밥의 추모제는 저녁 7시에 거인의 돌담에서 열립니다. 상황에 따라 웰 하우스에                       ";
-  xx[ii++] =
-    "272     ... 그의 아내에게 기부를 남겨주세요.                                                       ";
-  xx[ii++] =
-    "273     ... 주창고 코드가 변경되었습니다. 앞으로 새 코드를 사용하십시오.                                 ";
-  xx[ii++] =
-    '278     휴게실은 "안식처"로 간주됩니다. 폭력은 금지입니다.                                       ';
-  xx[ii++] =
-    "279     피라미드가 받침대 위에 놓여 있습니다.                                                   ";
-  xx[ii++] =
-    "280     피라미드가 부드러운 받침대 위에서 자유롭게 회전합니다. 흥미로운 일은 일어나지 않습니다.                  ";
-  xx[ii++] =
-    "281     낮은 덜컹거리는 소리와 함께 동쪽 벽에 낮은 문이 생깁니다.                                      ";
-  xx[ii++] =
-    "282     낮은 울림과 함께 동쪽의 문이 사라지고 작은 표면에 새빨간 흑상아리의 조각이 달린 견고한 바위 벽이 남습니다. ";
-  xx[ii++] =
-    "283     작은 문이 생기며 흥분한 상태의 흑상아리가 그림자 속으로 사라지도록 통과할 수 있게 됩니다.            ";
-  xx[ii++] =
-    "284     더 파낼 것이 없어 보입니다.                                                             ";
-  xx[ii++] =
-    "285     삽은 즉시 단단하고 금속적인 무언가에 닿습니다... 금빛 흑상아리입니다!                             ";
-  xx[ii++] =
-    "286     관이 쉽게 열리고 황금으로 장식된 사망 가면이 드러납니다!                                     ";
-  xx[ii++] =
-    "287     관이 쉽게 닫힙니다.                                                                   ";
-  xx[ii++] =
-    "288     관이 쉽게 열립니다.                                                                   ";
-  xx[ii++] =
-    "289     무거운 관이 움직이지 않습니다.                                                           ";
-  xx[ii++] =
-    "290     관은 이미 열려 있습니다!                                                               ";
-  xx[ii++] =
-    "291     관은 이미 닫혀 있습니다!                                                               ";
-  xx[ii++] =
-    "292     첫 번째 난쟁이: \"그래서 그가 '이제 우리는 잠을 잘 수 있어!'라고 말했어.\"                     ";
-  xx[ii++] =
-    '292     두 번째 난쟁이: "하하하하하하하하! 이해 못하겠다."                                         ';
-  xx[ii++] =
-    '293     첫 번째 난쟁이: "옛날에 램프가 다 타버리는 걸 기억나?"                                     ';
-  xx[ii++] =
-    '293     두 번째 난쟁이: "좋았어. 작업 시간이 짧았지."                                           ';
-  xx[ii++] =
-    '294     첫 번째 난쟁이: "왜 드워프들은 마법의 단어를 쓸 수 없을까?"                               ';
-  xx[ii++] =
-    '294     두 번째 난쟁이: "차별이다."                                                             ';
-  xx[ii++] =
-    '295     첫 번째 난쟁이: "그건 랜덤화기 때문이라고 하더라. +1 경계 조건이야."                         ';
-  xx[ii++] =
-    '295     두 번째 난쟁이: "하지만 그렇게 하면 벽 안에 반만 들어가게 되는 거잖아. 그걸 따로 코드로 처리해야 해."   ';
-  xx[ii++] =
-    '296     첫 번째 난쟁이: "저장소 코드를 계속 바꾸는 이유를 모르겠어."                              ';
-  xx[ii++] =
-    '296     두 번째 난쟁이: "그들이 할 일은 뒤집는 것 뿐이야. 왜 귀찮게 하냐?"                           ';
-  xx[ii++] =
-    '297     첫 번째 난쟁이: "때로는 모든 것을 만든 더 높은 힘도 있고, 우리의 모든 움직임이 미리 스크립트된 것은   ';
-  xx[ii++] =
-    '297     아닐까 생각해."                                                                         ';
-  xx[ii++] =
-    '297     두 번째 난쟁이: "와, 그럴 수는 없어. 48K에서는 불가능하지."                                ';
-  xx[ii++] =
-    "298     램프가 잠시 깜빡거리고 밝은 안정적인 빛으로 비춥니다.                                      ";
-  xx[ii++] =
-    "299     문이 움직이지 않습니다.                                                                 ";
-  xx[ii++] =
-    "300     <찰칵!>                                                                                ";
-  xx[ii++] =
     "301     <덜그럭!>                                                                              ";
   xx[ii++] =
     "302     <딩!> 소리와 함께 문이 벽 안으로 사라집니다.                                             ";
   xx[ii++] =
-    "303     그걸 눌러도 아무 일도 일어나지 않습니다.                                                 ";
+    "303     누르는 것은 아무런 일도 일어나지 않습니다.                                                 ";
   xx[ii++] =
     "304     종이 한쪽에는 숫자 7628이 적혀 있습니다.                                                 ";
   xx[ii++] =
@@ -5847,6 +6360,8 @@ function readData() {
     "310     소다 캔은 비어 있습니다.                                                               ";
   xx[ii++] =
     "311     소다 캔이 많이 누수되어 곧 다시 비어집니다.                                             ";
+  xx[ii++] =
+    "312     <둥!>                                                                                ";
   xx[ii++] =
     "-1                                                                                      ";
 
@@ -6153,24 +6668,42 @@ function readData() {
   // Score classes (ctext[]) array
   xx[ii++] =
     "10                                                                                      ";
+    xx[ii++] =
+    "35      You are obviously a rank amateur. Better luck next time.                       ";
   xx[ii++] =
-    "35      You are obviously a rank amateur.  Better luck next time.                       ";
+    "35      분명 초보자에 해당합니다. 다음에 행운을 빕니다.                                  ";
   xx[ii++] =
     "100     Your score qualifies you as a novice class adventurer.                          ";
   xx[ii++] =
+    "100     당신의 점수로 보아 초보 모험가로 등급이 됩니다.                                 ";
+  xx[ii++] =
     '130     You have achieved the rating: "Experienced adventurer".                         ';
+  xx[ii++] =
+    '130     "경험있는 모험가" 등급에 도달했습니다.                                            ';
   xx[ii++] =
     '200     You may now consider yourself a "Seasoned adventurer".                          ';
   xx[ii++] =
+    '200     이제 "경험이 많은 모험가"로 자칭할 수 있습니다.                                 ';
+  xx[ii++] =
     '450     You have reached "Junior master" status.                                        ';
+  xx[ii++] =
+    '450     "준 마스터" 등급에 도달했습니다.                                                 ';
   xx[ii++] =
     "500     Your score puts you in Master adventurer class C.                               ";
   xx[ii++] =
+    "500     당신의 점수로 보아 마스터 모험가 C 등급에 속합니다.                              ";
+  xx[ii++] =
     "550     Your score puts you in Master adventurer class B.                               ";
+  xx[ii++] =
+    "550     당신의 점수로 보아 마스터 모험가 B 등급에 속합니다.                              ";
   xx[ii++] =
     "569     Your score puts you in Master adventurer class A.                               ";
   xx[ii++] =
+    "569     당신의 점수로 보아 마스터 모험가 A 등급에 속합니다.                              ";
+  xx[ii++] =
     "9999    All of adventuredom gives tribute to you, adventurer grandmaster!               ";
+  xx[ii++] =
+    "9999    모험 세계의 모든 이들이 당신에게 경의를 표합니다, 모험가 그랜드마스터!               ";
   xx[ii++] =
     "-1                                                                                      ";
 
